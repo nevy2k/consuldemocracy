@@ -196,6 +196,7 @@ en:
       per_page_code_body_description: "This code will appear inside the <body> label. Useful for entering custom scripts, analytics..."
     uploads:
       images:
+      
         min_width: "Image minimum width"
         min_width_description: "Minimum width allowed for an uploaded image (in pixels)"
         min_height: "Image minimum height"

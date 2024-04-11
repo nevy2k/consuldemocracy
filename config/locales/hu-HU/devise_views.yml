@@ -1,1 +1,115 @@
 hu:
+  devise_views:
+    confirmations:
+      new:
+        submit: Újra küldés
+        title: Újra küldés megerősítő utasítások
+      show:
+        instructions: A fiók megerősítése e-mail címmel %{email}
+        new_password_confirmation_label: Jelszó újbóli megadása
+        new_password_label: Új hozzáférési jelszó
+        please_set_password: Kérjük, válassza ki az új jelszavát (ezzel lehetővé teszi a bejelentkezést a fentebb megadott e-mail címmel)
+        submit: Megerősítés
+        title: Fiókom megerősítése
+    mailer:
+      confirmation_instructions:
+        confirm_link: Fiókom megerősítése
+        text: "Az e-mail fiók megerősítése a következő linken lehetséges:"
+        title: Üdvözöljük
+        welcome: Üdvözöljük
+      reset_password_instructions:
+        change_link: Jelszó megváltoztatása
+        hello: Üdvözöljük
+        ignore_text: Ha nem kért jelszóváltoztatást, figyelmen kívül hagyhatja ezt az e-mailt.
+        info_text: A jelszava nem változik meg, hacsak nincs hozzáférése a linkhez, és szerkeszti azt.
+        text: "Kaptunk egy kérést a jelszó megváltoztatására. Ezt a linket használva megteheti:"
+        title: Jelszó megváltoztatása
+      unlock_instructions:
+        hello: Üdvözöljük
+        info_text: A fiókja le lett zárva a sikertelen bejelentkezési kísérletek túlzott számának következtében.
+        instructions_text: "Kattintson erre a linkre a fiókja feloldásához:"
+        title: A fiókja le lett zárva
+        unlock_link: Fiók feloldása
+    menu:
+      login_items:
+        login: Bejelentkezés
+        logout: Kijelentkezés
+        signup: Regisztráció
+    organizations:
+      registrations:
+        new:
+          password_confirmation_label: Jelszó megerősítése
+          responsible_name_note: Ez az a személy lenne, aki az egyesület/közösség nevében a javaslatokat benyújtja
+          submit: Regisztráció
+          title: Regisztráció szervezetként vagy közösségként
+        success:
+          back_to_index: Értem, vissza a főoldalra
+          instructions_1: "<strong>Hamarosan felvesszük Önnel a kapcsolatot</strong>, hogy ellenőrizzük, valóban Ön képviseli-e ezt a közösséget."
+          instructions_2: Míg az Ön <strong>e-mail címét ellenőrzik</strong>, elküldtünk Önnek egy <strong>linket a fiók megerősítéséhez</strong>.
+          instructions_3: Miután megerősítették, elkezdhet részt venni egy ellenőrizetlen közösségként.
+          thank_you: Köszönjük, hogy regisztrálta a közösségét a weboldalon. Most <strong>ellenőrzés alatt áll</strong>.
+          title: Szervezet / közösség regisztrációja
+    passwords:
+      edit:
+        change_submit: Jelszómegváltoztatás
+        password_confirmation_label: Új jelszó megerősítése
+        password_label: Új jelszó
+        title: Jelszó megváltoztatása
+      new:
+        send_submit: Utasítások elküldése
+        title: Elfelejtett jelszó?
+    sessions:
+      new:
+        remember_me: Emlékezz rám
+        submit: Belépés
+        title: Bejelentkezés
+    shared:
+      links:
+        login: Belépés
+        new_confirmation: Nem kapta meg az aktiválási utasításokat?
+        new_password: Elfelejtette a jelszavát?
+        new_unlock: Nem kapta meg a feloldási utasításokat?
+        signin_with_provider: Bejelentkezés a következővel %{provider}
+        signup: Még nincs fiókja? %{signup_link}
+        signup_link: Regisztráció
+    unlocks:
+      new:
+        email_label: E-mail
+        submit: Újra küldés feloldási utasítások
+        title: Újra elküldött feloldási utasítások
+    users:
+      registrations:
+        delete_form:
+          erase_reason_label: Indok
+          info: Ez a művelet nem visszavonható. Kérjük, győződjön meg róla, hogy ezt akarja.
+          info_reason: Ha szeretne, adja meg az indokát (opcionális)
+          submit: Fiók törlése
+          title: Fiók törlése
+        edit:
+          current_password_label: Jelenlegi jelszó
+          edit: Szerkesztés
+          email_label: E-mail
+          leave_blank: Hagyja üresen, ha nem kívánja módosítani
+          need_current: A változtatások megerősítéséhez szükség van a jelenlegi jelszavára
+          password_confirmation_label: Új jelszó megerősítése
+          password_label: Új jelszó
+          update_submit: Frissítés
+          waiting_for: "Várakozás megerősítésre:"
+        new:
+          cancel: Bejelentkezés megszakítása
+          organization_signup: Képvisel egy szervezetet vagy közösséget? %{signup_link}
+          organization_signup_link: Regisztráljon itt
+          password_confirmation_label: Jelszó megerősítése
+          submit: Regisztráció
+          terms: A regisztrációval elfogadja a(z) %{terms}
+          terms_link: felhasználási feltételeket
+          title: Regisztráció
+          username_is_available: Felhasználónév elérhető
+          username_is_not_available: Felhasználónév már foglalt
+          username_note: Az Ön bejegyzése mellett megjelenő név
+        success:
+          back_to_index: Értem, vissza a főoldalra
+          instructions_1: Kérjük, <b>ellenőrizze e-mailjét</b> - elküldtünk Önnek egy <b>linket a fiók megerősítéséhez</b>.
+          instructions_2: Miután megerősítette, elkezdheti a részvételt.
+          thank_you: Köszönjük, hogy regisztrált a webhelyen. Most már <b>megerősítenie kell az e-mail címét</b>.
+          title: Erősítse meg az e-mail címét

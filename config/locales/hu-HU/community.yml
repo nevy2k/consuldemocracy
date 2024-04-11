@@ -1,1 +1,49 @@
 hu:
+  community:
+    sidebar:
+      title: Közösség
+      description:
+        proposal: Vegyen részt a javaslat felhasználói közösségében.
+        investment: Vegyen részt a befektetés felhasználói közösségében.
+      button_to_access: A közösség elérése
+    show:
+      title:
+        proposal: Javaslat közösség
+        investment: Költségvetési befektetés közösség
+      description:
+        proposal: Vegyen részt ennek a javaslatnak a közösségében. Az aktív közösség segíthet a javaslat tartalmának javításában, és növelheti annak terjesztését, hogy több támogatást kapjon.
+        investment: Vegyen részt ennek a költségvetési befektetésnek a közösségében. Az aktív közösség segíthet a költségvetési befektetés tartalmának javításában, és növelheti annak terjesztését, hogy több támogatást kapjon.
+      create_first_community_topic:
+        first_theme_not_logged_in: Nincs elérhető téma, vegyen részt az első létrehozásában.
+        first_theme: Hozzon létre az első közösségi témát
+        sub_first_theme: "Ahhoz, hogy létrehozzon egy témát, be kell %{sign_in}-nek vagy %{sign_up}-nak jelentkeznie."
+      tab:
+        participants: Résztvevők
+      sidebar:
+        participate: Részt vesz
+        new_topic: Téma létrehozása
+      topic:
+        edit: Téma szerkesztése
+        destroy: Téma törlése
+      author: Szerző
+      back: Vissza a(z) %{community} %{proposal}-hoz
+    topic:
+      create: Téma létrehozása
+      edit: Téma szerkesztése
+      form:
+        new:
+          submit_button: Téma létrehozása
+        edit:
+          submit_button: Téma szerkesztése
+        create:
+          submit_button: Téma létrehozása
+        update:
+          submit_button: Téma frissítése
+      show:
+        tab:
+          comments_tab: Megjegyzések
+      sidebar:
+        recommendations_title: Ajánlások téma létrehozásához
+        recommendation_one: Ne írja a téma címét vagy az egész mondatokat nagybetűvel. Az interneten ez ordításnak számít. És senki sem szeret kiabálni.
+        recommendation_two: Minden olyan téma vagy megjegyzés, amely illegális cselekményre utal, törlésre kerül, valamint azok, amelyek megpróbálják sabotálni a téma teret, minden más engedélyezett.
+        recommendation_three: Élvezze ezt a teret, a hangokat, amelyek megtöltik, ez is az ön területe.

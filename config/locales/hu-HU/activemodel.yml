@@ -1,1 +1,47 @@
 hu:
+  activemodel:
+    models:
+      verification:
+        residence: "Lakóhely"
+        sms: "SMS"
+      local_census_records/import:
+        one: "Helyi népszámlálási rekord importálása"
+        other: "Helyi népszámlálási rekordok importálása"
+    attributes:
+      verification:
+        residence:
+          document_type: "Dokumentum típusa"
+          document_number: "Dokumentumszám (betűkkel együtt)"
+          date_of_birth: "Születési idő"
+          postal_code: "Irányítószám"
+        sms:
+          phone: "Telefonszám"
+          confirmation_code: "Megerősítő kód"
+        email:
+          recipient: "E-mail"
+      verification/letter:
+        email: "E-mail"
+        password: "Jelszó"
+        verification_code: "Kapott kód a levélben"
+      verification/management/document:
+        document_type: "Dokumentum típusa:"
+        document_number: "Dokumentumszám"
+      verification/residence:
+        date_of_birth: "Születési idő"
+        document_type: "Dokumentum típusa"
+        postal_code: "Irányítószám"
+      verification/sms:
+        confirmation_code: "Adja meg a mobiltelefonjára kapott kódot"
+      officing/residence:
+        document_type: "Dokumentum típusa"
+        document_number: "Dokumentumszám (betűkkel együtt)"
+        year_of_birth: "Születési év"
+      local_census_records/import:
+        file: "Fájl"
+    errors:
+      models:
+        local_census_records/import:
+          attributes:
+            file:
+              extension: "A megadott fájlformátum helytelen. Az engedélyezett fájlformátum: %{valid_extensions}."
+              headers: "A megadott fájl fejlécei helytelenek. A fájl fejléceinek a következő nevekkel kell rendelkezniük: %{required_headers}."

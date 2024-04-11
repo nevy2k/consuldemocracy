@@ -1,1 +1,103 @@
 hu:
+  verification:
+    alert:
+      lock: Elérted a maximális próbálkozások számát. Kérlek, próbáld újra később.
+    back: Vissza a fiókomhoz
+    email:
+      create:
+        alert:
+          failure: Probléma merült fel az e-mail küldésekor a fiókodra
+        flash:
+          success: "Elküldtünk egy megerősítő e-mailt a fiókodra: %{email}"
+      show:
+        alert:
+          failure: Helytelen megerősítő kód
+        flash:
+          success: Megerősített felhasználó vagy
+    letter:
+      alert:
+        unconfirmed_code: Még nem adtad meg a megerősítő kódot
+      create:
+        flash:
+          success: Köszönjük, hogy kérted a <b>maximális biztonsági kódot (csak a végső szavazáshoz szükséges)</b>. Pár napon belül elküldjük azt a rendelkezésre álló adataidban szereplő címre. Ne felejtsd el, hogy ha szeretnéd, akkor bármelyik Állampolgári Támogató Irodában átveheted a kódot.
+      edit:
+        see_all: Összes javaslat megtekintése
+        title: Kért levél
+      errors:
+        incorrect_code: Helytelen megerősítő kód
+      new:
+        explanation: "Ahhoz, hogy szavazz a költségvetési projektekre, választhatsz a következők közül:"
+        go_to_index: Javaslatok megtekintése
+        office: Hitelesítés bármelyik Állampolgári Támogató Irodában
+        send_letter: Küldj nekem egy levelet a kóddal
+        title: Gratulálunk!
+        user_permission_info: A fiókoddal...
+      update:
+        flash:
+          success: Helyes kód. A fiókod mostantól megerősített
+    redirect_notices:
+      already_verified: A fiókod már megerősítve van
+      email_already_sent: Már elküldtünk egy e-mailt egy megerősítő linkkel. Ha nem találod az e-mailt, kérhetsz újra küldést itt
+    residence:
+      alert:
+        unconfirmed_residency: Még nem erősítetted meg a lakóhelyedet
+      create:
+        flash:
+          success: Lakóhely megerősítve
+      new:
+        accept_terms_text: Elfogadom a %{terms_url}-t a Népszámlálási Adatokra vonatkozóan
+        document_number: Dokumentum szám
+        document_number_help_title: Segítség
+        document_number_help_text: "<strong>Személyi igazolvány (DNI)</strong>: 12345678A<br> <strong>Útlevél</strong>: AAA000001<br> <strong>Tartózkodási engedély</strong>: X1234567P"
+        document_type:
+          passport: Útlevél
+          residence_card: Tartózkodási engedély
+          spanish_id: Személyi igazolvány (DNI)
+        error_not_allowed_age: Nincs meg a szükséges életkor a részvételhez
+        error_not_allowed_postal_code: Ebből az irányítószámból származó állampolgárok nem vehetnek részt
+        error_verifying_census: A Népszámlálás nem tudta ellenőrizni az adataidat. Kérjük, erősítsd meg, hogy a népszámlálási adataid helyesek-e a Városi Tanácshoz való telefonhívással vagy egy Állampolgári Támogató Irodával való látogatással.
+        form_errors: A lakóhelyed megerősítését megakadályozták
+        postal_code_note: A fiókod hitelesítéséhez regisztrálva kell lenned
+        terms: az elérés feltételei és szabályzatai
+        title: Lakóhely hitelesítése
+        verify_residence: Lakóhely hitelesítése
+    sms:
+      create:
+        flash:
+          success: Add meg a hozzád elküldött megerősítő kódot
+      edit:
+        resend_sms_link: Kattints ide az újraküldéshez
+        resend_sms_text: Nem kaptál SMS-t a megerősítő kóddal?
+        submit_button: Küldés
+        title: Biztonsági kód megerősítése
+      new:
+        phone: Add meg a mobiltelefonszámodat a kód fogadásához
+        phone_format: "<strong><em>(Példa: 612345678 vagy +34612345678)</em></strong>"
+        phone_note: A telefonszámodat csak arra használjuk, hogy kódot küldjünk neked, soha nem használjuk arra, hogy felvegyük veled a kapcsolatot.
+        submit_button: Küldés
+        title: Küldj megerősítő kódot
+      update:
+        error: Helytelen megerősítő kód
+        flash:
+          level_three:
+            success: Helyes kód. A fiókod mostantól megerősített
+          level_two:
+            success: Helyes kód
+    step_1: Lakóhely
+    step_2: Megerősítő kód
+    step_3: Végső hitelesítés
+    user_permission_debates: Részt vehet a vitákban
+    user_permission_info: Az adataid megerősítésével képes leszel...
+    user_permission_proposal: Új javaslatok létrehozására
+    user_permission_support_proposal: Javaslatok támogatására
+    user_permission_votes: Szavazhat a költségvetési projektekre
+    verification_needed: További hitelesítés szükséges
+    verified_user:
+      form:
+        submit_button: Küldés
+      show:
+        email_title: E-mailek
+        explanation: Jelenleg a nyilvántartásban a következő adatok szerepelnek; válaszd ki, hogy a megerősítő kód melyik módon legyen elküldve.
+        phone_title: Telefonszámok
+        title: Elérhető információk
+        use_another_phone: Másik telefonszám használata

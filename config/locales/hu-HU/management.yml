@@ -1,1 +1,127 @@
 hu:
+  management:
+    account:
+      menu:
+        reset_password_email: Jelszó visszaállítása e-mailben
+        reset_password_manually: Jelszó manuális visszaállítása
+      alert:
+        unverified_user: Még nincs ellenőrzött felhasználó bejelentkezve
+      show:
+        title: Felhasználói fiók
+      edit:
+        title: "Felhasználói fiók szerkesztése: Jelszó visszaállítása"
+        back: Vissza
+        password:
+          password: Jelszó
+          send_email: Jelszó visszaállító e-mail küldése
+          reset_email_send: E-mail sikeresen elküldve.
+          reseted: Jelszó sikeresen visszaállítva
+          random: Véletlen jelszó generálása
+          save: Jelszó mentése
+          print: Jelszó nyomtatása
+          print_help: A jelszót csak akkor tudja kinyomtatni, amikor elmentette.
+    account_info:
+      change_user: Felhasználó módosítása
+      document_number_label: "Dokumentumszám:"
+      document_type_label: "Dokumentum típusa:"
+      email_label: "E-mail:"
+      identified_label: "Azonosított felhasználóként:"
+      username_label: "Felhasználónév:"
+    check: Dokumentum ellenőrzése
+    dashboard:
+      index:
+        title: Ügyvitel
+        info: Itt kezelheti a felhasználókat az alábbi menüpontokban felsorolt összes művelettel.
+    document_verifications:
+      already_verified: Ez a felhasználói fiók már ellenőrzött.
+      has_no_account: Felhasználói fiók létrehozásához menjen a következő linkre %{link}, és kattintson a képernyő bal felső részén lévő <b>"Regisztráció"</b> gombra.
+      link: CONSUL DEMOKRÁCIA
+      in_census_has_following_permissions: "Ez a felhasználó részt vehet az oldalon az alábbi jogosultságokkal:"
+      not_in_census: Ez a dokumentum nem regisztrált.
+      not_in_census_info: "A népszámlálásban nem szereplő állampolgárok részt vehetnek az oldalon az alábbi jogosultságokkal:"
+      please_check_account_data: Kérjük, ellenőrizze, hogy a fenti fiókadatok helyesek-e.
+      title: Felhasználói menedzsment
+      under_age: "Önnek nincs meg a szükséges életkora a fiók ellenőrzéséhez."
+      verify: Ellenőrzés
+    date_of_birth: Születési dátum
+    email_verifications:
+      already_verified: Ez a felhasználói fiók már ellenőrzött.
+      choose_options: "Kérjük, válasszon az alábbi lehetőségek közül:"
+      document_found_in_census: Ez a dokumentum megtalálható a népszámlálásban, de nincs hozzárendelve felhasználói fiók.
+      document_mismatch: "Ez az e-mail egy olyan felhasználóhoz tartozik, akinek már van hozzárendelt azonosítója: %{document_number}(%{document_type})"
+      email_sent_instructions: A felhasználó teljes körű ellenőrzéséhez szükséges, hogy a felhasználó rákattintson egy linkre, amelyet az itt felsorolt e-mail címre küldtünk. Ez a lépés szükséges annak megerősítéséhez, hogy az e-mail cím valóban az övé.
+      if_existing_account: Ha a személynek már van létrehozott felhasználói fiókja az oldalon,
+      if_no_existing_account: Ha ez a személy még nem hozott létre fiókot
+      introduce_email: "Kérjük, adja meg az a fiókhoz használt e-mail címet:"
+      send_email: Ellenőrző e-mail küldése
+    menu:
+      create_proposal: Javaslat létrehozása
+      print_proposals: Javaslatok nyomtatása
+      support_proposals: Javaslatok támogatása
+      create_budget_investment: Közpénzügyi beruházás létrehozása
+      print_budget_investments: Közpénzügyi beruházások nyomtatása
+      support_budget_investments: Közpénzügyi beruházások támogatása
+      users: Felhasználók kezelése
+      user_invites: Meghívók küldése
+      select_user: Felhasználó kiválasztása
+    print:
+      proposals_info: Javaslat létrehozása http://url.consul
+      proposals_title: "Javaslatok:"
+      budget_investments_info: Résztvétel http://url.consul
+    print_info: Nyomtatási információ
+    proposals:
+      alert:
+        unverified_user: A felhasználó nincs ellenőrizve
+      create_proposal: Javaslat létrehozása
+      print:
+        print_button: Nyomtatás
+      index:
+        title: Javaslatok támogatása
+    budgets:
+      create_new_investment: Közpénzügyi beruházás létrehozása
+      print_investments: Közpénzügyi beruházások nyomtatása
+      support_investments: Közpénzügyi beruházások támogatása
+      table_name: Név
+      table_phase: Fázis
+      table_actions: Műveletek
+      no_budgets: Nincsenek aktív részvételi költségvetések.
+    budget_investments:
+      alert:
+        unverified_user: A felhasználó nincs ellenőrizve
+      create: Közpénzügyi beruházás létrehozása
+      edit: Közpénzügyi beruházás szerkesztése
+      filters:
+        heading: Fogalom
+        unfeasible: Kivitelezhetetlen beruházás
+      print:
+        print_button: Nyomtatás
+      search_results:
+        one: " a(z) '%{search_term}' kifejezést tartalmazó"
+        other: " a(z) '%{search_term}' kifejezést tartalmazó"
+    sessions:
+      need_managed_user: Ezen művelet végrehajtásához ki kell választania egy felhasználót
+      signed_out: Sikeresen kijelentkeztél.
+      signed_out_managed_user: A felhasználói munkamenet sikeresen ki lett jelentkeztetve.
+    username_label: Felhasználónév
+    users:
+      create_user: Új fiók létrehozása
+      create_user_info: Létrehozunk egy fiókot a következő adatokkal
+      create_user_submit: Felhasználó létrehozása
+      create_user_success: Egy e-mailt küldtünk a következő e-mail címre <b>%{email}</b>, hogy ellenőrizzük, hogy az azonosított felhasználóhoz tartozik-e. Tartalmaz egy olyan linket, amelyre kattinthat. Ezután be kell állítania hozzáférési jelszavát, mielőtt beléphetne a webhelyre.
+      autogenerated_password: "Az automatikusan generált jelszó: <b>%{password}</b>, amelyet megváltoztathat a webhely 'Saját fiók' szakaszában"
+      email_optional_label: E-mail (opcionális)
+      erased_notice: Felhasználói fiók törölve.
+      erased_by_manager: "Törölve a vezető által: %{manager}"
+      erase_account_link: Felhasználó törlése
+      erase_account_confirm: Biztosan törölni szeretné a fiókot? Ez a művelet nem visszavonható
+      erase_warning: Ez a művelet nem visszavonható. Kérjük, győződjön meg róla, hogy törölni szeretné-e ezt a fiókot.
+      erase_submit: Fiók törlése
+    user_invites:
+      new:
+        label: E-mailek
+        info: "Adja meg az e-maileket vesszővel (',') elválasztva"
+        submit: Meghívások küldése
+        title: Meghívások küldése
+      create:
+        success: <strong>%{count} meghívás</strong> elküldve.
+        title: Meghívások küldése

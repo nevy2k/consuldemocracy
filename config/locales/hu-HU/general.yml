@@ -1,1 +1,945 @@
 hu:
+  account:
+    show:
+      last_sign_in: "Utolsó bejelentkezés: %{last_sign_in_at}, IP cím: %{last_sign_in_ip}"
+      change_credentials_link: Bejelentkezési adatok módosítása
+      erase_account_link: Fiókom törlése
+      finish_verification: Megerősítés befejezése
+      notifications: Értesítések
+      personal: Személyes adatok
+      public_interests_my_title_list: Az általam követett elemek címkéi
+      public_interests_user_title_list: Ezen felhasználó által követett elemek címkéi
+      save_changes_submit: Változtatások mentése
+      recommendations: Ajánlások
+      title: Fiókom
+      user_permission_info: A fiókjával...
+      user_permission_title: Részvétel
+      user_permission_verify: Az összes művelethez erősítse meg fiókját.
+      verified_account: Fiók ellenőrizve
+      verify_my_account: Fiókom ellenőrzése
+  application:
+    close: Bezárás
+    menu: Menü
+  comments:
+    actions:
+      confirm_delete: "Biztos benne? Ez a művelet törli ezt a megjegyzést. Nem lehet visszavonni ezt a műveletet."
+      delete: "Megjegyzés törlése"
+    comments_closed: A hozzászólások le vannak zárva
+    verified_only: Részvételhez %{verify_account} szükséges
+    comment:
+      admin: Adminisztrátor
+      author: Szerző
+      deleted: Ez a megjegyzés törölve lett
+      moderator: Moderátor
+      responses:
+        one: 1 válasz
+        other: "%{count} válasz"
+        zero: Nincs válasz
+      responses_show:
+        one: "1 válasz (megjelenítés)"
+        other: "%{count} válasz (megjelenítés)"
+        zero: Nincs válasz
+      responses_collapse:
+        one: "1 válasz (összecsukás)"
+        other: "%{count} válasz (összecsukás)"
+        zero: Nincs válasz
+      user_deleted: Felhasználó törölve
+      votes:
+        one: 1 szavazat
+        other: "%{count} szavazat"
+        zero: Nincs szavazat
+    form:
+      comment_as_admin: Kommentár adminisztrátorként
+      comment_as_moderator: Kommentár moderátorként
+      leave_comment: Írja meg a hozzászólását
+    orders:
+      most_voted: Legtöbb szavazat
+      newest: Legújabb először
+      oldest: Legrégebbi először
+      most_commented: Legtöbb hozzászólás
+    show:
+      return_to_commentable: "Vissza a "
+  comments_helper:
+    comment_button: Megjegyzés közzététele
+    comment_link: Megjegyzés
+    comments_title: Megjegyzések
+    reply_button: Válasz közzététele
+    reply_link: Válasz
+  debates:
+    create:
+      form:
+        submit_button: Vita indítása
+    debate:
+      votes:
+        one: 1 szavazat
+        other: "%{count} szavazat"
+        zero: Nincs szavazat
+    edit:
+      editing: Vita szerkesztése
+      form:
+        submit_button: Változtatások mentése
+      show_link: Vita megtekintése
+    form:
+      tags_instructions: Címkézze ezt a vitát.
+      tags_placeholder: "Adja meg a címkéket, amelyeket szeretne használni, vesszővel elválasztva (',')"
+    index:
+      featured_debates: Kiemelt
+      orders:
+        confidence_score: legmagasabb értékelés
+        created_at: legújabb
+        hot_score: legaktívabb
+        most_commented: legtöbb hozzászólás
+        relevance: relevancia
+        recommendations: ajánlások
+      recommendations:
+        without_results: Nincsenek olyan viták, amelyek kapcsolódnának az Ön érdeklődési köréhez
+        without_interests: Kövesse a javaslatokat, hogy ajánlásokat kaphasson
+        disable: "A vita ajánlások megállnak, ha elutasítja azokat. Újra engedélyezheti azokat a 'Fiókom' oldalon"
+        actions:
+          success: "A vita ajánlások most kikapcsolva vannak ebben a fiókban"
+          error: "Hiba történt. Kérem, menjen az 'Fiókom' oldalra, hogy kézzel kikapcsolja a vita ajánlásokat"
+      search_form:
+        button: Keresés
+        placeholder: Viták keresése...
+        title: Keresés
+      start_debate: Vita indítása
+      title: Viták
+      section_header:
+        icon_alt: Viták ikon
+        title: Viták
+        help: Segítség a vitákhoz
+      section_footer:
+        title: Segítség a vitákhoz
+        description: Indítson vitát, hogy megossza véleményét másokkal az Ön által fontosnak tartott témákról.
+        help_text_1: "A polgári viták területe azoknak szól, akik ki tudják fejezni aggodalmaikat, és azoknak, akik megosztanák véleményüket másokkal."
+        help_text_2: 'Ahhoz, hogy vitát indítson, regisztrálnia kell a(z) %{org} oldalon. A felhasználók kommenteket fűzhetnek nyitott vitákhoz, és értékelhetik azokat az "Egyetértek" vagy "Nem értek egyet" gombokkal, amelyek mindegyikben megtalálhatók.'
+    new:
+      form:
+        submit_button: Vita indítása
+      more_info: Hogyan működnek a viták?
+      recommendation_four: Élvezze ezt a teret és a benne hangzó hangokat. Ez is Öné.
+      recommendation_one: Ne használjon nagybetűket a vita címéhez vagy az egész mondatokhoz. Az interneten ez kiáltásnak számít. És senki sem szereti, ha kiabálnak vele.
+      recommendation_three: A könyörtelen kritika nagyon szívesen látott. Ez egy hely a gondolkodásra. De azt javasoljuk, hogy tartsa magát az eleganciához és az intelligenciához. A világ egy jobb hely ezekkel az erényekkel.
+      recommendation_two: Minden olyan vita vagy megjegyzés, amely illegális cselekményt sugall, törlésre kerül, valamint azok, amelyek a vitaterületeket szándékoznak megrongálni. Minden más megengedett.
+      recommendations_title: Ajánlások vita indításához
+      start_new: Vita indítása
+    show:
+      author_deleted: Felhasználó törölve
+      comments_title: Megjegyzések
+      edit_debate_link: Szerkesztés
+      flag: Ezt a vitát több felhasználó jelentette be nem megfelelőnek.
+      share: Megosztás
+      author: Szerző
+    update:
+      form:
+        submit_button: Változtatások mentése
+  errors:
+    messages:
+      allowed_file_content_types: "a tartalom típusának egyike kell legyen: %{types}"
+      user_not_found: Felhasználó nem található
+      invalid_date_range: "Érvénytelen dátumtartomány"
+      past_date: "Nem lehet múltbeli dátum"
+      cannot_change_date:
+        poll_started: "Nem lehet módosítani, ha a szavazás már elkezdődött"
+        poll_ended: "Nem lehet módosítani, ha a szavazás már befejeződött"
+  form:
+    accept_terms: Elfogadom a(z) %{policy} és a(z) %{conditions} feltételeket
+    conditions: Felhasználási feltételek
+    debate: Vita
+    direct_message: privát üzenet
+    error: hiba
+    errors: hibák
+    not_saved: "megakadályozta ezt a(z) %{resource} mentését. <br> Kérjük, ellenőrizze a megjelölt mezőket, hogy hogyan javíthatók:"
+    policy: Adatvédelmi irányelvek
+    banner: banner
+    proposal: Javaslat
+    proposal_notification: "Értesítés"
+    budget/investment: Befektetés
+    budget/group: Költségvetési csoport
+    budget/heading: Költségvetési fejezet
+    geozone: földrajzi övezet
+    legislation/draft_version: tervezet
+    legislation/process: folyamat
+    legislation/question: kérdés
+    poll/shift: Váltás
+    poll/question/answer: Válasz
+    user: Fiók
+    verification/sms: telefon
+    signature_sheet: Aláírási ív
+    document: Dokumentum
+    topic: Téma
+    image: Kép
+    local_census_record: Helyi népszámlálási adatlap
+    local_census_records/import: Helyi népszámlálási adatlapok importálása
+    site_customization/content_block: tartalom blokk
+    site_customization/page: oldal
+    sdg/local_target: helyi cél
+  geozones:
+    none: Teljes város
+  layouts:
+    dashboard:
+      proposal_header:
+        published: Közzétett
+        draft: Vázlat
+        retired: Visszavont
+      proposal_totals:
+        active_resources: Aktív erőforrások
+        community: Résztvevők a közösségedben
+        show_proposal: Javaslat megtekintése
+        preview_proposal: Javaslat előnézete
+        current_goal: Jelenlegi cél
+        supports:
+          zero: Nincs támogatás
+          one: 1 Támogatás
+          other: "Támogatások"
+    footer:
+      accessibility: Hozzáférhetőség
+      conditions: Felhasználási feltételek
+      consul: CONSUL DEMOKRÁCIA alkalmazás
+      consul_url: https://github.com/consuldemocracy/consuldemocracy
+      copyright: CONSUL DEMOKRÁCIA, %{year}
+      description: Ez a portál a(z) %{consul}-t használja, ami %{open_source}.
+      open_source: nyílt forráskódú szoftver
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_text: Döntsd el, hogyan alakul a város, amelyben élni szeretnél.
+      participation_title: Résztvétel
+      privacy: Adatvédelmi irányelvek
+    header:
+      administration_menu: Menü
+      administration: Adminisztráció
+      collaborative_legislation: Együttműködő jogalkotás
+      debates: Viták
+      locale: "Nyelv:"
+      management: Kezelés
+      moderation: Moderáció
+      valuation: Értékelés
+      officing: Szavazóhelyiségek
+      help: Súgó
+      my_account_link: Saját fiókom
+      my_activity_link: Saját tartalmam
+      open_gov: Nyílt kormányzat
+      proposals: Javaslatok
+      poll_questions: Szavazások
+      budgets: Részvételi költségvetés
+      notification_item:
+        new_notifications:
+          one: Van egy új értesítésed
+          other: Van %{count} új értesítésed
+          zero: "Nincsenek új értesítéseid"
+        notifications: Értesítések
+      sdg: "SDG"
+    skip_to_main_content: "Ugrás a fő tartalomra"
+  notifications:
+    index:
+      empty_notifications: Nincsenek új értesítéseid.
+      mark_all_as_read: Összes megjelölése olvasottként
+      read: Olvasott
+      title: Értesítések
+      unread: Olvasatlan
+    notification:
+      action:
+        comments_on:
+          one: Valaki kommentált
+          other: Van %{count} új komment a következőn
+        proposal_notification:
+          one: Egy új értesítés van
+          other: Van %{count} új értesítés
+        replies_to:
+          one: Valaki válaszolt a hozzászólásodra itt
+          other: Van %{count} új válasz a hozzászólásodra itt
+      mark_as_read: Megjelölés olvasottként
+      mark_as_unread: Megjelölés olvasatlanként
+      notifiable_hidden: Ez az erőforrás már nem elérhető.
+  map:
+    title: "Kerületek"
+    proposal_for_district: "Indíts egy javaslatot a kerületedben"
+    start_proposal: Javaslat létrehozása
+  omniauth:
+    facebook:
+      sign_in: Belépés Facebookkal
+      sign_up: Regisztráció Facebookkal
+      name: Facebook
+    finish_signup:
+      title: "További részletek"
+      username_warning: "A közösségi hálózatokkal való kommunikáció megváltozása miatt előfordulhat, hogy a felhasználóneved most már 'már foglalt' látszik. Ha ez a helyzet, kérjük, válassz másik felhasználónevet."
+    google_oauth2:
+      sign_in: Belépés Google-lal
+      sign_up: Regisztráció Google-lal
+      name: Google
+    wordpress_oauth2:
+      sign_in: Belépés Wordpress-szel
+      sign_up: Regisztráció Wordpress-szel
+      name: Wordpress
+    twitter:
+      sign_in: Belépés Twitterrel
+      sign_up: Regisztráció Twitterrel
+      name: Twitter
+    info:
+      sign_in: "Belépés ezzel:"
+      sign_up: "Regisztráció ezzel:"
+    or_fill: "Vagy töltsd ki az alábbi űrlapot:"
+  proposals:
+    create:
+      form:
+        submit_button: Javaslat létrehozása
+    created:
+      title: Gratulálunk! Első lépést tetted.
+      motivation: "Fontos felkészülni a javaslatod sikeres kampányára. Az első néhány nap döntő jelentőségű."
+      motivation_2: "<strong>Ha szeretnél ajánlásokat kapni a közzététel előkészítéséhez, hagyd a javaslatod vázlatként, és mi irányítani fogunk.</strong>"
+      publish: Nem, közzéteszem a javaslatot
+      dashboard: Igen, segítséget kérek, majd később közzéteszem
+      preview_title: Így fog kinézni a javaslatod, amikor közzéteszed
+    share:
+      improve_it: Fejleszd a kampányodat és szerezz több támogatást.
+      dashboard: További információk megtekintése
+      message: "Támogattam a(z) %{title} javaslatot a(z) %{handle}-ban. Ha érdekel, támogasd te is!"
+    edit:
+      editing: Javaslat szerkesztése
+      form:
+        submit_button: Változtatások mentése
+      show_link: Javaslat megtekintése
+    retire_form:
+      title: Javaslat visszavonása
+      warning: "Ha visszavonod a javaslatot, továbbra is elfogadja a támogatásokat, de eltávolítjuk a fő listáról, és az összes felhasználó számára látható üzenetet teszünk közzé, amelyben az áll, hogy az író úgy véli, hogy a javaslatot már nem kell támogatni."
+      retired_reason_blank: Válassz egy lehetőséget
+      retired_explanation_placeholder: Magyarázd el röviden, miért gondolod, hogy ez a javaslat nem kellene több támogatást kapnia
+      submit_button: Javaslat visszavonása
+    retire_options:
+      duplicated: Megismételt
+      started: Már elkezdődött
+      unfeasible: Megvalósíthatatlan
+      done: Elvégezve
+      other: Egyéb
+    form:
+      proposal_responsible_name_note: "(egyénileg vagy egy csoport képviselőjeként; nem lesz nyilvánosan megjelenítve)"
+      proposal_summary_note: "(legfeljebb 200 karakter)"
+      proposal_video_url_note: Hozzáadhatsz egy linket a YouTube-ra vagy a Vimeo-ra
+      tag_category_label: "Kategóriák"
+      tags_instructions: "Címkézd meg ezt a javaslatot. Választhatsz a javasolt kategóriák közül, vagy hozzáadhatsz sajátot"
+      tags_label: Címkék
+      tags_placeholder: "Add meg a címkéket vesszővel elválasztva (',')"
+      map_location: "Térkép helye"
+      map_location_instructions: "Navigálj a térképen az adott helyre, és helyezd el a jelzőt."
+      map_remove_marker: "Jelző eltávolítása"
+    index:
+      featured_proposals: Kiemelt
+      orders:
+        confidence_score: legmagasabb értékelés
+        created_at: legújabb
+        hot_score: legaktívabb
+        most_commented: legtöbb hozzászólás
+        relevance: relevancia
+        archival_date: archivált
+        recommendations: ajánlások
+      recommendations:
+        without_results: Nincsenek az érdeklődési körödnek megfelelő javaslatok
+        without_interests: Kövesd a javaslatokat, hogy ajánlásokat kaphassunk tőlünk
+        disable: "A javaslatokhoz történő ajánlások nem jelennek meg többé, ha elutasítod őket. A 'Saját fiók' oldalon újra engedélyezheted őket."
+        actions:
+          success: "A javaslatokhoz történő ajánlások mostantól letiltva vannak ezen a fiókon"
+          error: "Hiba történt. Kérjük, menj a 'Saját fiók' oldalra, hogy kézi módon letiltsd a javaslatokhoz történő ajánlásokat"
+      retired_proposals: Visszavont javaslatok
+      retired_proposals_link: "Szerző által visszavont javaslatok"
+      selected_proposals: Kiválasztott javaslatok
+      selected_proposals_link: Kiválasztott javaslatok megtekintése
+      archived_proposals: Archivált javaslatok
+      proposals_lists: Javaslatok listái
+      retired_links:
+        all: Mind
+        duplicated: Megismételt
+        started: Elindítva
+        unfeasible: Megvalósíthatatlan
+        done: Elvégezve
+        other: Egyéb
+      search_form:
+        button: Keresés
+        placeholder: Javaslatok keresése...
+        title: Keresés
+      search_results:
+        one: " a(z) <strong>'%{search_term}'</strong> kifejezést tartalmazó"
+        other: " a(z) <strong>'%{search_term}'</strong> kifejezést tartalmazó"
+      select_order_long: "A javaslatok megtekintése szerint:"
+      start_proposal: Javaslat létrehozása
+      title: Javaslatok
+      top_link_proposals: A legtöbb támogatást élvező javaslatok kategóriánként
+      section_header:
+        icon_alt: Javaslatok ikon
+        title: Javaslatok
+        help: Segítség a javaslatokhoz
+      section_footer:
+        title: Segítség a javaslatokhoz
+        description: A polgári javaslatok lehetőséget kínálnak a szomszédoknak és kollektívumoknak arra, hogy közvetlenül döntsenek arról, hogy milyen városban szeretnének élniük, miután elegendő támogatást kaptak és benyújtották a polgári szavazásra.
+    new:
+      form:
+        submit_button: Javaslat létrehozása
+      more_info: Hogyan működnek a polgári javaslatok?
+      recommendation_one: Ne használj nagybetűket a javaslat címéhez vagy a teljes mondatokhoz. Az interneten ez ordibálásnak számít. És senki sem szeret, ha ordítanak rá.
+      recommendation_three: Élvezd ezt a teret és a hangokat, amelyek megtöltik. Ez is a tiéd.
+      recommendation_two: Bármely olyan javaslat vagy hozzászólás, amely törvénytelen cselekedetet sugall, törlésre kerül, valamint azok, amelyek a vitaterek sabotálására törekednek. Minden más megengedett.
+      recommendations_title: Javaslatok készítésére vonatkozó ajánlások
+      start_new: Új javaslat készítése
+    notice:
+      retired: A javaslat visszavonásra került
+      published: A javaslat közzétéve
+    proposal:
+      created: "Létrehoztál egy javaslatot!"
+      share:
+        guide: "Most megoszthatod, hogy az emberek támogathassák."
+        edit: "Mielőtt megosztanád, még módosíthatod a szöveget, ahogyan szeretnéd."
+        view_proposal: Most nem, menj a javaslatomhoz
+      already_supported: Már támogattad ezt a javaslatot. Oszd meg!
+      support: Támogatás
+      support_label: "%{proposal} támogatása"
+      support_title: Támogasd ezt a javaslatot
+      supports:
+        one: 1 támogatás
+        other: "%{count} támogatás"
+        zero: Nincs támogatás
+      votes:
+        one: 1 szavazat
+        other: "%{count} szavazat"
+        zero: Nincs szavazat
+      supports_necessary: "%{number} támogatás szükséges"
+      reason_for_supports_necessary: ""
+      total_percent: 100%
+      archived: "Ez a javaslat archiválásra került, és nem gyűjthet támogatást."
+      successful: "Ez a javaslat elért egy sikeres támogatást."
+      selected: "Kiválasztott javaslat"
+    show:
+      author_deleted: Felhasználó törölve
+      code: "Javaslat kódja:"
+      comments_tab: Megjegyzések
+      dashboard_proposal_link: Vezérlőpult
+      flag: Ezt a javaslatot több felhasználó is bejelentette sértőnek.
+      notifications_tab: Értesítések
+      milestones_tab: Mérföldkövek
+      retired_warning: "Az író úgy gondolja, hogy ez a javaslat ne kapjon további támogatást."
+      retired_warning_link_to_explanation: Olvasd el a magyarázatot, mielőtt szavaznál rá.
+      retired: Javaslat visszavonva az író által
+      share: Megosztás
+      no_notifications: "Ehhez a javaslathoz nincsenek értesítések."
+      embed_video_title: "%{proposal} videója"
+      title_video_url: "Külső videó"
+      author: Szerző
+      draft: Javaslat piszkozatban. Még nem kaphat támogatást, és nem jelenik meg a javaslatok listájában.
+    update:
+      form:
+        submit_button: Változtatások mentése
+  dashboard:
+    menu:
+      my_proposal: Javaslatom szerkesztése
+      progress: Haladás
+      resources: Erőforrások
+      community: Közösség
+      polls: Szavazások
+      mailing: Email
+      poster: Plakát
+      recommended_actions: Ajánlott cselekvések
+      messages: Üzenetek a felhasználóknak
+      related_content: Kapcsolódó tartalom
+    form:
+      request: Kérelem
+    create_request:
+      success: A kérelem sikeresen elküldve. Amint lehetséges, felvesszük veled a kapcsolatot a tájékoztatás céljából.
+      archived: Ez a javaslat archivált, és nem kérhet erőforrásokat.
+    progress:
+      title: Grafikon
+      group_by_month: Havi
+      group_by_week: Heti
+      group_by_date: Napi
+      progress: Összesített haladás
+      supports: Támogatások
+      success: Ideális haladás
+      new_action: Új
+    index:
+      title: Szerkesztés
+      edit_proposal_link: Javaslat szerkesztése
+      publish: Javaslat közzététele
+      retire: Javaslat visszavonása
+    new_request:
+      links: Linkek
+    resources:
+      available_resources: Elérhető erőforrások
+    resource:
+      required_days: "%{days} nap szükséges"
+      required_supports: "%{supports} támogatás szükséges"
+      and: és
+      view_resource: Erőforrás megtekintése
+      resource_requested: Erőforrás már kérvényezve
+      request_resource: Erőforrás kérése
+      resource_locked: Erőforrás zárolva
+    recommended_actions:
+      title: Ajánlott intézkedések
+      goto_proposed_actions: Ugrás az ajánlott intézkedésekhez
+      see_proposed_actions: Nézd meg az ajánlott intézkedéseket
+      hide_proposed_actions: Ajánlott intézkedések elrejtése
+      pending_title: Függőben
+      show_description: Leírás megjelenítése
+      without_pending_actions: Nincsenek függőben lévő ajánlott intézkedések
+      done_title: Kész
+      without_done_actions: Nincsenek kész ajánlott intézkedések
+    next_goal:
+      title: Cél
+      see_complete_course: Nézd meg a teljes kurzust
+      hide_course: Kurzus elrejtése
+    goal:
+      target_supports:
+        one: Szerezz %{count} támogatást a javaslatodhoz
+        other: Szerezz %{count} támogatást a javaslatodhoz
+      days:
+        one: "%{count} nap"
+        other: "%{count} nap"
+      locked_resource: Erőforrás zárolva
+      ideal_time: Ideális idő
+    community:
+      access_community: Belépés a közösségbe
+      latest_activity: "A közösség legutóbbi tevékenysége: %{at}"
+      participants: Résztvevők
+      debates: Viták
+      comments: Megjegyzések
+      latest_comments: Legújabb üzenetek
+    messages:
+      send_notification: Értesítés küldése a javaslat követőinek
+      previous_notifications: Korábbi értesítések megtekintése
+    polls:
+      index:
+        title: Szavazások
+        create: Szavazás létrehozása
+        count:
+          one: "%{count} szavazást hoztál létre."
+          other: "%{count} szavazást hoztál létre."
+        links: Linkek
+        additiontal_information: További információ
+      new:
+        title: Új szavazás
+        submit: Szavazás létrehozása
+      edit:
+        submit: Szavazás frissítése
+      poll:
+        responses:
+          one: "%{count} válasz"
+          other: "%{count} válasz"
+        view_results: Eredmények megtekintése
+        edit_poll: Szavazás szerkesztése
+        show_results_help: Ha bejelölöd ezt a jelölőnégyzetet, az eredmények nyilvánosak lesznek, és minden felhasználó láthatja őket
+        delete: Szavazás törlése
+        alert_notice: Ez a művelet eltávolítja a szavazást és minden hozzá tartozó kérdést.
+        success_notice: A szavazás sikeresen törölve
+        unable_notice: Nem tudod törölni a válaszokkal rendelkező szavazást
+      form:
+        name: Szavazás címe
+        add_question: Kérdés hozzáadása
+      question_fields:
+        remove_question: Kérdés eltávolítása
+        add_answer: Válasz hozzáadása
+      question_answer_fields:
+        remove_answer: Válasz eltávolítása
+    poster:
+      index:
+        title: Plakát előnézete
+        poster_title: "Ne csak nézz, hanem"
+        poster_subtitle: "támogass is! ;)"
+        intro_text: "<strong>Részt veszek a(z) %{org} programjában</strong> saját állampolgári javaslatommal, és csak a támogatásoddal tudjuk elérni a várost, amelyet mindannyian szeretnénk"
+        proposal_code: "Javaslat kódja: %{code}"
+        support: Támogasd a javaslatomat
+        footer: "<strong>Látogasd meg a(z) %{link} webhelyet, és támogasd ezt a javaslatot.</strong> Minél többen, annál jobb. Adjuk hozzá a magunkét. Köszönöm!"
+      new:
+        title: A javaslatod plakátja
+      options:
+        preview: Előnézet
+        download: Letöltés
+    mailing:
+      index:
+        title: E-mail előnézete
+      new:
+        title: Megosztáshoz szükséges e-mail sablon
+      mailing_options:
+        send: Küldés a(z) %{address} címre
+        preview: Előnézet
+      create:
+        sent: Az e-mail elküldve
+    mailer:
+      forward:
+        subtitle: "Ha támogatsz, <br>ezt elérjük."
+        support_button: Támogasd ezt a javaslatot
+        share_in: Megosztás itt
+        hi: "Szia!"
+        introduction: Arról írok, hogy tudassam veled, hogy részt veszek a(z) %{org} programjában, amelynek segítségével közösen dönthetjük el, milyen várost szeretnénk. Ehhez létrehoztam saját állampolgári javaslatomat, és most a támogatásodra van szükségem! De ne aggódj, mert nagyon egyszerű.
+        support: "Csak annyit kell tenned, hogy rákattintasz az alábbi 'Támogasd ezt a javaslatot' gombra, és tájékozódhatsz a támogatás előtt. Csak az a javaslat valósul meg, amely a maximális támogatást éri el a városi tanács által, és azt gondoltam, hogy neked, biztos vagyok benne, hogy segítesz nekem elérni ezt!"
+        share: "És ha te is megtennéd nekem a nagy szívességet, hogy megosztanád a javaslatomat barátaiddal, családoddal és kapcsolataiddal, az tökéletes lenne!"
+  polls:
+    all: "Összes"
+    no_dates: "nincs kijelölt dátum"
+    dates: "Ettől: %{open_at} - Eddig: %{closed_at}"
+    final_date: "Végső számlálás/Eredmények"
+    index:
+      filters:
+        current: "Nyitott"
+        expired: "Lejárt"
+      title: "Szavazások"
+      participate_button: "Részvétel a szavazásban"
+      participate_button_expired: "A szavazás lezárult"
+      no_geozone_restricted: "Teljes város"
+      geozone_restricted: "Kerületek"
+      geozone_info: "A népszámláláson részt vevő emberek: "
+      already_answer: "Már részt vettél ebben a szavazásban"
+      not_logged_in: "Be kell jelentkezned vagy regisztrálnod kell a részvételhez"
+      unverified: "Hitelesítened kell a fiókodat a részvételhez"
+      cant_answer: "Ez a szavazás nem elérhető a területeden"
+      section_header:
+        icon_alt: Szavazás ikon
+        title: Szavazás
+        help: Segítség a szavazáshoz
+      section_footer:
+        title: Segítség a szavazáshoz
+        description: A városlakók szavazásai olyan részvételi mechanizmusok, amelyekkel a szavazati jogosultak közvetlen döntéseket hozhatnak
+      no_polls: "Nincsenek nyitott szavazások."
+    show:
+      already_voted_in_booth: "Már részt vett egy fizikai szavazáson. Nem vehetsz részt újra."
+      already_voted_in_web: "Már részt vettél ebben a szavazásban. Ha újra szavazol, felül fogja írni az előző szavazatodat."
+      back: "Vissza a szavazáshoz"
+      cant_answer_not_logged_in: "Ahhoz, hogy részt vehess, %{signin} vagy %{signup} kell."
+      comments_tab: Hozzászólások
+      cant_answer_verify: "A válaszadáshoz %{verify_link} szükséges."
+      verify_link: "fiókod hitelesítése"
+      cant_answer_expired: "Ez a szavazás már véget ért."
+      cant_answer_wrong_geozone: "Ez a kérdés nem elérhető a területeden."
+      more_info_title: "További információ"
+      documents: Dokumentumok
+      zoom_plus: Kép nagyítása
+      read_more: "További információ a(z) %{answer}-ről"
+      read_less: "Kevesebb információ a(z) %{answer}-ról"
+      videos: "Külső videók"
+      info_menu: "Információk"
+      stats_menu: "Részvételi statisztikák"
+      results_menu: "Szavazás eredményei"
+      stats:
+        total_votes: "Összes leadott szavazat száma"
+        votes: "SZAVAZATOK"
+        web: "WEB"
+        mail: "POSTA"
+        booth: "FIZIKAI"
+        total: "ÖSSZES"
+        valid: "Érvényes"
+        white: "Teljesen üres"
+        null_votes: "Érvénytelen"
+      results:
+        title: "Kérdések"
+        most_voted_answer: "A legtöbb szavazatot kapott válasz: "
+    poll_header:
+      back_to_proposal: "Vissza a javaslatra"
+  poll_questions:
+    show:
+      vote_answer: "%{answer} szavazat"
+      voted: "Részt vettél a(z) %{answer} szavazásban"
+    description:
+      unique: "Maximum 1 választ választhatsz ki."
+      multiple: "Maximum %{maximum} választ választhatsz ki."
+    read_more_about: "További információ a következőről:"
+  proposal_notifications:
+    new:
+      title: "Értesítés küldése"
+      submit_button: "Értesítés küldése"
+      info_about_receivers: "Ez az értesítés <strong>%{count} személynek</strong> lesz elküldve, és látható lesz a(z) %{proposal_page}-n.<br> Az értesítéseket nem azonnal küldik el, a felhasználók rendszeresen e-mailt kapnak az összes javaslat értesítésről."
+      proposal_page: "a javaslat oldalán"
+    show:
+      back: "Vissza a tartalmaimhoz"
+  shared:
+    edit: "Szerkesztés"
+    filter: "Szűrés"
+    save: "Mentés"
+    delete: "Törlés"
+    "yes": "Igen"
+    "no": "Nem"
+    search_results: "Keresési eredmények"
+    advanced_search:
+      date: "Dátum szerint"
+      date_placeholder: "ÉÉÉÉ-HH-NN"
+      date_range_blank: "Válasszon dátumot"
+      date_1: "Elmúlt 24 óra"
+      date_2: "Elmúlt hét"
+      date_3: "Elmúlt hónap"
+      date_4: "Elmúlt év"
+      date_5: "Egyedi"
+      from: "Tól"
+      general: "A szöveg alapján"
+      goal: "SDG szerint"
+      goal_blank: "Válasszon célkitűzést"
+      search: "Szűrés"
+      target: "Célt tartalmazza"
+      target_blank: "Válasszon célt"
+      title: "Speciális keresés"
+      to: "Ig"
+    author_info:
+      author_deleted: Felhasználó törölve
+      email_deleted: E-mail törölve
+    back: Vissza
+    check: Kiválasztás
+    check_all: Mind
+    check_none: Egyik sem
+    collective: Kollektív
+    flag: Jelentés helytelen tartalomként
+    follow: "Követés"
+    following: "Követésben"
+    follow_entity: "%{entity} követése"
+    followable:
+      budget_investment:
+        create:
+          notice: "Mostantól követed ezt a beruházási projektet! <br> Értesítünk az esetleges változásokról, hogy mindig naprakész legyél."
+        destroy:
+          notice: "Abbahagytad ennek a beruházási projektnek a követését! <br> További értesítéseket nem fogsz kapni a projekttel kapcsolatosan."
+      proposal:
+          create:
+            notice: "Mostantól követed ezt a polgári javaslatot! <br> Értesítünk az esetleges változásokról, hogy mindig naprakész legyél."
+          destroy:
+            notice: "Abbahagytad ennek a polgári javaslatnak a követését! <br> További értesítéseket nem fogsz kapni a javaslattal kapcsolatosan."
+    print:
+      print_button: Információk nyomtatása
+    search: Keresés
+    show: Megjelenítés
+    suggest:
+      debate:
+        found:
+          one: "Van egy vita a(z) '%{query}' kifejezéssel, amelyben részt vehetsz, helyette."
+          other: "Vannak viták a(z) '%{query}' kifejezéssel, amelyekben részt vehetsz, helyettük."
+        message: "A(z) '%{query}' kifejezést tartalmazó viták közül %{count} van megjelenítve."
+        see_all: "Az összes megtekintése"
+      budget_investment:
+        found:
+          one: "Van egy befektetés a(z) '%{query}' kifejezéssel, amelyben részt vehetsz, helyette."
+          other: "Vannak befektetések a(z) '%{query}' kifejezéssel, amelyekben részt vehetsz, helyettük."
+        message: "A(z) '%{query}' kifejezést tartalmazó befektetések közül %{count} van megjelenítve."
+        see_all: "Az összes megtekintése"
+      proposal:
+        found:
+          one: "Van egy javaslat a(z) '%{query}' kifejezéssel, amelyhez hozzájárulhatsz, helyette."
+          other: "Vannak javaslatok a(z) '%{query}' kifejezéssel, amelyekhez hozzájárulhatsz, helyettük."
+        message: "A(z) '%{query}' kifejezést tartalmazó javaslatok közül %{count} van megjelenítve."
+        see_all: "Az összes megtekintése"
+    tags_cloud:
+      tags: Trendek
+      districts: "Kerületek"
+      districts_list: "Kerületek listája"
+      categories: "Kategóriák"
+    target_blank: "A link új ablakban nyílik meg"
+    you_are_in: "Itt tartózkodsz:"
+    unflag: Jelzés törlése
+    unfollow_entity: "%{entity} követésének megszüntetése"
+    outline:
+      searcher: Kereső
+    go_to_page: "Ugrás a(z) "
+    share: Megosztás
+    orbit:
+      previous_slide: Előző diavetítés
+      next_slide: Következő diavetítés
+    documentation: További dokumentáció
+    view_mode:
+      title: Nézetmód
+      cards: Kártyák
+      list: Lista
+    recommended_index:
+      title: Ajánlások
+      see_more: További ajánlások megtekintése
+      hide: Ajánlások elrejtése
+    translations:
+      select_language_prompt: Nyelv kiválasztása
+      remove_language: Nyelv eltávolítása
+      add_language: Nyelv hozzáadása
+      languages_in_use:
+        zero: "0 használt nyelv"
+        one: "1 használt nyelv"
+        other: "%{count} használt nyelv"
+    optional: "Opcionális mezők"
+    required: "Kötelező mezők"
+    comments:
+      one: "1 hozzászólás"
+      other: "%{count} hozzászólás"
+      zero: "Nincs hozzászólás"
+  social:
+    facebook: "%{org} Facebook"
+    twitter: "%{org} Twitter"
+    youtube: "%{org} YouTube"
+    telegram: "%{org} Telegram"
+    instagram: "%{org} Instagram"
+  stats:
+    index:
+      visits: Látogatások
+      debates: Viták
+      proposals: Javaslatok
+      comments: Hozzászólások
+      proposal_votes: Szavazatok a javaslatokra
+      debate_votes: Szavazatok a vitákra
+      comment_votes: Szavazatok a hozzászólásokra
+      votes: Összes szavazat
+      verified_users: Hitelesített felhasználók
+      unverified_users: Hitelesítettlen felhasználók
+  unauthorized:
+    default: "Nincs jogosultságod ehhez az oldalhoz való hozzáféréshez."
+    manage:
+      all: "Nincs jogosultságod a(z) '%{action}' művelet végrehajtásához a(z) %{subject} objektumon."
+  users:
+    login_to_comment: "Hozzászóláshoz jelentkezz be vagy %{signup}!"
+    login_to_continue: "Folytatáshoz jelentkezz be vagy %{signup}!"
+    signin: "bejelentkezés"
+    signup: "regisztráció"
+    verify_account: "hitelesítsd a fiókodat"
+    direct_messages:
+      new:
+        direct_messages_bloqued: "Ez a felhasználó úgy döntött, hogy nem fogad közvetlen üzeneteket."
+        submit_button: Üzenet küldése
+        title: Privát üzenet küldése %{receiver} részére
+        verified_only: "Privát üzenet küldéséhez %{verify_account}"
+      show:
+        receiver: Üzenet elküldve %{receiver}
+    show:
+      deleted: Törölve
+      deleted_debate: Ez a vita törölve lett
+      deleted_proposal: Ez a javaslat törölve lett
+      deleted_budget_investment: Ez a befektetési projekt törölve lett
+      proposals: Javaslatok
+      proposals_status: Állapot
+      debates: Viták
+      budget_investments: Befektetések
+      comments: Hozzászólások
+      actions: Műveletek
+      filters:
+        comments:
+          one: 1 Hozzászólás
+          other: "%{count} Hozzászólás"
+        debates:
+          one: 1 Vita
+          other: "%{count} Vita"
+        proposals:
+          one: 1 Javaslat
+          other: "%{count} Javaslat"
+        budget_investments:
+          one: 1 Befektetés
+          other: "%{count} Befektetés"
+        follows:
+          one: 1 Követés
+          other: "%{count} Követés"
+      no_activity: A felhasználónak nincs nyilvános tevékenysége
+      no_private_messages: "Ez a felhasználó nem fogad privát üzeneteket."
+      private_activity: Ez a felhasználó úgy döntött, hogy privát módon kezeli az aktivitáslistát.
+      send_private_message: "Privát üzenet küldése"
+      delete_alert: "Biztosan törölni szeretnéd a befektetési projektet? Ez a művelet nem visszavonható."
+    proposals:
+      retired: "Visszavont javaslat"
+      draft: Piszkozat
+      published: Közzétett
+      see: "Javaslat megtekintése"
+      actions: Műveletek
+      retired_help_text: "A visszavont javaslatokhoz nem érhető el vezérlőpult."
+  votes:
+    agree: "Egyetértek"
+    agree_label: "Egyetértek a(z) %{title} címmel"
+    anonymous: "Túl sok névtelen szavazat van ahhoz, hogy elfogadható legyen a szavazás. %{verify_account}"
+    disagree: "Nem értek egyet"
+    disagree_label: "Nem értek egyet a(z) %{title} címmel"
+    organizations: "A szervezetek nem jogosultak szavazásra"
+    supports: "Támogatások"
+    verified_only: "Csak hitelesített felhasználók szavazhatnak javaslatokra; %{verify_account}"
+    budget_investments:
+      not_verified: "Csak hitelesített felhasználók szavazhatnak befektetési projektekre; %{verify_account}"
+      unfeasible: "Megvalósíthatatlan befektetési projekteket nem lehet támogatni"
+      not_voting_allowed: "A szavazási fázis lezárult"
+      different_heading_assigned:
+        one: "Csak támogathatja a(z) %{count} körzet befektetési projekteket. Már támogatott befektetéseket a(z) %{supported_headings} körzetekben."
+        other: "Csak támogathatja a(z) %{count} körzet befektetési projekteket. Már támogatott befektetéseket a(z) %{supported_headings} körzetekben."
+  welcome:
+    feed:
+      most_active:
+        debates: "Legaktívabb viták"
+        proposals: "Legaktívabb javaslatok"
+        processes: "Nyitott folyamatok"
+      see_all:
+        debates: Összes vita megtekintése
+        proposals: Összes javaslat megtekintése
+        processes: Összes folyamat megtekintése
+      no_items:
+        debates: Jelenleg nincsenek viták
+        proposals: Jelenleg nincsenek javaslatok
+        processes: Jelenleg nincsenek nyitott folyamatok
+      process_label: Folyamat
+      see_process: Folyamat megtekintése
+    cards:
+      title: Kiemelt
+    recommended:
+      title: Lehet, hogy érdekelnek ezek a javaslatok
+      help: "Ezeket a javaslatokat a követett viták és javaslatok címkéi alapján generáljuk."
+      debates:
+        title: Ajánlott viták
+        btn_text_link: Az összes ajánlott vita megtekintése
+      proposals:
+        title: Ajánlott javaslatok
+        btn_text_link: Az összes ajánlott javaslat megtekintése
+      budget_investments:
+        title: Ajánlott befektetések
+      slide: "%{title} megtekintése"
+    welcome:
+      go_to_index: Most nem, ugrás az index oldalra
+      start_using_consul: Ugrás az index oldalra
+      title: Részvétel
+      user_permission_info: A fiókoddal...
+      user_permission_verify: "A következő műveletek végrehajtásához hitelesítsd a fiókodat."
+      user_permission_verify_my_account: Fiókom hitelesítése
+  invisible_captcha:
+    sentence_for_humans: "Ha ember vagy, hagyd figyelmen kívül ezt a mezőt"
+    timestamp_error_message: "Elnézést, túl gyors voltál! Kérlek próbáld újra."
+  related_content:
+    title: "Kapcsolódó tartalom"
+    add: "Kapcsolódó tartalom hozzáadása"
+    label: "Kapcsolódó tartalom hivatkozása"
+    placeholder: "%{url}"
+    help: "Hozzáadhatsz linkeket a(z) %{org} tartalmakhoz."
+    submit: "Hozzáadás"
+    error: "Érvénytelen link. Ne felejtsd el a(z) %{url} kezdődést."
+    error_duplicate: "A hozzáadott kapcsolódó tartalom már létezik."
+    error_itself: "Érvénytelen link. Nem adhatsz hozzá tartalmat önmagához."
+    success: "Sikeresen hozzáadtál egy új kapcsolódó tartalmat"
+    is_related: "Kapcsolódó tartalom?"
+    score_positive: "Igen"
+    score_negative: "Nem"
+    content_title:
+      proposal: "Javaslat"
+      debate: "Vita"
+      budget_investment: "Költségvetési befektetés"
+    admin/widget:
+      header:
+        title: Adminisztráció
+    annotator:
+      help:
+        alt: Válassza ki azt a szöveget, amelyhez megjegyzést szeretne fűzni, majd kattintson a ceruza ikonra.
+        text: Ahhoz, hogy megjegyzést fűzhessen ehhez a dokumentumhoz, be kell jelentkeznie vagy regisztrálnia kell. Válassza ki azt a szöveget, amelyhez megjegyzést szeretne fűzni, majd kattintson a ceruza ikonra.
+        title: Hogyan fűzhetek megjegyzést ehhez a dokumentumhoz?
+    links:
+      form:
+        delete_button: Törlés
+        cancel_button: Mégse
+      nested_links:
+        title: Linkek
+        note: Adj hozzá linkeket, amelyek érdekesek lehetnek
+        add_new_link: Új link hozzáadása
+    communities:
+      show:
+        surveys: Felmérések
+        complete_survey: Felmérés kitöltése
+      subnav:
+        surveys: Felmérések
+      poll:
+        take_part: Részt vesz %{from} és %{to} között
+    remote_translations:
+      text: Az oldal tartalma nem érhető el a nyelvén
+      all_remote_translations_enqueued_text: Hamarosan frissítse az oldalt, és látni fogja az összes tartalmat a nyelvén.
+      create:
+        enqueue_remote_translation: A fordítások sikeresen kérték.
+      button: Oldal fordítása
+    tags:
+      list:
+        filter:
+          more:
+            one: "Egy további címke"
+            other: "%{count} további címke"
+    machine_learning:
+      comments_summary: "Megjegyzések összegzése"
+      info_text: "Az AI / gépi tanulás által generált tartalom"

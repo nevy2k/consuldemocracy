@@ -1,1 +1,17 @@
 hu:
+  images:
+    remove_image: Kép eltávolítása
+    form:
+      title: Leíró kép
+      title_placeholder: Adjon meg egy leíró címet a képnek
+      delete_button: Kép eltávolítása
+      note: "Feltölthet egy képet a következő tartalomtípusok egyikéből: %{accepted_content_types}, legfeljebb %{max_file_size} MB méretben."
+      add_new_image: Kép hozzáadása
+    actions:
+      destroy:
+        notice: A kép sikeresen törölve lett.
+        alert: A képet nem lehet törölni.
+    errors:
+      messages:
+        in_between: között kell lennie %{min} és %{max} között
+        wrong_content_type: a tartalomtípus %{content_type} nem egyezik meg egyik elfogadott tartalomtípussal sem %{accepted_content_types} közül

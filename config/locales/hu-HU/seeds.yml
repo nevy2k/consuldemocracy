@@ -1,1 +1,90 @@
 hu:
+  seeds:
+    admin_notifications:
+      budget:
+        title: "Bezárjuk a Részvételi Költségvetést!"
+        body: "Siess, és hozz létre egy javaslatot, mielőtt néhány nap múlva véget ér!"
+      help:
+        title: "Segíts nekünk lefordítani a Consul Demokráciát"
+        body: "Ha jártas vagy egy nyelven, segíts nekünk lefordítani a Consul demokráciát!"
+      map:
+        title: "Mostantól geolokalizálhatod a javaslatokat és befektetéseket"
+        body: "Amikor létrehozol egy javaslatot vagy befektetést, mostantól megadhatod a térképen egy pontot."
+      proposal:
+        title: "Van javaslatod?"
+        body: "Ne felejtsd el létrehozni a javaslatodat az ötleteiddel, és az emberek meg fogják vitatni és támogatni azt."
+    settings:
+      official_level_1_name: Hivatalos pozíció 1
+      official_level_2_name: Hivatalos pozíció 2
+      official_level_3_name: Hivatalos pozíció 3
+      official_level_4_name: Hivatalos pozíció 4
+      official_level_5_name: Hivatalos pozíció 5
+    geozones:
+      north_district: Északi Kerület
+      west_district: Nyugati Kerület
+      east_district: Keleti Kerület
+      central_district: Központi Kerület
+    organizations:
+      human_rights: Emberi Jogok
+      neighborhood_association: Kerületi Társaság
+    cards:
+      budget:
+        title: "Hogyan működnek a részvételi költségvetések?"
+        description: "A részvételi költségvetések lehetővé teszik a polgároknak, hogy közvetlenül javasoljanak és döntsenek arról, hogy a költségvetés mely részét költsék el, miközben az intézmények szigorúan ellenőrzik és értékelik a javaslatokat. Maximális hatékonyság és ellenőrzés mindenki elégedettségével."
+        link_text: "További információ a részvételi költségvetésekről"
+        label: "Részvételi költségvetések"
+      debate:
+        title: "Hogyan működnek a viták?"
+        description: "Bárki indíthat témákat bármiről, különálló terek létrehozásával, ahol az emberek megvitatják a javasolt témát. A vitákat mindenki értékeli, hogy kiemeljék a legfontosabb kérdéseket."
+        link_text: "További információ a vitákról"
+        label: "Viták"
+      header:
+        title: "CONSUL DEMOKRÁCIA"
+        description: "Ingyenes szoftver a polgári részvételhez."
+        link_text: "További információ"
+        label: "Üdvözöljük a"
+      proposal:
+        title: "Hogyan működnek a polgári javaslatok?"
+        description: "Egy tér mindenkinek, hogy létrehozhasson egy polgári javaslatot és támogatást kérhessen. A javaslatok, amelyek elérik a megfelelő támogatásokat, szavazásra kerülnek, így együtt dönthetünk a fontos kérdésekről."
+        link_text: "További információ a javaslatokról"
+        label: "Polgári javaslatok"
+    categories:
+      associations: Szervezetek
+      culture: Kultúra
+      sports: Sport
+      social_rights: Szociális jogok
+      economy: Gazdaság
+      employment: Foglalkoztatás
+      equity: Egyenlőség
+      sustainability: Fenntarthatóság
+      participation: Részvétel
+      mobility: Mobilitás
+      media: Média
+      health: Egészség
+      transparency: Átláthatóság
+      security_emergencies: Biztonság és vészhelyzetek
+      environment: Környezet
+    budgets:
+      budget: Részvételi Költségvetés
+      currency: €
+      groups:
+        all_city: Teljes Város
+        districts: Kerületek
+      phases:
+        description: "%{language} nyelvű leírás"
+        summary: "%{language} nyelvű összefoglaló"
+      statuses:
+        studying_project: Projekt tanulmányozása
+        bidding: Pályázat
+        executing_project: Projekt végrehajtása
+        executed: Végrehajtva
+    legislation:
+      draft_versions:
+        title: "%{number}. verzió"
+        body: "%{language} nyelvű tervezet"
+    polls:
+      current_poll: "Aktuális Szavazás"
+      current_poll_geozone_restricted: "Aktuális Szavazás Földrajzi Zóna Korlátozott"
+      recounting_poll: "Újraszámlálás Szavazás"
+      expired_poll_without_stats: "Lejárt Szavazás statisztika és eredmények nélkül"
+      expired_poll_with_stats: "Lejárt Szavazás statisztikával és eredményekkel"

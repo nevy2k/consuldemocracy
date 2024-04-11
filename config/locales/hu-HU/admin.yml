@@ -1,1 +1,1795 @@
 hu:
+  admin:
+    header:
+      title: Adminisztráció
+    actions:
+      actions: Műveletek
+      block_author: "Szerző letiltása"
+      confirm_action: "Biztos vagy benne? %{action} \"%{name}\""
+      confirm_delete: "Biztos vagy benne? Ez a művelet törölni fogja \"%{name}\"-t, és nem lehet visszavonni."
+      confirm_hide: Moderáció megerősítése
+      delete: "Törlés"
+      hide: Elrejtés
+      label: "%{action} %{name}"
+      restore: Visszaállítás
+      mark_featured: Kiemelt jelölése
+      unmark_featured: Kiemelés eltávolítása
+      edit: Szerkesztés
+      configure: Konfigurálás
+    officing_booth:
+      title: "Az adatait az alábbi standon rögzíti: %{booth}. Ha ez nem megfelelő, ne folytassa és hívja a segélyvonalat. Köszönjük."
+    banners:
+      index:
+        title: Bannerek
+        create: Banner létrehozása
+        filters:
+          all: Mind
+          with_active: Aktív
+          with_inactive: Inaktív
+        preview: Előnézet
+      banner:
+        sections_label: Hol jelenik meg
+        sections:
+          homepage: Főoldal
+          debates: Viták
+          proposals: Javaslatok
+          budgets: Résztvevő költségvetés
+          help_page: Súgó oldal
+          sdg: SDG
+      create:
+        notice: "A banner sikeresen létrehozva"
+      destroy:
+        notice: "A banner sikeresen törölve"
+      edit:
+        editing: Banner szerkesztése
+        form:
+          submit_button: Változások mentése
+      new:
+        creating: Banner létrehozása
+      update:
+        notice: "A banner sikeresen frissítve"
+    activity:
+      show:
+        action: Művelet
+        actions:
+          block: Letiltva
+          hide: Elrejtve
+          restore: Visszaállítva
+        by: Moderálta
+        content: Tartalom
+        filter: Mutat
+        filters:
+          all: Mind
+          on_comments: Kommentek
+          on_debates: Viták
+          on_proposals: Javaslatok
+          on_users: Felhasználók
+          on_system_emails: Rendszer üzenetek
+        title: Moderátor tevékenysége
+        type: Típus
+        no_activity: Nincs moderátori tevékenység.
+    budgets:
+      actions:
+        ballots: "Standok létrehozása"
+        confirm:
+          ballots: "Biztos vagy benne? Ez a művelet csak akkor szükséges, ha fizikai standokat fogsz használni a végleges szavazási fázis során. A polgárok továbbra is tudnak weben szavazni standok nélkül."
+          destroy: "Biztos vagy benne? Ez a művelet törölni fogja a költségvetést és minden hozzá tartozó csoportot és fejlécet. Ez a művelet nem visszavonható."
+        descriptions:
+          ballots: "Ez lehetővé teszi a fizikai szavazócédulák kezelését. Csak akkor használja ezt az opciót, ha fizikai standokat fog használni a végleges szavazási fázisban a szavazócédulák begyűjtésére."
+          calculate_winners: 'Az eredmények kiszámítása után csak az adminisztrátorok férhetnek hozzá. Nyilvánosak lesznek, amikor a projekt elérte a "%{phase}" fázist <strong>ha a "Eredmények megjelenítése" opció be van kapcsolva</strong> a költségvetés szerkesztésekor.'
+          destroy: "Ez a művelet törölni fogja a költségvetést és minden hozzá tartozó csoportot és fejlécet. Ez a művelet nem visszavonható."
+        edit: "Költségvetés szerkesztése"
+        preview: "Előnézet"
+        preview_results: "Eredmények előnézete"
+      index:
+        title: Résztvevő költségvetések
+        new_link: Új költségvetés létrehozása
+        filter: Szűrés
+        filters:
+          all: Mind
+          open: Nyitott
+          finished: Befejezett
+        budget_investments: Beruházási projektek
+        table_budget_type: "Típus"
+        table_completed: Befejezve
+        table_draft: "Vázlat"
+        table_duration: "Időtartam"
+        table_name: Név
+        table_phase: Fázis
+        table_phase_progress: "(%{current_phase_number}/%{total_phases})"
+        type_multiple: "Több fejléc"
+        type_pending: "Függő: Még nincsenek fejlécek"
+        type_single: "Egy fejléc"
+        admin_ballots: Szavazócédulák
+        no_budgets: "Nincsenek költségvetések."
+      create:
+        notice: Az új részvételi költségvetés sikeresen létrehozva!
+      update:
+        notice: A részvételi költségvetés sikeresen frissítve
+      publish:
+        notice: A részvételi költségvetés sikeresen közzétéve
+      edit:
+        title: Részvételi költségvetés szerkesztése
+        drafting: "Ez a részvételi költségvetés vázlattervben van, csak az adminisztrátorok láthatják a nyilvános oldalon. Amint közzéteszik, nem lehet visszaállítani vázlattervbe."
+        publish: "Költségvetés közzététele"
+        delete: Költségvetés törlése
+        phase: Fázis
+        phases_caption: Fázisok
+        phases_table_help_text: "Ezen fázisok konfigurálása kizárólag információs célokat szolgál. Funkciója, hogy meghatározza a részvételi költségvetés nyilvános oldalán megjelenített fázisinformációkat."
+        duration: Időtartam
+        enabled: Engedélyezve
+        actions: Műveletek
+        enable_phase: "%{phase} fázis engedélyezése"
+        active: Aktív
+        blank_dates: Dátumok üresek
+        administrators:
+          zero: "Válasszon adminisztrátorokat"
+          one: "1 adminisztrátor kiválasztva"
+          other: "%{count} adminisztrátor kiválasztva"
+        valuators:
+          zero: "Válasszon értékelőket"
+          one: "1 értékelő kiválasztva"
+          other: "%{count} értékelő kiválasztva"
+        empty_administrators: "Nincsenek adminisztrátorok"
+        empty_valuators: "Nincsenek értékelők"
+        name_description: "Ez a részvételi költségvetés neve, amelyet a fejlécben és a kártyákon használnak, amikor aktív."
+        image_description: "Ha egy képet feltöltünk, azt fogjuk használni a részvételi költségvetés fejlécében, különben az alapértelmezett szín lesz használatban."
+        main_call_to_action: "Fő hívás a cselekvésre (opcionális)"
+        main_call_to_action_description: "Ez a link megjelenik a részvételi költségvetés főbannerén, és ösztönzi a felhasználókat egy konkrét művelet végrehajtására, például javaslatok létrehozása, meglévők szavazása vagy többet megtudni a folyamatról."
+        info:
+          budget_settings: "Általános részvételi költségvetési beállítások"
+          staff_settings: "Adminisztrátorok és értékelők hozzárendelve a költségvetéshez"
+        hide_money: "Pénz elrejtése"
+        hide_money_help_text: "Ha ez az opció be van jelölve, akkor az összes pénzösszeg megjelenítésre kerülő mező el lesz rejtve az egész folyamat során."
+      destroy:
+        success_notice: A költségvetés sikeresen törölve
+        unable_notice: Nem törölhet olyan költségvetést, amelyhez kapcsolódó beruházások vannak
+        unable_notice_polls: Nem törölhet olyan költségvetést, amelyhez kapcsolódó szavazások vannak
+      new:
+        title_multiple: Új több fejlécű költségvetés
+        title_single: Új egy fejlécű költségvetés
+      help:
+        budgets: "A részvételi költségvetések lehetővé teszik a polgárok számára, hogy közvetlenül javasoljanak és döntsenek arról, hogyan költsék el a költségvetés egy részét, az intézmény által biztosított javaslatok szigorú értékelésével és ellenőrzésével."
+        groups:
+          multiple: "A csoportok az fejlécek szervezésére szolgálnak. Miután létrehoztak egy csoportot, és tartalmazza a fejléceket, meg lehet határozni, hogy a felhasználók hány fejlécben szavazhatnak egy csoportban."
+          single: "A csoportok az fejlécek szervezésére szolgálnak, mivel ez a költségvetés csak egy fejlécet tartalmaz, ugyanaz a név használható, mert sehol sem fog megjelenni. Csak folytassa a következő lépéssel."
+        headings:
+          multiple: "A fejlécek az részvételi költségvetés pénzét szolgálják felosztani. Itt hozzáadhat fejléceket ehhez a csoportjához, és megadhatja, hogy mennyi pénzt fog költeni mindegyik fejlécben."
+          single: "A fejlécek az részvételi költségvetés pénzét szolgálják felosztani. Mivel ez a költségvetés csak egy fejlécet tartalmaz, itt határozhatja meg, hogy mennyi pénzt fog ebben az részvételi költségvetésben elkölteni."
+        phases: "A részvételi költségvetéseknek különböző fázisai vannak. Itt engedélyezheti vagy letilthatja a fázisokat, és testre szabhatja az egyes egyes fázisokat. Ezeknek a fázisoknak a konfigurálása kizárólag információs célokat szolgál, és a részvételi költségvetés nyilvános oldalán lesznek megjelenítve."
+      show:
+        add_group: "Csoport hozzáadása"
+        add_heading: "Fejléc hozzáadása"
+        groups_and_headings: "Fejléc csoportok"
+        headings_caption: "Fejlécek a(z) %{group} csoportban"
+      winners:
+        calculate: Nyertes beruházások kiszámítása
+        calculated: A nyertesek kiszámítása folyamatban van, ez eltarthat egy percig.
+        recalculate: Nyertes beruházások újraszámolása
+      ballots:
+        feature_disabled: 'A <strong>Szavazások</strong> funkció engedélyezve kell legyen a bódék létrehozásához. Be lehet kapcsolni a <a href="%{link}">beállítások konfigurálása</a> oldalról.'
+    budget_groups:
+      name: "Név"
+      headings_name: "Fejlécek"
+      headings_manage: "Fejlécek"
+      no_groups: "Nincsenek csoportok."
+      amount:
+        one: "1 csoport van"
+        other: "%{count} csoport van"
+      create:
+        notice: "Csoport sikeresen létrehozva!"
+      update:
+        notice: "Csoport sikeresen frissítve"
+      destroy:
+        success_notice: "Csoport sikeresen törölve"
+        unable_notice: "Nem törölhet olyan csoportot, amelyhez tartozó fejlécek vannak"
+      form:
+        create: "Új csoport létrehozása"
+        edit: "Csoport szerkesztése"
+        max_votable_headings_info: "Csak a projektválasztási fázisban érvényes. A projekt szavazási fázisában a felhasználók csak egy fejlécben szavazhatnak csoportonként."
+        submit: "Csoport mentése"
+      index:
+        new_button: "Új csoport hozzáadása"
+    budget_headings:
+      no_headings: "Nincsenek fejlécek a(z) <strong>%{group}</strong> csoportban."
+      create:
+        notice: "Fejléc sikeresen létrehozva!"
+      update:
+        notice: "Fejléc sikeresen frissítve"
+      destroy:
+        success_notice: "Fejléc sikeresen törölve"
+        unable_notice: "Nem törölhet olyan fejlécet, amelyhez tartozó beruházások vannak"
+      form:
+        geozone_info: "Ha egy fejléc egy geo-zónához van rendelve, akkor a geo-zóna megjelenik ennek a költségvetésnek a térképén, ha a geo-zóna tartalmaz GeoJSON adatokat."
+        max_ballot_lines_info: 'A felhasználók által adható maximális szavazatok száma ezen fejléc esetében a "Projektek szavazása" fázisban. Csak az egyetértési szavazást használó költségvetéseknél van hatással.'
+        population_info: "A költségvetés fejléc népesség mezője statisztikai célokra szolgál a költségvetés végén annak megjelenítéséhez, hogy az egyes fejlécek számára, amelyek egy népességi területet képviselnek, hány százalék szavazott. A mező opcionális, ezért hagyhatja üresen, ha nem alkalmazható."
+        coordinates_info: "Ha a szélességi és hosszúsági fokokat megadja, akkor az erre a fejlécre vonatkozó befektetések oldala tartalmazni fog egy térképet. Ez a térkép ezeket a koordinátákat középre állítva lesz."
+        content_blocks_info: "Ha engedélyezi a tartalom blokkot, akkor lehetősége lesz egyéni tartalmak létrehozására ehhez a fejlékhez a webhely tartalom > Egyéni tartalom blokkok szakaszból. Ez a tartalom megjelenik majd a fejléc befektetéseinek oldalán."
+        create: "Új fejléc létrehozása"
+        edit: "Fejléc szerkesztése"
+        submit: "Fejléc mentése"
+      group_switcher:
+        currently_showing: "A(z) <strong>%{group}</strong> csoport fejlécei jelennek meg."
+        different_group: "A csoportok másik csoportjához tartozó fejlécek kezelése"
+        the_other_group: "Fejlécek kezelése a(z) %{group} csoportból."
+      index:
+        back: "Vissza a csoportokhoz"
+        new_button: "Új fejléc hozzáadása"
+        title: "%{budget} / %{group} fejlécek"
+    budget_phases:
+      edit:
+        title: "Fázis szerkesztése"
+        dates_help_text: "Információs célokat szolgál"
+        description_help_text: "Ez a szöveg akkor jelenik meg a fejlécben, amikor a fázis aktív"
+        duration: "Fázis időtartama"
+        duration_description: "Ezeket a mezőket kizárólag információs célokra használják, és <strong>nem indítják automatikusan az aktív fázis frissítését.</strong> A frissítéshez szerkessze a költségvetést, és válassza ki az aktív fázist."
+        enabled_help_text: "Ez a fázis nyilvános lesz a költségvetés fázisainak idővonalában."
+        image_description: "Ha kép van feltöltve, akkor ez megjelenik a fázis leírása mellett."
+        main_call_to_action: "Fő hívás a cselekvésre (opcionális)"
+        main_call_to_action_description: "Ez a link megjelenik ezen költségvetés fő fejlécében, amikor ez a fázis engedélyezve van, és ösztönzi a felhasználókat egy specifikus cselekvés végrehajtására, például előterjesztés létrehozására, meglévők szavazására vagy többet megtudni a folyamatról."
+        name_help_text: "Ez a fázis címe, amelyet a felhasználók olvasni fognak a fejlécben, amikor ez a fázis aktív."
+        save_changes: "Változtatások mentése"
+      index:
+        title: "%{budget} fázisok"
+    budget_investments:
+      index:
+        heading_filter_all: Minden fejléc
+        administrator_filter_all: Minden adminisztrátor
+        valuator_filter_all: Minden értékelő
+        tags_filter_all: Minden címke
+        advanced_filters: Speciális szűrők
+        placeholder: Projektek keresése
+        filters:
+          all: Mind
+          without_admin: Adminisztrátor nélküli
+          without_valuator: Értékelő nélküli
+          under_valuation: Értékelés alatt
+          valuation_finished: Értékelés befejezve
+          feasible: Megvalósítható
+          selected: Kiválasztva
+          undecided: Nem döntött
+          unfeasible: Nem megvalósítható
+          min_total_supports: Minimális támogatások
+          max_total_supports: Maximális támogatások
+          winners: Nyertesek
+          one_filter: "Jelenleg alkalmazott szűrők: <b><em>%{filter}</em></b>"
+          two_filters: "Jelenleg alkalmazott szűrők: <b><em>%{filter}, %{advanced_filters}</em></b>"
+        buttons:
+          filter: Szűrő
+        download_current_selection: "Jelenlegi kiválasztás letöltése"
+        no_budget_investments: "Nincsenek befektetési projektek."
+        title: Befektetési projektek
+        columns: Oszlopok
+        assigned_admin: Hozzárendelt adminisztrátor
+        no_admin_assigned: Nincs adminisztrátor hozzárendelve
+        no_valuators_assigned: Nincs értékelő hozzárendelve
+        feasibility:
+          feasible: "Megvalósítható"
+          unfeasible: "Nem megvalósítható"
+          undecided: "Nem döntött"
+        selected: "Kiválasztva"
+        select: "Kiválasztás"
+        list:
+          id: Azonosító
+          title: Cím
+          supports: Támogatások
+          admin: Adminisztrátor
+          valuator: Értékelő
+          valuation_group: Értékelő csoport
+          geozone: Működési terület
+          feasibility: Megvalósíthatóság
+          valuation_finished: Értékelés befejezve
+          selected: Kiválasztva
+          visible_to_valuators: Megjelenítés értékelőknek
+          author_username: Szerző felhasználóneve
+          incompatible: Nem kompatibilis
+          price: Ár
+          author: Szerző
+        cannot_calculate_winners: A költségvetésnek a nyertes projektek kiszámításához a(z) "%{phase}" fázisban kell maradnia
+        see_results: "Eredmények megtekintése"
+        milestone_tags_filter_all: "Minden mérföldkő címke"
+      show:
+        assigned_admin: Hozzárendelt adminisztrátor
+        assigned_valuators: Hozzárendelt értékelők
+        classification: Kategorizáció
+        info: "%{budget_name} - Csoport: %{group_name} - Befektetési projekt %{id}"
+        edit: Szerkesztés
+        edit_classification: Kategorizáció szerkesztése
+        by: Által
+        sent: Elküldve
+        group: Csoport
+        heading: Fejléc
+        dossier: Dosszié
+        edit_dossier: Dosszié szerkesztése
+        tags: Címkék
+        undefined: Nem meghatározott
+        compatibility:
+          title: Kompatibilitás
+          "true": Nem kompatibilis
+          "false": Kompatibilis
+        selection:
+          title: Kiválasztás
+        winner:
+          title: Nyertes
+          "true": "Igen"
+          "false": "Nem"
+        valuator_groups: "Értékelő csoportok"
+        preview: Befektetés előnézet
+      edit:
+        classification: Kategorizáció
+        compatibility: Kompatibilitás
+        selection: Kiválasztás
+        assigned_valuators: Értékelők
+        select_heading: Válasszon fejlécet
+        submit_button: Frissítés
+        user_tags: Felhasználó által hozzárendelt címkék
+        tags_placeholder: "Írja be a címkéket vesszővel (,) elválasztva"
+        undefined: Nem meghatározott
+      search_unfeasible: Nem megvalósítható keresése
+    budgets_wizard:
+      creation_timeline:
+        budget: Költségvetés
+        groups: Csoportok
+        headings: Fejlécek
+        phases: Fázisok
+      budgets:
+        continue: "Folytatás a csoportokhoz"
+      groups:
+        back: "Vissza a költségvetés szerkesztéséhez"
+        continue: "Folytatás a fejlécekhez"
+      headings:
+        continue: "Folytatás a fázisokhoz"
+        single:
+          back: "Vissza a csoport szerkesztéséhez"
+      heading_mode:
+        multiple:
+          description: "Hozzon létre több csoportot, kerületet vagy témát tartalmazó folyamatot. Például „Északi kerület” 25 000 €, „Központi kerület” 30 000 €, „Déli kerület” 28 000 € és az egész város. Vagy több témához, például sport, kultúra vagy egészség."
+          link: "Több fejlécű költségvetés létrehozása"
+          title: "<strong>Több fejlécű</strong> költségvetés"
+        single:
+          description: "Hozzon létre egy csoportot, kerületet vagy témát tartalmazó folyamatot. Például „Kerület” 25 000 €, vagy „Kultúra” 10 000 €."
+          link: "Egy fejlécű költségvetés létrehozása"
+          title: "<strong>Egy fejlécű</strong> költségvetés"
+        title: Résztvevő költségvetés típusa
+      phases:
+        continue: "Befejezés"
+        multiple:
+          back: "Vissza a fejlécekhez"
+        single:
+          back: "Vissza a fejléc szerkesztéséhez"
+    milestones:
+      index:
+        table_id: Azonosító
+        table_title: Cím
+        table_description: Leírás
+        table_publication_date: Közzététel dátuma
+        table_status: Állapot
+        table_actions: "Műveletek"
+        no_milestones: "Nincsenek meghatározott mérföldkövek"
+        image: Kép
+        show_image: Kép megtekintése
+        documents: Dokumentumok
+        milestone: Mérföldkő
+        new_milestone: Új mérföldkő létrehozása
+        milestone_tags: Mérföldkő címkék
+      form:
+        admin_statuses: Állapotok kezelése
+        no_statuses_defined: Még nincsenek meghatározott állapotok
+      new:
+        creating: Mérföldkő létrehozása
+      edit:
+        title: Mérföldkő szerkesztése
+      create:
+        notice: Új mérföldkő sikeresen létrehozva!
+      update:
+        notice: Mérföldkő sikeresen frissítve
+      delete:
+        notice: Mérföldkő sikeresen törölve
+    statuses:
+      index:
+        title: Mérföldkő állapotok
+        empty_statuses: Még nincsenek létrehozott mérföldkő állapotok
+        new_status: Új mérföldkő állapot létrehozása
+        table_name: Név
+        table_description: Leírás
+        table_actions: Műveletek
+      edit:
+        title: Mérföldkő állapot szerkesztése
+      update:
+        notice: Mérföldkő állapot sikeresen frissítve
+      new:
+        title: Mérföldkő állapot létrehozása
+      create:
+        notice: Mérföldkő állapot sikeresen létrehozva
+      delete:
+        notice: Mérföldkő állapot sikeresen törölve
+    progress_bars:
+      manage: "Folyamatjelzők kezelése"
+      index:
+        title: "Folyamatjelzők"
+        no_progress_bars: "Nincsenek folyamatjelzők"
+        new_progress_bar: "Új folyamatjelző létrehozása"
+        primary: "Elsődleges folyamatjelző"
+        table_id: "Azonosító"
+        table_kind: "Típus"
+        table_title: "Cím"
+        table_percentage: "Aktuális haladás"
+      new:
+        creating: "Folyamatjelző létrehozása"
+      edit:
+        title:
+          primary: "Elsődleges folyamatjelző szerkesztése"
+          secondary: "%{title} folyamatjelző szerkesztése"
+      create:
+        notice: "Folyamatjelző sikeresen létrehozva!"
+      update:
+        notice: "Folyamatjelző sikeresen frissítve"
+      delete:
+        notice: "Folyamatjelző sikeresen törölve"
+    comments:
+      index:
+        id: "Azonosító"
+        content: "Tartalom"
+        author: "Szerző"
+        commentable_type: "Típus"
+        title: "Hozzászólások"
+        no_comments: "Nincsenek hozzászólások."
+        table_link: "Link"
+    hidden_comments:
+      index:
+        filter: "Szűrő"
+        filters:
+          all: "Minden"
+          with_confirmed_hide: "Megerősítve"
+          without_confirmed_hide: "Feldolgozás alatt"
+        hidden_debate: "Rejtett vita"
+        hidden_proposal: "Rejtett javaslat"
+        title: "Rejtett hozzászólások"
+        no_hidden_comments: "Nincsenek rejtett hozzászólások."
+    dashboard:
+      index:
+        back: "Vissza a(z) %{org} oldalra"
+        title: "Adminisztráció"
+        description: "Üdvözöljük a(z) %{org} adminisztrációs paneljén."
+        info: |-
+          <p>Ez a hely az Ön számára, mint adminisztrátor, hogy megvalósítsa és felügyelje a polgári részvételi folyamatot a városában vagy régiójában.</p>
+
+          <p>Most Ön azon százak közé tartozik világszerte, akik a CONSUL DEMOKRÁCIA platformot használják a polgári részvétel gyakorlatba való átültetésére. Gratulálunk!</p>
+
+          <p>A CONSUL DEMOKRÁCIA Alapítvány a globális felhasználói közösség szívében helyezkedik el. Szeretnénk kérni Önt, hogy lépjen kapcsolatba velünk, hogy megismerjük, ki használja a szoftvert, és lássuk, hogyan tudunk segíteni az implementáció vagy a felhasználás területén. Alig várjuk, hogy üdvözölhessük Önt a közösségben.</p>
+
+          <p>Jó adminisztrálást kívánunk!</p>
+
+          <p>Üdvözlettel a CONSUL DEMOKRÁCIA Alapítvány csapata.</p>
+      actions:
+        index:
+          description: "Amikor a felhasználók javaslatokat hoznak létre, hozzáférhetnek a javaslatok műszerfalához, ahol javaslatokat és ajánlásokat tehetnek az ötletük támogatásához."
+          create: "Eszköz vagy művelet létrehozása"
+          active: 'Igen'
+          inactive: 'Nem'
+          title: "Erőforrások és műveletek"
+          action_title: Cím
+          action_type: Típus
+          required_supports: Szükséges támogatások
+          day_offset: Szükséges napok
+          action_active: Aktív
+          order: Sorrend
+          published_proposal: Közzétett javaslat
+          default:
+            email: E-mail
+            polls: Szavazások
+            poster: Plakát
+        new:
+          creating: "Új művelet a javaslatok műszerfalához"
+          back: Vissza a listához
+        create:
+          notice: "Művelet sikeresen létrehozva"
+        edit:
+          editing: "Művelet szerkesztése a javaslatok műszerfalához"
+          back: Vissza a listához
+        delete:
+          success: "Művelet sikeresen törölve"
+        form:
+          submit_button: Mentés
+          help_text: "Írjon be 0-t, hogy ez az érték ne legyen figyelembe véve"
+          published_proposal_help_text: Jelölje be ezt a jelölőnégyzetet, hogy csak a közzétett javaslatokhoz hozza létre a műveletet
+      administrator_tasks:
+        index:
+          description: "A javaslatok műszerfalán közzétett erőforrások tartalmazhatnak egy gombot, amelyet az adminisztrátorokhoz lehet kérni. A felhasználói kéréseket alább láthatja."
+          title: "Kért erőforrások"
+          solve: Megoldás
+          no_records: "Nincsenek kérések"
+          source: Forrás
+          resource: Kért erőforrás
+          filter: Szűrő
+          filters:
+            pending: Függőben
+            done: Megoldva
+        edit:
+          back: Vissza a függőben lévő feladatok listájához
+          solving: Függőben lévő feladat megoldása
+        form:
+          solve: Megjelölés megoldottként
+          proposal: Javaslat
+          request: Kért erőforrás
+        update:
+          success: A feladatot megoldottként jelölték.
+    debates:
+      index:
+        id: Azonosító
+        author: Szerző
+        title: Vita
+        no_debates: Nincsenek viták.
+    hidden_debates:
+      index:
+        filter: Szűrő
+        filters:
+          all: Mind
+          with_confirmed_hide: Megerősítve
+          without_confirmed_hide: Függőben
+        title: Rejtett viták
+        no_hidden_debates: Nincsenek rejtett viták.
+    documents:
+      new:
+        title: Dokumentum feltöltése
+        submit_button: Feltöltés
+      index:
+        new_link: Új dokumentum hozzáadása
+        no_documents: Nincsenek dokumentumok.
+        title: Dokumentumok
+        format: Formátum
+        size: Méret
+      create:
+        success_notice: Dokumentum sikeresen feltöltve
+        unable_notice: Érvénytelen dokumentum
+      destroy:
+        success_notice: Dokumentum sikeresen törölve
+    hidden_users:
+      index:
+        filter: Szűrő
+        filters:
+          all: Mind
+          with_confirmed_hide: Megerősítve
+          without_confirmed_hide: Függőben
+        title: Rejtett felhasználók
+        user: Felhasználó
+        no_hidden_users: Nincsenek rejtett felhasználók.
+      show:
+        email: "E-mail:"
+        hidden_at: "Rejtve:"
+        registered_at: "Regisztrált:"
+        title: "Felhasználói aktivitás (%{user})"
+    hidden_budget_investments:
+      index:
+        filter: Szűrő
+        filters:
+          all: Mind
+          with_confirmed_hide: Megerősítve
+          without_confirmed_hide: Függőben
+        title: Rejtett költségvetési beruházások
+        no_hidden_budget_investments: Nincsenek rejtett költségvetési beruházások
+    legislation:
+      processes:
+        create:
+          notice: 'Folyamat sikeresen létrehozva. <a href="%{link}">Kattintson a látogatáshoz</a>'
+          error: A folyamat nem hozható létre
+        update:
+          notice: 'Folyamat sikeresen frissítve. <a href="%{link}">Kattintson a látogatáshoz</a>'
+          error: A folyamat nem frissíthető
+        destroy:
+          notice: Folyamat sikeresen törölve
+        edit:
+          back: Vissza
+          submit_button: Változtatások mentése
+        form:
+          enabled: Engedélyezve
+          process: Folyamat
+          debate_phase: Vita fázis
+          draft_phase: Vázlat fázis
+          draft_phase_description: Ha ez a fázis aktív, a folyamat nem lesz felsorolva a folyamatok indexén. Engedélyezi a folyamat előnézetét és tartalom létrehozását a kezdet előtt.
+          allegations_phase: Megjegyzés fázis
+          proposals_phase: Javaslatok fázis
+          use_markdown: Használjon Markdown-t a szöveg formázásához
+          homepage_description: Itt magyarázhatja a folyamat tartalmát
+          banner_title: Fejléc színek
+        index:
+          create: Új folyamat
+          title: Együttműködő jogalkotás
+          filters:
+            active: Aktív
+            all: Mind
+        new:
+          back: Vissza
+          title: Új együttműködő jogalkotási folyamat létrehozása
+          submit_button: Folyamat létrehozása
+        proposals:
+          orders:
+            id: "Rendezés azonosító szerint"
+            title: "Rendezés cím szerint"
+            supports: "Rendezés összes támogatás alapján"
+        process:
+          title: Folyamat
+          comments: Megjegyzések
+          status: Állapot
+          start_date: Kezdés dátuma
+          end_date: Befejezés dátuma
+          status_open: Nyitott
+          status_closed: Lezárt
+          status_planned: Tervezett
+        subnav:
+          info: Információ
+          homepage: Főoldal
+          draft_versions: Vázlatok
+          questions: Vita
+          proposals: Javaslatok
+          milestones: Követés
+      homepage:
+        edit:
+          title: Konfigurálja a folyamat főoldalát
+      proposals:
+        index:
+          title: Javaslatok
+          back: Vissza
+          id: Azonosító
+          supports: Összes támogatás
+        form:
+          custom_categories: Kategóriák
+          custom_categories_description: Kategóriák, amelyeket a felhasználók kiválaszthatnak a javaslat létrehozásakor. Legfeljebb 160 karakter.
+          custom_categories_placeholder: Adja meg a felhasználni kívánt címkéket vesszővel (,) és idézőjelek ("") között.
+      draft_versions:
+        create:
+          notice: 'Vázlat sikeresen létrehozva. <a href="%{link}">Kattintson a látogatáshoz</a>'
+          error: A vázlat nem hozható létre
+        update:
+          notice: 'Vázlat sikeresen frissítve. <a href="%{link}">Kattintson a látogatáshoz</a>'
+          error: A vázlat nem frissíthető
+        destroy:
+          notice: Vázlat sikeresen törölve
+        edit:
+          back: Vissza
+          submit_button: Változtatások mentése
+          warning: Módosította a szöveget, ne felejtse el menteni a változásokat.
+          markdown_changes_message: "Módosította a szöveget, de nem mentette el. Biztosan el akarja hagyni az oldalt?"
+        form:
+          title: '<span class="strong">%{draft_version_title}</span> szerkesztése a(z) <span class="strong">%{process_title}</span> folyamatban'
+          launch_text_editor: Szövegszerkesztő indítása
+          close_text_editor: Szövegszerkesztő bezárása
+          use_markdown: Használjon Markdown-t a szöveg formázásához
+          hints:
+            final_version: Ez a verzió a folyamat Végeredményeként lesz közzétéve. Ebben a verzióban nem lesznek megengedve a megjegyzések.
+            status:
+              draft: Adminként előnézetelheti, senki más nem látja
+              published: Mindenki számára látható
+          changelog_placeholder: Adja meg a főbb változásokat az előző verzióhoz képest
+        index:
+          title: Vázlatok
+          create: Változat létrehozása
+          delete: Törlés
+          preview: Előnézet
+        new:
+          back: Vissza
+          title: Új verzió létrehozása
+          submit_button: Verzió létrehozása
+        table:
+          title: Cím
+          created_at: Létrehozva
+          comments: Megjegyzések
+          final_version: Végleges verzió
+          status: Állapot
+      questions:
+        create:
+          notice: 'Kérdés sikeresen létrehozva. <a href="%{link}">Kattintson a látogatáshoz</a>'
+          error: A kérdést nem sikerült létrehozni
+        update:
+          notice: 'Kérdés sikeresen frissítve. <a href="%{link}">Kattintson a látogatáshoz</a>'
+          error: A kérdést nem sikerült frissíteni
+        destroy:
+          notice: Kérdés sikeresen törölve
+        edit:
+          back: Vissza
+          title: "„%{question_title}” szerkesztése"
+          submit_button: Változtatások mentése
+        form:
+          add_option: Opció hozzáadása
+          value_placeholder: Zárt választás hozzáadása
+          question_options: "Lehetséges válaszok (opcionális, alapértelmezett nyitott válaszok)"
+        index:
+          back: Vissza
+          title: A folyamathoz kapcsolódó kérdések
+          create: Kérdés létrehozása
+          delete: Törlés
+        new:
+          back: Vissza
+          title: Új kérdés létrehozása
+          submit_button: Kérdés létrehozása
+        table:
+          title: Cím
+          question_options: Kérdési opciók
+          answers_count: Válaszok száma
+          comments_count: Megjegyzések száma
+        question_option_fields:
+          remove_option: Opció eltávolítása
+      milestones:
+        index:
+          title: Követés
+    managers:
+      index:
+        title: Menedzserek
+        no_managers: Nincsenek menedzserek.
+      manager:
+        add: Hozzáadás
+      search:
+        title: "Menedzserek: Felhasználó keresése"
+    sdg_managers:
+      index:
+        no_sdg_managers: Nincsenek felhasználók.
+    menu:
+      activity: Moderátor tevékenység
+      admin: Adminisztrációs menü
+      banner: Bannerek kezelése
+      proposals: Javaslatok
+      proposals_topics: Javaslat témák
+      budgets: Résztvevő költségvetések
+      geozones: Földrajzi övezetek kezelése
+      hidden_comments: Rejtett megjegyzések
+      hidden_debates: Rejtett viták
+      hidden_proposals: Rejtett javaslatok
+      hidden_budget_investments: Rejtett költségvetési beruházások
+      hidden_proposal_notifications: Rejtett javaslat értesítések
+      hidden_users: Rejtett felhasználók
+      administrators: Adminisztrátorok
+      managers: Menedzserek
+      sdg_managers: SDG Menedzserek
+      moderators: Moderátorok
+      messaging_users: Üzenetek a felhasználóknak
+      newsletters: Hírlevelek
+      admin_notifications: Értesítések
+      system_emails: Rendszerüzenetek
+      emails_download: E-mailek letöltése
+      valuators: Értékelők
+      poll_officers: Szavazási tisztviselők
+      polls: Szavazások
+      poll_booths: Szavazófülkék helyszíne
+      poll_booth_assignments: Szavazófülkék kiosztása
+      poll_shifts: Műszakok kezelése
+      officials: Tisztviselők
+      organizations: Szervezetek
+      settings: Globális beállítások
+      stats: Statisztikák
+      signature_sheets: Aláírási ívek
+      site_customization:
+        documents: Egyéni dokumentumok
+        homepage: Kezdőlap
+        pages: Egyéni oldalak
+        images: Egyéni képek
+        content_blocks: Egyéni tartalom blokkok
+        information_texts: Egyéni információs szövegek
+        information_texts_menu:
+          basic: "Alapértelmezett testreszabás"
+          debates: "Viták"
+          community: "Közösség"
+          proposals: "Javaslatok"
+          polls: "Szavazások"
+          legislation: "Együttműködő jogalkotás"
+          budgets: "Költségvetések"
+          layouts: "Elrendezések"
+          machine_learning: "MI / Gépi tanulás"
+          mailers: "E-mailek"
+          management: "Menedzsment"
+          welcome: "Üdvözlés"
+        buttons:
+          save: "Mentés"
+          content_block:
+            update: "Blokk frissítése"
+      title_moderated_content: Moderált tartalom
+      title_profiles: Profilok
+      title_settings: Beállítások
+      title_site_customization: Oldaltartalom
+      title_booths: Szavazófülkék
+      legislation: Együttműködő jogalkotás
+      users: Felhasználók
+      dashboard: Javaslatok vezérlőpultja
+      administrator_tasks: Kért erőforrások
+      dashboard_actions: Erőforrások és akciók
+      debates: "Viták"
+      comments: "Megjegyzések"
+      local_census_records: Helyi népszámlálás kezelése
+      machine_learning: "MI / Gépi tanulás"
+      multitenancy: Multitenancy
+    administrators:
+      index:
+        title: Adminisztrátorok
+        id: Adminisztrátor azonosítója
+        no_administrators: Nincsenek adminisztrátorok.
+      administrator:
+        add: Hozzáadás
+        restricted_removal: "Sajnáljuk, nem távolíthatja el magát az adminisztrátorok közül."
+      search:
+        title: "Adminisztrátorok: Felhasználó keresése"
+      form:
+        edit_title: "Adminisztrátor szerkesztése"
+        updated: "Adminisztrátor sikeresen frissítve"
+    moderators:
+      index:
+        title: Moderátorok
+        no_moderators: Nincsenek moderátorok.
+      moderator:
+        add: Hozzáadás
+      search:
+        title: "Moderátorok: Felhasználó keresése"
+    segment_recipient:
+      all_users: Minden felhasználó
+      administrators: Adminisztrátorok
+      all_proposal_authors: Javaslatok szerzői (beleértve az archivált és visszavontakat is)
+      proposal_authors: Javaslatok szerzői
+      investment_authors: Aktuális költségvetésben befektetéseket jegyzők
+      feasible_and_undecided_investment_authors: "Az aktuális költségvetésben olyan befektetések szerzői, amelyek nem felelnek meg: [értékelés befejezve nem megvalósítható]"
+      selected_investment_authors: Kiválasztott befektetések szerzői az aktuális költségvetésben
+      winner_investment_authors: Nyertes befektetések szerzői az aktuális költségvetésben
+      not_supported_on_current_budget: Felhasználók, akik nem támogatták az aktuális költségvetésben a befektetéseket
+      invalid_recipients_segment: "A címzettek felhasználói szegmense érvénytelen"
+    newsletters:
+      create_success: Hírlevél sikeresen létrehozva
+      update_success: Hírlevél sikeresen frissítve
+      send_success: Hírlevél sikeresen elküldve
+      delete_success: Hírlevél sikeresen törölve
+      index:
+        title: Hírlevelek
+        new_newsletter: Új hírlevél
+        subject: Tárgy
+        segment_recipient: Címzettek
+        sent: Elküldve
+        actions: Műveletek
+        draft: Piszkozat
+        preview: Előnézet
+        empty_newsletters: Nincsenek megjeleníthető hírlevelek
+      new:
+        title: Új hírlevél
+        header_footer_help_text: "A fejléc és a lábléc az összes e-mailnél ugyanaz, ezeket módosíthatja a <code>app/views/layouts/mailer_header</code> és <code>app/views/layouts/mailer_footer</code> fájlokban.<br>A fejléc képét cserélheti %{link}."
+        image_link: "egyedi képek"
+      edit:
+        title: Hírlevél szerkesztése
+      show:
+        title: Hírlevél előnézete
+        send: Hírlevél elküldése
+        affected_users: (%{n} érintett felhasználó)
+        sent_emails:
+          one: 1 e-mail elküldve
+          other: "%{count} e-mail elküldve"
+        sent_at: Elküldés ideje
+        subject: Tárgy
+        segment_recipient: Címzettek
+        from: E-mail cím, amely megjelenik a hírlevél küldőjeként
+        body: E-mail tartalom
+        body_help_text: Így fogják látni a felhasználók az e-mailt.
+        send_alert: Biztosan elküldi ezt a hírlevelet %{n} felhasználónak?
+    admin_notifications:
+      create_success: Értesítés sikeresen létrehozva
+      update_success: Értesítés sikeresen frissítve
+      send_success: Értesítés sikeresen elküldve
+      delete_success: Értesítés sikeresen törölve
+      index:
+        section_title: Értesítések
+        new_notification: Új értesítés
+        title: Cím
+        segment_recipient: Címzettek
+        sent: Elküldve
+        actions: Műveletek
+        draft: Pisztakoat
+        preview: Előnézet
+        view: Megtekintés
+        empty_notifications: Nincsenek megjeleníthető értesítések
+      new:
+        section_title: Új értesítés
+        submit_button: Értesítés létrehozása
+      edit:
+        section_title: Értesítés szerkesztése
+        submit_button: Értesítés frissítése
+      show:
+        section_title: Értesítés előnézete
+        send: Értesítés küldése
+        will_get_notified: (%{n} felhasználót értesíteni fog)
+        got_notified: (%{n} felhasználó értesült)
+        sent_at: Elküldés ideje
+        title: Cím
+        body: Szöveg
+        link: Hivatkozás
+        segment_recipient: Címzettek
+        preview_guide: "Így fogják látni a felhasználók az értesítést:"
+        sent_guide: "Így láthatják az értesítést a felhasználók:"
+        send_alert: Biztosan elküldi ezt az értesítést %{n} felhasználónak?
+    system_emails:
+      preview_pending:
+        action: Függőben lévő előnézet
+        preview_of: előnézet - %{name} 
+        pending_to_be_sent: Elküldésre váró tartalom
+        moderate_pending: Függőben lévő értesítés küldése
+        send_pending: Függőben lévő küldése
+        send_pending_notification: Függőben lévő értesítések sikeresen elküldve
+      proposal_notification_digest:
+        title: "Javaslat értesítés összefoglaló"
+        description: "Összegyűjti az összes javaslat értesítést egy felhasználó számára egyetlen üzenetben, hogy elkerülje a túl sok e-mailt."
+        preview_detail: "A felhasználók csak az általuk követett javaslatokról kapnak értesítést."
+      budget_investment_created:
+        title: "Költségvetési befektetés létrehozva"
+        description: "Küldött, amikor egy felhasználó létrehoz egy költségvetési befektetést."
+      budget_investment_selected:
+        title: "Költségvetési befektetés kiválasztva"
+        description: "Küldött a szerzőnek, amikor költségvetési befektetését kiválasztották."
+      budget_investment_unfeasible:
+        title: "Költségvetési befektetés nem megvalósítható"
+        description: "Küldött a szerzőnek, amikor költségvetési befektetését nem valósítható megként jelölték meg."
+      budget_investment_unselected:
+        title: "Költségvetési befektetés kiválasztatlan"
+        description: "Küldött a szerzőnek, amikor költségvetési befektetését nem választották ki szavazási fázisra."
+      comment:
+        title: "Megjegyzés"
+        description: "Küldött a szerzőnek, amikor megkap egy megjegyzést."
+      reply:
+        title: "Válasz"
+        description: "Küldött a megjegyzés szerzőjének, amikor választ kap."
+      direct_message_for_receiver:
+        title: "Privát üzenet fogadó"
+        description: "Küldött a privát üzenet fogadójának."
+      direct_message_for_sender:
+        title: "Privát üzenet küldő"
+        description: "Küldött a privát üzenet küldőjének."
+      email_verification:
+        title: "E-mail ellenőrzés"
+        description: "Küldött az új felhasználónak az azonosítója ellenőrzésére."
+      user_invite:
+        title: "Felhasználó meghívása"
+        description: "Küldött annak a személynek, akit meghívtak egy fiók regisztrációjára."
+      evaluation_comment:
+        title: "Új értékelési megjegyzés"
+        description: "Küldött az értékelőknek és az értékelőkhöz kapcsolódó adminisztrátoroknak a megjegyzett befektetésről."
+      edit_info: "Ezt az e-mailt szerkesztheti"
+      message_title: "Üzenet címe"
+      message_body: "Ez az üzenet tartalma példa."
+      alert:
+        no_investments: "Nincsenek létrehozva költségvetési befektetések. Az e-mail előnézetéhez példaadatok szükségesek."
+        no_comments: "Nincsenek létrehozva megjegyzések. Az e-mail előnézetéhez példaadatok szükségesek."
+        no_replies: "Nincsenek létrehozva válaszok. Az e-mail előnézetéhez példaadatok szükségesek."
+        no_evaluation_comments: "Nincsenek értékelési megjegyzések létrehozva. Némi példaadat szükséges az e-mail előnézetéhez."
+    emails_download:
+      index:
+        title: E-mail letöltése
+        download_segment: E-mail címek letöltése
+        download_segment_help_text: Letöltés CSV formátumban
+        download_emails_button: E-mail lista letöltése
+    valuators:
+      index:
+        title: Értékelők
+        name: Név
+        email: E-mail
+        description: Leírás
+        no_description: Nincs leírás
+        no_valuators: Nincsenek értékelők.
+        valuator_groups: "Értékelői Csoportok"
+        group: "Csoport"
+        no_group: "Nincs csoport"
+        abilities: "Képességek"
+        can_comment: "Megjegyzéseket fűzhet"
+        can_edit_dossier: "Dossziét szerkeszthet"
+      valuator:
+        add: Hozzáadás az értékelőkhöz
+      search:
+        title: "Értékelők: Felhasználó keresése"
+      form:
+        edit_title: "Értékelők szerkesztése"
+        updated: "Értékelő sikeresen frissítve"
+      show:
+        description: "Leírás"
+        email: "E-mail"
+        group: "Csoport"
+        abilities: "Képességek"
+        no_description: "Nincs leírás"
+        no_group: "Nincs csoport"
+        no_abilities: "Nincs képesség"
+    valuator_groups:
+      index:
+        title: "Értékelői csoportok"
+        new: "Értékelői csoport létrehozása"
+        name: "Név"
+        members: "Tagok"
+        no_groups: "Nincsenek értékelői csoportok"
+      show:
+        title: "Értékelői csoport: %{group}"
+        no_valuators: "Nincsenek értékelők hozzárendelve ehhez a csoporthoz"
+      form:
+        new: "Értékelői csoport létrehozása"
+        edit: "Értékelői csoport mentése"
+    poll_officers:
+      index:
+        title: Választási tisztviselők
+      officer:
+        add: Hozzáadás
+        delete: Pozíció törlése
+        name: Név
+        email: E-mail
+        entry_name: tisztviselő
+      search:
+        email_placeholder: Keresés felhasználó e-mail alapján
+        user_not_found: Felhasználó nem található
+        help: "Választási tisztviselők hozzáadásához vagy eltávolításához használja az alábbi kereső űrlapot."
+    poll_officer_assignments:
+      index:
+        officers_title: "Tisztviselők listája"
+        no_officers: "Nincsenek tisztviselők hozzárendelve ehhez a szavazáshoz."
+        table_name: "Név"
+        table_email: "E-mail"
+      by_officer:
+        date: "Dátum"
+        booth: "Fülke"
+        assignments: "Tisztviselői váltások ebben a szavazásban"
+        no_assignments: "Ez a felhasználó nem rendelkezik tisztviselői váltással ebben a szavazásban."
+    poll_shifts:
+      new:
+        add_shift: "Váltás hozzáadása"
+        shift: "Váltás"
+        shifts: "Váltások ebben a fülkében"
+        date: "Dátum"
+        edit_shifts: Váltások szerkesztése
+        new_shift: "Új váltás"
+        no_shifts: "Ebben a fülkében nincsenek váltások"
+        officer: "Tisztviselő"
+        remove_shift: "Eltávolítás"
+        search_officer_button: Keresés
+        search_officer_placeholder: Tisztviselő keresése
+        search_officer_text: Keresés egy tisztviselő hozzárendeléséhez
+        select_date: "Válasszon dátumot"
+        no_voting_days: "A szavazási napok véget értek"
+        select_task: "Válasszon feladatot"
+        table_shift: "Váltás"
+        table_email: "E-mail"
+        table_name: "Név"
+      flash:
+        create: "Váltás hozzáadva"
+        destroy: "Váltás eltávolítva"
+        unable_to_destroy: "Az eredményekkel vagy újraszámlálásokkal összefüggő váltások nem törölhetők"
+        date_missing: "Ki kell választani egy dátumot"
+      vote_collection: Szavazatok gyűjtése
+      recount_scrutiny: Újraszámlálás és ellenőrzés
+    booth_assignments:
+      manage_assignments: "Feladatok kezelése"
+      manage:
+        assignments_list: "Feladatok a(z) '%{poll}' szavazáshoz"
+        status:
+          assign_status: "Feladat hozzárendelése"
+          assigned: "Hozzárendelve"
+          unassigned: "Nincs hozzárendelve"
+        actions:
+          assign: "Feladat hozzárendelése"
+          unassign: "Feladat eltávolítása"
+    poll_booth_assignments:
+      alert:
+        shifts: "Ennek a fülkének társított váltásai vannak. Ha eltávolítja a fülke hozzárendelését, akkor a váltások is törlésre kerülnek. Folytatja?"
+      show:
+        location: "Helyszín"
+        officers: "Tisztviselők"
+        officers_list: "Tisztviselők listája ehhez a fülkéhez"
+        no_officers: "Nincsenek tisztviselők ehhez a fülkéhez"
+        recounts: "Újraszámlálások"
+        recounts_list: "Újraszámlálás listája ehhez a fülkéhez"
+        results: "Eredmények"
+        date: "Dátum"
+        count_final: "Végleges újraszámlálás (tisztviselő által)"
+        count_by_system:  "Szavazatok (automatikus)"
+        total_system: "Összes szavazat (automatikus)"
+      index:
+        booths_title: "Fülkék listája"
+        no_booths: "Nincsenek fülkék hozzárendelve ehhez a szavazáshoz."
+        table_name: "Név"
+        table_location: "Helyszín"
+    active_polls:
+      edit:
+        title: "Szavazások leírása"
+      form:
+        description:
+          help_text: "Ez a szöveg megjelenik a szavazás oldalának fejlécén. Használható, hogy kontextust adjon az aktív szavazásokhoz."
+    polls:
+      index:
+        title: "Szavazások listája"
+        no_polls: "Nincsenek szavazások."
+        create: "Szavazás létrehozása"
+        name: "Név"
+        dates: "Dátumok"
+        start_date: "Kezdés dátuma"
+        closing_date: "Lezárás dátuma"
+        geozone_restricted: "Kerületekre korlátozva"
+      new:
+        title: "Új szavazás"
+        submit_button: "Szavazás létrehozása"
+      edit:
+        title: "Szavazás szerkesztése"
+        submit_button: "Szavazás frissítése"
+      show:
+        questions_tab: Kérdések
+        booths_tab: Fülkék
+        officers_tab: Tisztviselők
+        recounts_tab: Újraszámlálások
+        results_tab: Eredmények
+        no_questions: "Nincsenek kérdések hozzárendelve ehhez a szavazáshoz."
+        questions_title: "Kérdések listája"
+        table_title: "Cím"
+        edit_answers: Válaszok szerkesztése
+        see_proposal: "(Javaslat megtekintése)"
+      destroy:
+        alert: "Ez a művelet eltávolítja a szavazást és az összes hozzárendelt kérdést."
+        success_notice: "Szavazás sikeresen törölve"
+        unable_notice: "Nem lehet törölni egy olyan szavazást, amelyhez szavazatok tartoznak"
+      votation_type:
+        title: "Szavazás típusa"
+        unique_description: "Csak egyszer lehet válaszolni a kérdésre."
+        multiple_description: "Lehetővé teszi több válasz kiválasztását. Lehetséges megadni a maximális válaszok számát."
+    questions:
+      index:
+        title: "Kérdések"
+        create: "Kérdés létrehozása"
+        no_questions: "Nincsenek kérdések."
+        filter_poll: Szűrés szavazás alapján
+        select_poll: Szavazás kiválasztása
+        questions_tab: "Kérdések"
+        successful_proposals_tab: "Sikeres javaslatok"
+        create_question: "Kérdés létrehozása"
+        table_proposal: "Javaslat"
+        table_question: "Kérdés"
+        table_poll: "Szavazás"
+        poll_not_assigned: "Nincs hozzárendelve szavazás"
+      edit:
+        title: "Kérdés szerkesztése"
+      form:
+        poll_help: "Csak olyan szavazást választhat ki, amely még nem kezdődött el"
+      new:
+        title: "Kérdés létrehozása a(z) %{poll} szavazáshoz"
+        title_proposal: "Kérdés létrehozása"
+      destroy:
+        notice: "Kérdés sikeresen törölve"
+      answers:
+        images:
+          add_image: "Kép hozzáadása"
+          save_image: "Kép mentése"
+      show:
+        proposal: Eredeti javaslat
+        author: Szerző
+        question: Kérdés
+        edit_question: Kérdés szerkesztése
+        valid_answers: Érvényes válaszok
+        add_answer: Válasz hozzáadása
+        video_url: Külső videó
+        answers:
+          title: Válasz
+          description: Leírás
+          videos: Videók
+          video_list: Videólista
+          images: Képek
+          images_list: Képlista
+          documents: Dokumentumok
+          documents_list: Dokumentumlista
+          document_title: Cím
+          document_actions: Műveletek
+      no_edit: "Miután a szavazás elkezdődött, nem lesz lehetőség kérdések, válaszok vagy bármely a szavazással kapcsolatos tartalom létrehozására, szerkesztésére vagy törlésére."
+    answers:
+      new:
+        title: Új válasz
+      edit:
+        title: Válasz szerkesztése
+      destroy:
+        success_notice: "A válasz sikeresen törölve"
+      images:
+        index:
+          title: Képek
+      videos:
+        index:
+          title: Videók
+          add_video: Videó hozzáadása
+          video_title: Cím
+          video_url: Külső videó
+        new:
+          title: Új videó
+        edit:
+          title: Videó szerkesztése
+    recounts:
+      index:
+        title: "Újraszámlálások"
+        no_recounts: "Nincs mit újraszámolni"
+        all_booths_total: "Összes fülke kumulatív összege:"
+        total_final: "Végleges újraszámlálások"
+        total_system: "Szavazatok (automatikus)"
+        table_booth_name: "Fülke"
+        table_total_recount: "Teljes újraszámlálás (tisztviselő által)"
+        table_system_count: "Szavazatok (automatikus)"
+    results:
+      index:
+        title: "Eredmények"
+        no_results: "Nincsenek eredmények"
+      result:
+        table_whites: "Teljesen üres szavazólapok"
+        table_nulls: "Érvénytelen szavazólapok"
+        table_total: "Érvényes szavazólapok"
+        table_answer: Válasz
+        table_votes: Szavazatok
+      results_by_booth:
+        booth: Fülke
+        results: Eredmények
+        see_results: Eredmények megtekintése
+        title: "Eredmények fülkénként"
+    booths:
+      index:
+        title: "Aktív fülkék listája"
+        no_booths: "Nincsenek aktív fülkék a következő szavazáshoz."
+        add_booth: "Fülke hozzáadása"
+        name: "Név"
+        location: "Helyszín"
+        no_location: "Nincs helyszín"
+      new:
+        title: "Új fülke"
+        submit_button: "Fülke létrehozása"
+      edit:
+        title: "Fülke szerkesztése"
+        submit_button: "Fülke frissítése"
+      show:
+        location: "Helyszín"
+      booth:
+        shifts: "Shift-ek kezelése"
+    officials:
+      edit:
+        destroy: "Hivatalos státusz eltávolítása"
+        title: "Hivatalosok: Felhasználó szerkesztése"
+      flash:
+        official_destroyed: "Részletek mentve: a felhasználó többé nem hivatalos"
+        official_updated: "Hivatalos adatai mentve"
+      index:
+        title: Hivatalosok
+        help: Azon felhasználói fiókok, amelyeket hivatalosnak jelöltek meg, kiemelt megnyilvánulásaikat kapnak a platformon. Meghatározhatja, hogy milyen címkék jelenjenek meg ezeknek a fiókoknak a felhasználói nevek mellett a legfontosabbtól (szint 1) a legkevésbé fontosig (szint 5).
+        no_officials: Nincsenek hivatalosok.
+        name: Név
+        official_position: Hivatalos pozíció
+        official_level: Szint
+      level_0: Nem hivatalos
+      level_1: Szint 1
+      level_2: Szint 2
+      level_3: Szint 3
+      level_4: Szint 4
+      level_5: Szint 5
+      search:
+        make_official: Hivatalossá tesz
+        title: "Hivatalos pozíciók: Felhasználó keresése"
+        no_results: Hivatalos pozíciók nem találhatók.
+    organizations:
+      index:
+        filter: Szűrő
+        filters:
+          all: Mind
+          pending: Függőben
+          rejected: Elutasított
+          verified: Ellenőrzött
+        hidden_count:
+          one: Egy olyan szervezet is van, amelynek nincsenek felhasználói vagy rejtett felhasználóval.
+          other: "%{count} szervezet van nincs felhasználóival vagy rejtett felhasználóval."
+        name: Név
+        email: Email
+        phone_number: Telefonszám
+        responsible_name: Felelős
+        status: Állapot
+        no_organizations: Nincsenek szervezetek.
+        reject: Elutasítás
+        rejected: Elutasított
+        title: Szervezetek
+        verified: Ellenőrzött
+        verify: Ellenőrzés
+        pending: Függőben
+      search:
+        title: Szervezetek keresése
+        no_results: Nincs találat.
+    proposals:
+      index:
+        title: Javaslatok
+        id: Azonosító
+        author: Szerző
+        select: Kiválaszt
+        selected: Kiválasztott
+        milestones: Mérföldkövek
+        no_proposals: Nincsenek javaslatok.
+      show:
+        create_question: Add ezt a javaslatot egy szavazáshoz
+      form:
+        update: Javaslat frissítése
+      update:
+        notice: Javaslat sikeresen frissítve
+    hidden_proposals:
+      index:
+        filter: Szűrő
+        filters:
+          all: Mind
+          with_confirmed_hide: Megerősített
+          without_confirmed_hide: Függőben
+        title: Rejtett javaslatok
+        no_hidden_proposals: Nincsenek rejtett javaslatok.
+    hidden_proposal_notifications:
+      index:
+        filter: Szűrő
+        filters:
+          all: Mind
+          with_confirmed_hide: Megerősített
+          without_confirmed_hide: Függőben
+        title: Rejtett értesítések
+        no_hidden_proposals: Nincsenek rejtett értesítések.
+    settings:
+      flash:
+        updated: Érték frissítve
+      index:
+        title: Beállítások
+        general: Konfigurációs beállítások
+        update_setting: Frissítés
+        participation_processes: "Résztvevői folyamatok"
+        images_and_documents: "Képek és dokumentumok"
+        feature_flags: Szolgáltatások
+        features:
+          enabled: "Engedélyezett"
+        map:
+          title: Térkép konfiguráció
+          help: Itt testreszabhatja, hogyan jelenik meg a térkép a felhasználóknak. Húzza a térkép jelölőjét vagy kattintson bárhova a térképen, állítsa be a kívánt nagyítást, majd kattintson az "Frissítés" gombra.
+          flash:
+            update: Térkép konfiguráció sikeresen frissítve.
+          form:
+            submit: Frissítés
+          how_to_enable: 'A térkép megjelenítéséhez engedélyezni kell a "Javaslatok és költségvetési befektetések geolokalizációját" a "Szolgáltatások" fülön.'
+        dashboard:
+          title: Javaslatok irányítópultja
+        remote_census:
+          title: Távoli népszámlálás konfiguráció
+          how_to_enable: 'A távoli népszámlálás (SOAP) konfigurálásához engedélyezni kell a "Távoli népszámlálás kapcsolatának konfigurálása (SOAP)" lehetőséget a "Szolgáltatások" fülön.'
+        sdg:
+          title: SDG konfiguráció
+          how_to_enable: 'A Fenntartható Fejlődési Célok beállítási lehetőségeinek megjelenítéséhez engedélyezni kell az "SDG" lehetőséget a "Szolgáltatások" fülön.'
+      remote_census_general_name: Általános információk
+      remote_census_request_name: Kérelem adatok
+      remote_census_response_name: Válasz adatok
+      setting: Szolgáltatás
+      setting_name: Beállítás
+      setting_value: Érték
+      no_description: "Nincs leírás"
+    shared:
+      search:
+        advanced_filters:
+          sdg_goals:
+            all: "Minden cél"
+            label: "Cél szerint"
+          sdg_targets:
+            all: "Minden célkitűzés"
+            label: "Célkitűzés szerint"
+        label:
+          booths: "Keresés fülkék név vagy hely szerint"
+          budget_investments: "Keresés befektetések címe, leírása vagy fejléc szerint"
+          comments: "Keresés megjegyzések között"
+          debates: "Keresés viták címe vagy leírása szerint"
+          legislation_processes: "Keresés folyamatok címe vagy leírása szerint"
+          legislation_proposals: "Keresés javaslatok címe vagy leírása szerint"
+          local_census_records: "Keresés dokumentum szám alapján"
+          organizations: "Név, e-mail vagy telefonszám"
+          poll_officers: "Keresés szavazási tisztviselők között"
+          poll_questions: "Keresés szavazási kérdések között"
+          polls: "Keresés szavazások név vagy leírás szerint"
+          proposals: "Keresés javaslatok címe, kódja, leírása vagy kérdése szerint"
+          proposal_notifications: "Keresés értesítések címe vagy leírása szerint"
+          users: "Felhasználó keresése név vagy e-mail szerint"
+        search: "Keresés"
+      search_results: "Keresési eredmények"
+      no_search_results: "Nincs találat."
+      actions: Műveletek
+      title: Cím
+      description: Leírás
+      image: Kép
+      show_image: Kép megjelenítése
+      moderated_content: "Ellenőrizze a moderátorok által moderált tartalmakat, és erősítse meg, hogy a moderáció helyesen történt."
+      view: Megtekintés
+      proposal: Javaslat
+      author: Szerző
+      content: Tartalom
+      created_at: Létrehozva
+      color_help: Hexadecimális formátum
+      show_results_and_stats: "Eredmények és statisztikák megjelenítése"
+      results_and_stats_reminder: "Ezeknek a jelölőnégyzeteknek a bejelölésével az eredmények és/vagy statisztikák nyilvánosan elérhetővé válnak, és minden felhasználó látni fogja őket."
+      close_modal: Modális bezárása
+      example_url: "Például: https://consuldemocracy.org vagy /help"
+    geozones:
+      index:
+        title: Földrajzi zónák
+        create: Földrajzi zóna létrehozása
+        geojson_map: GeoJSON térkép
+        geojson_map_help: "Ha rendelkezésre állnak GeoJSON koordináták, azok megjelennek az alábbi térképen"
+      geozone:
+        name: Név
+        external_code: Külső kód
+        census_code: Cenzus kód
+        code_help: Válaszkód ehhez a földrajzi zónához a népszámlálási API-ban
+        color_help: "A zóna színe a költségvetés térképén. %{format_help}"
+        coordinates: Elérhető koordináták
+        coordinates_help: Koordináták, amelyek egy kattintható területet generálnak egy HTML képtérképen
+        geojson: Elérhető GeoJSON
+        geojson_help: "Követni kell a „Polygon” vagy „MultiPolygon” típusú formátumot; a költségvetés térképén egy ilyen adatok alapján készült polygon jelenik meg, amikor egy fejléchez társítanak egy földrajzi zónát"
+      create:
+        notice: "Földrajzi zóna sikeresen létrehozva"
+      edit:
+        form:
+          submit_button: Változtatások mentése
+        editing: Földrajzi zóna szerkesztése
+        back: Vissza
+      new:
+        back: Vissza
+        creating: Kerület létrehozása
+      delete:
+        success: Földrajzi zóna sikeresen törölve
+        error: Ez a földrajzi zóna nem törölhető, mivel hozzá van rendelve elemek
+      update:
+        notice: "Földrajzi zóna sikeresen frissítve"
+    signature_sheets:
+      author: Szerző
+      created_at: Létrehozás dátuma
+      name: Név
+      no_signature_sheets: "Nincsenek aláírási lapok"
+      index:
+        title: Aláírási lapok
+        new: Új aláírási lapok
+      new:
+        title: Új aláírási lapok
+        document_numbers_note: "Írja be a számokat pontosvesszővel (;) elválasztva"
+        submit: Aláírási lap létrehozása
+        text_help:
+          required_fields_note: "Egy felhasználó hitelesítéséhez az alkalmazásának szüksége van: Dokumentumszám"
+          date_of_birth_note: ", Születési dátum (dd/hh/éééé)"
+          postal_code_note: " és Irányítószám"
+          required_fields_structure_note: "Minden felhasználóhoz szükséges mezőket vesszővel kell elválasztani, és minden felhasználót pontosvesszővel kell elválasztani."
+          example_text: "Példa:"
+      show:
+        created_at: Létrehozva
+        author: Szerző
+        users: Felhasználók
+        signature_count: "Aláírások száma:"
+        verified:
+          one: "Van %{count} érvényes aláírás"
+          other: "Vannak %{count} érvényes aláírások"
+        unverified:
+          one: "Van %{count} érvénytelen aláírás"
+          other: "Vannak %{count} érvénytelen aláírások"
+        unverified_error: (Nem hitelesített a népszámlálással)
+        voted:
+          zero: "Nincsenek szavazatok létrehozva az érvényes aláírásokból."
+          one: "Van %{count} szavazat létrehozva az érvényes aláírásokból."
+          other: "Vannak %{count} szavazatok létrehozva az érvényes aláírásokból."
+        loading: "Még mindig vannak aláírások, amelyeket a népszámlálás ellenőriz, kérjük, frissítse az oldalt néhány pillanat múlva"
+    stats:
+      show:
+        stats_title: Statisztikák
+        summary:
+          comment_votes: Komment szavazatok
+          comments: Kommentek
+          debate_votes: Vita szavazatok
+          debates: Viták
+          proposal_votes: Javaslat szavazatok
+          proposals: Javaslatok
+          budgets: Nyílt költségvetések
+          budget_investments: Befektetési projektek
+          unverified_users: Nem hitelesített felhasználók
+          user_level_three: Háromas szintű felhasználók
+          user_level_two: Kettes szintű felhasználók
+          users: Összes felhasználók
+          verified_users: Hitelesített felhasználók
+          verified_users_who_didnt_vote_proposals: Javaslatokra nem szavazó hitelesített felhasználók
+          visits: Látogatások
+          votes: Összes szavazatok
+        budgets_title: Résztvevő költségvetés
+        participatory_budgets: Résztvevő költségvetések
+        direct_messages: Közvetlen üzenetek
+        proposal_notifications: Javaslat értesítések
+        incomplete_verifications: Hiányos hitelesítések
+        polls: Szavazások
+        sdg: Fenntartható Fejlődési Célok
+      graph:
+        debate_created: Viták
+        visit: Látogatások
+        level_2_user: Kettes szintű felhasználók
+        proposal_created: Állampolgári javaslatok
+      budgets:
+        no_data_before_balloting_phase: "Nincs adat megjelenítésre a szavazási fázis előtt."
+        title: "Résztvevő költségvetések - Részvételi statisztikák"
+        supporting_phase: Támogatási fázis
+        balloting_phase: Végső szavazás
+      budget_balloting:
+        title: "Végső szavazás statisztikák"
+        vote_count: Szavazatok
+        participant_count: Résztvevők
+        votes_per_heading: Szavazatok fejenként
+        participants_per_district: Résztvevők kerületenként
+      budget_supporting:
+        title: "Támogatási fázis statisztikák"
+        headings: Fejlécek
+        users: Felhasználók
+        vote_count: Szavazatok
+        participant_count: Résztvevők
+      direct_messages:
+        title: Közvetlen üzenetek
+        total: Összesen
+        users_who_have_sent_message: Felhasználók, akik küldtek privát üzenetet
+      proposal_notifications:
+        title: Javaslat értesítések
+        total: Összesen
+        proposals_with_notifications: Javaslatok értesítésekkel
+        not_available: "Javaslat nem elérhető"
+      polls:
+        title: Szavazási statisztikák
+        all: Szavazások
+        web_participants: Webes résztvevők
+        total_participants: Összes résztvevő
+        poll_questions: "Kérdések a szavazásban: %{poll}"
+        table:
+          poll_name: Szavazás
+          question_name: Kérdés
+          origin_web: Webes résztvevők
+          origin_total: Összes résztvevő
+      sdg:
+        budget_investments:
+          amount: "Elfogadott összeg"
+          winners: "Győztes befektetési projektek"
+          sent: "Küldött befektetési projektek"
+        debates: "Viták"
+        polls: "Szavazások"
+        proposals: "Javaslatok"
+        title: "Fenntartható Fejlődési Célok - Statisztikák"
+    tags:
+      create: Téma létrehozása
+      index:
+        add_tag: Új javaslat témakör hozzáadása
+        title: Javaslat témakörök
+        topic: Téma
+        help: "Amikor egy felhasználó javaslatot hoz létre, az alábbi témakörök javasolt alapértelmezés szerinti címkékként jelennek meg."
+    users:
+      columns:
+        id: ID
+        erase_reason: Törlés ok
+        name: Név
+        email: Email
+        document_number: Okmány szám
+        roles: Szerepek
+        verification_level: Hitelesítési szint
+        activation_status: Aktiválási állapot
+      account:
+        active_status: Felhasználói fiók aktiválva
+        inactive_status: Felhasználói fiók nem aktiválva
+      index:
+        title: Felhasználó
+        no_users: Nincsenek felhasználók.
+        filter: Szűrés
+        filters:
+          active: Aktív
+          erased: Törölt
+      search:
+        placeholder: Felhasználó keresése email, név vagy okmányszám alapján
+    verifications:
+      index:
+        phone_not_given: Telefon nem megadva
+        sms_code_not_confirmed: Nem erősítette meg az sms-kódot
+        title: Hiányos hitelesítések
+    site_customization:
+      content_blocks:
+        information: Tartalom blokkokról szóló információ
+        about: "HTML tartalom blokkokat hozhatsz létre, amelyeket a weboldalad különböző helyeire illeszthetsz be."
+        html_format: "Egy tartalom blokk egy linkcsoport, és az alábbi formátumnak kell megfelelnie:"
+        no_blocks: "Nincsenek tartalom blokkok."
+        create:
+          notice: Tartalom blokk sikeresen létrehozva
+          error: Tartalom blokk nem hozható létre
+        update:
+          notice: Tartalom blokk sikeresen frissítve
+          error: Tartalom blokk nem frissíthető
+        destroy:
+          notice: Tartalom blokk sikeresen törölve
+        edit:
+          title: Tartalom blokk szerkesztése
+        index:
+          create: Új tartalom blokk létrehozása
+          delete: Blokk törlése
+          title: Tartalom blokkok
+        new:
+          title: Új tartalom blokk létrehozása
+        content_block:
+          body: Tartalom
+          name: Név
+          names:
+            top_links: Felső linkek
+            footer: lábléc (közösségi média)
+            footer_legal: lábléc (jogi feltételek)
+            subnavigation_left: Fő navigáció balra
+            subnavigation_right: Fő navigáció jobbra
+      images:
+        index:
+          title: Egyedi képek
+          update: Frissítés
+          delete: Törlés
+          image: Kép
+        update:
+          notice: Kép sikeresen frissítve
+          error: A kép nem frissíthető
+        destroy:
+          notice: Kép sikeresen törölve
+          error: A kép nem törölhető
+      pages:
+        create:
+          notice: Oldal sikeresen létrehozva
+          error: Az oldal nem hozható létre
+        update:
+          notice: Oldal sikeresen frissítve
+          error: Az oldal nem frissíthető
+        destroy:
+          notice: Oldal sikeresen törölve
+        edit:
+          title: "%{page_title} szerkesztése"
+        form:
+          options: Beállítások
+        index:
+          create: Új oldal létrehozása
+          delete: Oldal törlése
+          title: Egyedi oldalak
+          see_page: Oldal megtekintése
+        new:
+          title: Új egyedi oldal létrehozása
+          slug_help: "Szöveg az oldal azonosításához az URL-ben, például <code>https://consuldemocracy.org/page-slug</code>"
+        page:
+          created_at: Létrehozva
+          status: Állapot
+          updated_at: Frissítve
+          title: Cím
+          slug: Azonosító
+          see_cards: Kártyák kezelése
+        cards:
+          cards_title: Kártyák
+          create_card: Kártya létrehozása
+          no_cards: Nincsenek kártyák.
+          columns_help: "A kártya szélessége oszlopok számában. Mobilképernyőn mindig 100% szélességű."
+          order_help: "Megadhatod, hogy hol jelenjen meg ez a kártya."
+          create:
+            notice: "Kártya sikeresen létrehozva!"
+          update:
+            notice: "Kártya sikeresen frissítve"
+          destroy:
+            notice: "Kártya sikeresen eltávolítva"
+    tenants:
+      create:
+        notice: Tenant sikeresen létrehozva
+      form:
+        use_subdomain: "Használj egy aldomain-t a(z) %{domain} domainen való hozzáféréshez ehhez a tenant-hez"
+        use_domain: "Használj egy másik domaint ehhez a tenant-hez való hozzáféréshez"
+      hide:
+        notice: Tenant sikeresen letiltva
+      index:
+        create: Tenant létrehozása
+        enable: "Tenant engedélyezése: %{tenant}"
+        enabled: Engedélyezve
+      new:
+        admin_information: "Amikor létrehozol egy tenant-et, a jelenlegi felhasználód <strong>\"%{username}\"</strong> az alábbi e-mail címmel <strong>\"%{email}\"</strong> és jelszavad másolódik az új tenant adatbázisába, és automatikusan adminisztrátori jogosultságokat kap. Fontos megjegyezni, hogy ezek a felhasználói fiókok teljesen külön adatbázisokban vannak tárolva, tehát ha megváltoztatod a jelszavadat egy tenant-ben, akkor más tenant-ekben a fiókod továbbra is érintetlen marad."
+        title: Új tenant
+      restore:
+        notice: Tenant sikeresen visszaállítva
+      update:
+        notice: Tenant sikeresen frissítve
+    homepage:
+      title: Főoldal
+      description: Az aktív modulok az alábbi sorrendben jelennek meg a főoldalon.
+      header_title: Fejléc
+      no_header: Nincs fejléc.
+      create_header: Fejléc létrehozása
+      cards_title: Kártyák
+      create_card: Kártya létrehozása
+      no_cards: Nincsenek kártyák.
+      feeds:
+        proposals: Javaslatok
+        debates: Viták
+        processes: Folyamatok
+      new:
+        header_title: Új fejléc
+        submit_header: Fejléc létrehozása
+        card_title: Új kártya
+        submit_card: Kártya létrehozása
+      edit:
+        header_title: Fejléc szerkesztése
+        submit_header: Fejléc mentése
+        card_title: Kártya szerkesztése
+        submit_card: Kártya mentése
+    audits:
+      title: "Változások naplója"
+      changes: "Változások listája"
+      id: "ID"
+      field: "Mező"
+      new_value: "Új érték"
+      old_value: "Régi érték"
+      edited_at: "Szerkesztve"
+      edited_by: "Szerkesztette"
+      actions: "Műveletek"
+      empty: "Nincsenek naplózott változások"
+    local_census_records:
+      index:
+        title: Helyi népszámlálás kezelése
+        create: Új helyi népszámlálási rekord létrehozása
+        no_local_census_records: Nincsenek helyi népszámlálási rekordok.
+        document_type: Dokumentum típusa
+        document_number: Dokumentum száma
+        date_of_birth: Születési dátum
+        postal_code: Irányítószám
+        import: CSV importálása
+      new:
+        creating: Új helyi népszámlálási rekord létrehozása
+      create:
+        notice: Új helyi népszámlálási rekord sikeresen létrehozva!
+      edit:
+        editing: Helyi népszámlálási rekord szerkesztése
+      update:
+        notice: Helyi népszámlálási rekord sikeresen frissítve!
+      destroy:
+        notice: Helyi népszámlálási rekord sikeresen eltávolítva!
+      imports:
+        new:
+          title: Helyi népszámlálási rekordok
+          subtitle: CSV fájl importálása
+        create:
+          notice: Helyi népszámlálási rekordok importálási folyamata sikeresen végrehajtva!
+        show:
+          title: Helyi népszámlálás kezelése
+          subtitle: Importálási folyamat eredményei
+          import: Importálás újra
+          errored: Hibás sorok
+          created: Létrehozott rekordok
+        local_census_records:
+          no_records_found: Nem található rekord.
+    machine_learning:
+      cancel: "Művelet megszakítása"
+      cancel_alert: "Ez a művelet megszakítja az aktuális szkriptet, és újra kell futtatni a szkriptet."
+      comments_summary: "Megjegyzések összefoglalása"
+      comments_summary_description: "Az összes megjegyzésre alkalmazott automatikusan generált összefoglaló megjelenítése."
+      data_folder_content: "Adatmappa tartalma"
+      error: "Hiba:"
+      execute_script: "Szkript végrehajtása"
+      executed_by: "Végrehajtotta:"
+      executed_script: "Végrehajtott szkript:"
+      feature_disabled: "Ez a funkció le van tiltva. A gépi tanulás használatához engedélyezheted azt a %{link}-en keresztül."
+      feature_disabled_link: "beállítások oldalon"
+      help:
+        title_1: "Mi az AI / Gépi Tanulás?"
+        description_1: "Hagyományosan a számítógépes programokat úgy tervezik, hogy pontos szabályokat állítsanak fel arról, hogy mit kell csinálnia a programnak minden helyzetben, és hogyan kell feldolgozni az adott pillanatban rendelkezésre álló információkat. Ami általában ismert az AI / Gépi Tanulásnak, az egy olyan programtípus, amelynek az van pontosan meghatározva, hogy mit kell elvégeznie, és hogyan lehet értékelni, hogy a feladatot jobban vagy rosszabbul végezték-e el. De ellentétben az előbbivel, a rendszer felfedezi vagy megtanulja, mi lenne a legmegfelelőbb módszer a feladat végrehajtására."
+        title_2: "Mit tesz lehetővé az AI / Gépi Tanulás modul a CONSUL DEMOCRACY-ben?"
+        description_2: "Ez a modul lehetővé teszi bármilyen típusú AI / Gépi Tanulás program implementálását a CONSUL DEMOCRACY-ben. A programok feldolgozhatják a CONSUL DEMOCRACY-ben elérhető információkat, és eredményeket állíthatnak elő, amelyek segítenek mind a felhasználóknak, mind az adminisztrátoroknak hatékonyabb és intelligensebb polgári részvételt végrehajtani. A modul olyan kialakítású, hogy könnyen lehet új programokat implementálni és futtatni, miközben a CONSUL DEMOCRACY általános kódja és ezeknek az új programoknak a kódja egymástól függetlenül marad."
+        title_3: "Hogyan használjuk ezt a modult"
+        description_3: "Az első használathoz szükséges a CONSUL DEMOCRACY dokumentációjában elérhető utasítások követése a modul megfelelő aktiválásához. Miután a modul helyesen aktiválva lett, a programok a „Szkriptek végrehajtása” fül alatt futnak. A végrehajtás előtt megtekinthetjük ugyanabban a fülben a végrehajtási idő becslését és más releváns információkat. A végrehajtás végén aktiválhatjuk a tartalmat, amelyet a CONSUL DEMOCRACY-ben meg fogunk jeleníteni a „Beállítások” fül alatt, valamint letölthetjük az egyéb generált fájlokat, amelyek hasznosak lehetnek számunkra."
+        title_4: "Hogyan implementálhatunk új AI / Gépi Tanulás szkripteket"
+        description_4: "Kérjük, használja az előző szkripteket mintaként."
+        description_4b: "Az új szkripteket a <code>public/machine_learning/scripts</code> mappában kell elhelyezni."
+        description_4c: "A szkript által használt bemeneti adatok JSON fájlokban lesznek létrehozva a <code>../data</code> mappában."
+        description_4d: "Az összes létrehozott kimenetet a <code>../data</code> mappában kell elhelyezni."
+        description_4e: "Ajánlott létrehozni egy független <code>.ini</code> szövegfájlt a szkript beállításaival, ugyanazzal a névvel, mint a szkript, és olvashatóvá tenni azt a configparserrel. Ez a fájl megkönnyíti az adminisztrátorok számára a beállítások módosítását."
+        description_4f: "Ajánlott az első sorba az inicializáló háromjelű karakterláncot beilleszteni némi rövid információval a szkriptről és linkekkel a releváns információkhoz. Ez a karakterlánc automatikusan megjelenik az Adminisztrációs felületen."
+        description_4g: "Ajánlott a szkript releváns információit egy <code>.log</code> szövegfájlba naplózni, ugyanazzal a névvel a szkripttel egyező nevű fájlban."
+        title_5: "Az AI / Gépi Tanulás szkriptek használatához szükség van Python telepítésére a szerveren"
+        description_5: "Itt láthatja az Ubuntu 18.04 szerver példa utasításait:"
+      help_text: "Ez a funkcionalitás kísérleti jellegű."
+      last_execution: "Utolsó végrehajtás"
+      no_content: "Még nem generált tartalom."
+      notice:
+        success: "Az utolsó szkript sikeresen lefutott."
+        error: "Hiba történt. A részleteket lentebb láthatja."
+        working: "A szkript fut. Az adminisztrátor, aki elindította, e-mailt kap, amikor befejeződik."
+        delete_generated_content: "A generált tartalom sikeresen törölve lett."
+      output_files: "Kimeneti fájlok:"
+      related_content: "Kapcsolódó tartalom"
+      related_content_description: "Automatikusan generált kapcsolódó tartalom hozzáadása javaslatokhoz és részvételi költségvetési projektekhez."
+      script_info: "E-mailt fog kapni a(z) %{email} címen, amikor a szkript befejeződik."
+      script_name: "Szkript neve:"
+      select_script: "Válasszon ki egy Python szkriptet a végrehajtáshoz"
+      started_at: "Indítva:"
+      tab_help: "Súgó"
+      tab_scripts: "Szkript végrehajtása"
+      tab_settings: "Beállítások / Generált tartalom"
+      tags: "Címkék"
+      tags_description: "Automatikusan generált címkék hozzáadása az összes olyan elemhez, amelyet címkézni lehet."
+      title: "AI / Gépi tanulás"
+
+

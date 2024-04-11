@@ -1,1 +1,39 @@
 hu:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} sikeresen létrehozva."
+        debate: "Vita sikeresen létrehozva."
+        direct_message: "Az üzenet sikeresen elküldve."
+        poll: "Szavazás sikeresen létrehozva."
+        poll_booth: "Fülke sikeresen létrehozva."
+        poll_question_answer: "Válasz sikeresen létrehozva."
+        poll_question_answer_video: "Videó sikeresen feltöltve."
+        poll_question_answer_image: "Kép sikeresen feltöltve."
+        proposal: "Javaslat sikeresen létrehozva."
+        proposal_notification: "Az üzenet sikeresen elküldve."
+        budget_investment: "Költségvetési befektetés sikeresen létrehozva."
+        signature_sheet: "Aláírási lap sikeresen létrehozva."
+        support: "Befektetés sikeresen támogatva."
+        topic: "Téma sikeresen létrehozva."
+        valuator_group: "Értékelő csoport sikeresen létrehozva."
+        vote: "Szavazat sikeresen létrehozva."
+      save_changes:
+        notice: Változások mentve
+      update:
+        notice: "%{resource_name} sikeresen frissítve."
+        debate: "Vita sikeresen frissítve."
+        poll: "Szavazás sikeresen frissítve."
+        poll_booth: "Fülke sikeresen frissítve."
+        active_poll: "Szavazások leírása sikeresen frissítve."
+        proposal: "Javaslat sikeresen frissítve."
+        budget_investment: "Befektetési projekt sikeresen frissítve."
+        topic: "Téma sikeresen frissítve."
+        valuator_group: "Értékelő csoport sikeresen frissítve."
+        translation: "Fordítás sikeresen frissítve."
+      destroy:
+        budget_investment: "Befektetési projekt sikeresen törölve."
+        topic: "Téma sikeresen törölve."
+        poll_question_answer_video: "Válaszvideó sikeresen törölve."
+        valuator_group: "Értékelő csoport sikeresen törölve."
+        vote: "Szavazat sikeresen törölve."

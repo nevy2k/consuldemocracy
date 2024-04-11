@@ -1,1 +1,65 @@
 hu:
+  devise:
+    password_expired:
+      expire_password: "Jelszó lejárt"
+      change_required: "A jelszava lejárt"
+      change_password: "Jelszó megváltoztatása"
+      new_password: "Új jelszó"
+      updated: "Jelszó sikeresen frissítve"
+    confirmations:
+      confirmed: "Fiókja megerősítésre került."
+      send_instructions: "Pár percen belül e-mailt fog kapni az e-mail címének megerősítésének módjával kapcsolatos utasításokkal."
+      send_paranoid_instructions: "Ha az e-mail címe megtalálható az adatbázisunkban, pár percen belül e-mailt fog kapni az e-mail címének megerősítésének módjával kapcsolatos utasításokkal."
+    failure:
+      already_authenticated: "Már bejelentkezett."
+      inactive: "Fiókja még nem lett aktiválva."
+      invalid: "Érvénytelen %{authentication_keys} vagy jelszó."
+      locked: "Fiókja zárolva lett."
+      last_attempt: "Még egy próbálkozási lehetősége van a fiókja zárolása előtt."
+      not_found_in_database: "Érvénytelen %{authentication_keys} vagy jelszó."
+      timeout: "A munkamenete lejárt. Kérem, jelentkezzen be újra folytatáshoz."
+      unauthenticated: "Be kell jelentkeznie vagy regisztrálnia a folytatáshoz."
+      unconfirmed: "Folytatáshoz kattintson a megküldött e-mailben található megerősítő hivatkozásra."
+    mailer:
+      confirmation_instructions:
+        subject: "Megerősítő utasítások"
+      reset_password_instructions:
+        subject: "Jelszó újraállítási utasítások"
+      unlock_instructions:
+        subject: "Feloldási utasítások"
+    omniauth_callbacks:
+      failure: "Nem sikerült azonosítani mint %{kind} mert \"%{reason}\"."
+      success: "Sikeresen beazonosítva mint %{kind}."
+    passwords:
+      no_token: "Ezen az oldalon keresztül csak egy jelszó visszaállítási hivatkozáson keresztül férhet hozzá. Ha jelszó visszaállítási hivatkozáson keresztül lépett ide, kérjük, ellenőrizze, hogy a URL teljes."
+      send_instructions: "Néhány percen belül kapni fog egy e-mailt a jelszó visszaállításával kapcsolatos utasításokkal."
+      send_paranoid_instructions: "Ha az e-mail címe az adatbázisunkban van, néhány percen belül kapni fog egy hivatkozást a jelszó visszaállításához."
+      updated: "A jelszava sikeresen megváltoztatva. Hitelesítés sikeres."
+      updated_not_active: "A jelszava sikeresen megváltoztatva."
+    registrations:
+      destroyed: "Viszlát! A fiókja törölve lett. Reméljük, hamarosan újra láthatjuk Önt."
+      signed_up: "Üdvözöljük! Sikeresen hitelesítettük Önt."
+      signed_up_but_inactive: "A regisztráció sikeres volt, de nem tudtuk bejelentkeztetni, mert a fiókja még nem lett aktiválva."
+      signed_up_but_locked: "A regisztráció sikeres volt, de nem tudtuk bejelentkeztetni, mert a fiókja zárolva lett."
+      signed_up_but_unconfirmed: "Elküldtünk Önnek egy üzenetet egy megerősítő hivatkozással. Kérjük, kattintson erre a linkre az Ön fiókjának aktiválásához."
+      update_needs_confirmation: "A fiókja sikeresen frissítve lett; azonban szükségünk van az új e-mail címének megerősítésére. Kérem, ellenőrizze az e-mailjét, és kattintson a linkre az új e-mail címének megerősítéséhez."
+      updated: "A fiókja sikeresen frissítve lett."
+    sessions:
+      signed_in: "Sikeresen bejelentkezett."
+      signed_out: "Sikeresen kijelentkezett."
+      already_signed_out: "Sikeresen kijelentkezett."
+    unlocks:
+      send_instructions: "Néhány percen belül kapni fog egy e-mailt az fiók feloldásával kapcsolatos utasításokkal."
+      send_paranoid_instructions: "Ha van fiókja, néhány percen belül kapni fog egy e-mailt az fiók feloldásával kapcsolatos utasításokkal."
+      unlocked: "A fiókja fel lett oldva. Kérem, jelentkezzen be folytatáshoz."
+  errors:
+    messages:
+      already_confirmed: "Már megerősítették; kérjük, próbálja meg bejelentkezni."
+      confirmation_period_expired: "Megerősítését %{period} időn belül kell elvégezni; kérjük, kérjen újabb megerősítést."
+      expired: "lejárt; kérjük, kérjen újabb megerősítést."
+      not_found: "nem található."
+      not_locked: "nincs zárolva."
+      not_saved:
+        one: "Egy hiba miatt ez a(z) %{resource} nem lett mentve. Kérjük, ellenőrizze a megjelölt mezőket a hibák kijavításához:"
+        other: "Több hiba miatt ez a(z) %{resource} nem lett mentve. Kérjük, ellenőrizze a megjelölt mezőket a hibák kijavításához:"
+      equal_to_current_password: "különböznie kell a jelenlegi jelszótól."
