@@ -1,4 +1,6 @@
 hu:
+  custom:
+    notice_new_prop: Jelenleg nem lehet létrehozni új kezdeményezést!
   verification:
     alert:
       lock: Elérted a maximális próbálkozások számát. Kérlek, próbáld újra később.

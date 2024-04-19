@@ -69,7 +69,7 @@
       <%= render "shared/order_links", i18n_namespace: "proposals.index" %>
     <% end %>
 
-    <% if @proposals.any? %>
+    <% if @proposals.any? && Setting.where(key: 'feature.start_proposals', value: 'active').any? %>
       <div class="show-for-small-only">
         <%= link_to t("proposals.index.start_proposal"),
                     new_proposal_path,
@@ -104,10 +104,13 @@
 
   <div class="small-12 medium-3 column">
     <aside class="margin-bottom">
+      <% if Setting.where(key: 'feature.start_proposals', value: 'active').any? %>
       <%= link_to t("proposals.index.start_proposal"),
                   new_proposal_path,
                   class: "button expanded" %>
-
+      <% else %>
+        <p style='color: orange;'> <strong>Még nem lehet kezdeményezést létrehozni </strong></p>
+      <% end %>
       <div class="sidebar-divider"></div>
       <h2 class="sidebar-title"><%= t("proposals.index.selected_proposals") %></h2>
       <br>

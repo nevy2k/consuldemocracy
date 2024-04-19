@@ -1,6 +1,7 @@
 class Admin::Settings::FeaturesTabComponent < ApplicationComponent
   def settings
     %w[
+      feature.start_proposals
       feature.featured_proposals
       feature.facebook_login
       feature.google_login

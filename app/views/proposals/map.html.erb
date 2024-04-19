@@ -42,8 +42,11 @@
 
   <div class="small-12 medium-3 column">
     <aside class="sidebar">
+      <% if Setting.where(key: 'feature.start_proposals', value: 'active').any? %>
       <%= link_to t("map.start_proposal"),
                   new_proposal_path, class: "button radius expand" %>
+      <% end %>
+
       <%= render "shared/tag_cloud", taggable: "Proposal" %>
     </aside>
   </div>

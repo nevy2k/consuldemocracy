@@ -10,7 +10,6 @@ class ApplicationController < ActionController::Base
   default_form_builder ConsulFormBuilder
 
   before_action :authenticate_http_basic, if: :http_basic_auth_site?
-
   before_action :ensure_signup_complete
   around_action :switch_locale
   before_action :track_email_campaign
@@ -22,6 +21,8 @@ class ApplicationController < ActionController::Base
   layout :set_layout
   respond_to :html
   helper_method :current_budget
+
+
 
   private
 

@@ -12,6 +12,7 @@ class ProposalsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show, :map, :summary]
   before_action :set_view, only: :index
   before_action :proposals_recommendations, only: :index, if: :current_user
+  before_action :initialize_prop_setting
 
   feature_flag :proposals
 
@@ -25,6 +26,16 @@ class ProposalsController < ApplicationController
 
   helper_method :resource_model, :resource_name
   respond_to :html, :js
+
+  def initialize_prop_setting
+    Setting.where(key: 'feature.start_proposals', value: 'active').exists?
+  end
+
+  def new
+    if !initialize_prop_setting
+      redirect_to root_path, notice: I18n.t('custom.notice_new_prop')
+    end
+  end
 
   def show
     super

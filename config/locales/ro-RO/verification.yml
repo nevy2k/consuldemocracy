@@ -1,4 +1,6 @@
 ro:
+  custom:
+    notice_new_prop: Momentan nu se poate crea o nouă propunere!
   verification:
     alert:
       lock: Ați atins numărul maxim de încercări. Vă rugăm încercați mai târziu.

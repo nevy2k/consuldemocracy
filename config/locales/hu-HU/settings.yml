@@ -83,6 +83,8 @@ hu:
     direct_message_max_per_day: "Napi maximális közvetlen üzenetek száma"
     direct_message_max_per_day_description: "Egy felhasználó naponta elküldhető közvetlen üzeneteinek maximális száma"
     feature:
+      start_proposals: 'Kezdeményezések elindítása'
+      start_proposals_description: 'Itt lehet ki-be kapcsolni a lehetőséget a felhasználóknak hogy létrehozzanak kezdeményezéseket'
       twitter_login: "Twitter bejelentkezés"
       twitter_login_description: "Lehetővé teszi a felhasználók számára, hogy Twitter fiókjukkal regisztráljanak"
       facebook_login: "Facebook bejelentkezés"
