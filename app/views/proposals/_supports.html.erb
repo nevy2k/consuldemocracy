@@ -13,4 +13,7 @@
             number: number_with_delimiter(Proposal.votes_needed_for_success)) %>
     </abbr>
   </span>
+  <% if current_user && current_user.voted_for?(proposal) %>
+    <%= button_to I18n.t('proposals.custom_btn.remove_support'), unvote_proposal_path(proposal), class: 'button hollow alert', style: 'font-size: 15px;'%>
+  <% end %>
 </span>

@@ -8,10 +8,12 @@ module Legislation
                                              id_param: "legislation_proposal_id"
       load_and_authorize_resource through: :proposal, through_association: :votes_for, only: :destroy
 
+    
+
       def create
         authorize! :create, Vote.new(voter: current_user, votable: @proposal)
         @proposal.vote_by(voter: current_user, vote: params[:value])
-
+        byebug
         respond_to do |format|
           format.html { redirect_to request.referer, notice: I18n.t("flash.actions.create.vote") }
           format.js { render :show }

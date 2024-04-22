@@ -33,6 +33,7 @@ resources :proposals do
   end
 
   member do
+    post :unvote
     post :vote
     put :flag
     put :unflag

@@ -279,6 +279,11 @@ hu:
       sign_up: "Regisztráció ezzel:"
     or_fill: "Vagy töltsd ki az alábbi űrlapot:"
   proposals:
+    custom_btn:
+      remove_support: Szavazat visszavonása
+    alert:
+      unvote_text: Sikeresen visszavontad a szavazatod!
+      max_vote_text: "Már szavaztál %{max} kezdeményezésre"
     create:
       form:
         submit_button: Javaslat létrehozása

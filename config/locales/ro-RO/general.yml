@@ -282,6 +282,11 @@ ro:
       sign_up: "Înregistrează-te cu:"
     or_fill: "Sau completați următorul formular:"
   proposals:
+    custom_btn:
+      remove_support: Retrageți votul
+    alert:
+      unvote_text: Votul dvs. a fost retras cu succes!
+      max_vote_text: "Ați votat deja pentru %{max} propuneri"
     create:
       form:
         submit_button: Crează propunere
