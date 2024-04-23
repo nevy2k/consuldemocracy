@@ -1,4 +1,7 @@
 hu:
+  custom_form_fields_for_ui:
+    one_time_hint: Ha a kezdeményezés 1 napot vesz igénybe kérem csak a Kezdeményezés indulási időponton jelölje ki hánytól kezdődig, és melyik nap
+    one_time_event: Kezdeményezés időpontja (1 napos)
   sdg_management:
     actions:
       edit: "Célok és célpontok kezelése"

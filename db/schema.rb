@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_10_12_141318) do
+ActiveRecord::Schema.define(version: 2024_04_23_064702) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
@@ -1314,6 +1314,9 @@ ActiveRecord::Schema.define(version: 2023_10_12_141318) do
     t.integer "community_id"
     t.datetime "published_at"
     t.boolean "selected", default: false
+    t.datetime "starts_at"
+    t.datetime "ends_at"
+    t.string "location"
     t.index ["author_id", "hidden_at"], name: "index_proposals_on_author_id_and_hidden_at"
     t.index ["author_id"], name: "index_proposals_on_author_id"
     t.index ["cached_votes_up"], name: "index_proposals_on_cached_votes_up"

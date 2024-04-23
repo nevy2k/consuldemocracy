@@ -26,6 +26,21 @@
                                         class: "html-area" %>
       </div>
     <% end %>
+  <div class="row">
+    <div class="clear">
+      <br>
+      <div class="small-12 medium-12 column">
+        <legend><%= t('custom_form_fields_for_ui.one_time_hint') %></legend>
+      </div>
+      <div class="small-12 medium-6 column">
+        <%= f.datetime_field :starts_at, placeholder: t('sdg_managment.custom_form_fields.starts_at')%>
+      </div>
+
+      <div class="small-12 medium-6 column">
+        <%= f.datetime_field :ends_at, placeholder: t('sdg_managment.custom_form_fields.ends_at') %>
+      </div>
+    </div>
+  </div>
   </fieldset>
 
   <%= f.invisible_captcha :subtitle %>
@@ -51,7 +66,9 @@
                      include_blank: t("geozones.none") %>
       </div>
     <% end %>
-
+    <div>
+      <%= f.text_field :location%>
+    </div>
     <% if feature?(:map) %>
       <div>
         <%= render "map_locations/form_fields",
@@ -90,7 +107,6 @@
       </div>
     <% end %>
 
-    <%= render SDG::RelatedListSelectorComponent.new(f) %>
   </fieldset>
 
   <div class="actions">

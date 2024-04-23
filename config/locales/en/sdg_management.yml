@@ -1,4 +1,7 @@
 en:
+  custom_form_fields_for_ui:
+    one_time_hint: Dacă inițiativa durează 1 zi, vă rugăm să specificați doar intervalul de timp pentru Timpul de începere a inițiativei și ziua
+    one_time_event: Data inițiativei (pe o singură zi)
   sdg_management:
     actions:
       edit: "Manage goals and targets"

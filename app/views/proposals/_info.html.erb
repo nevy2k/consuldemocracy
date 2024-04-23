@@ -27,6 +27,11 @@
     <strong><%= @proposal.code %></strong>
   </p>
 <% end %>
+<% if @proposal.ends_at.nil? %>
+  <p> <%= t('custom_form_fields_for_ui.one_time_event') %> 
+      <strong> <%= @proposal.starts_at.strftime('%d/%m/%Y %H:%M') %></strong>
+  </p>
+<% end %>
 
 <blockquote><%= @proposal.summary %></blockquote>
 
@@ -39,7 +44,7 @@
 <% end %>
 
 <%= auto_link_already_sanitized_html wysiwyg(@proposal.description) %>
-
+<blockquote><%= t('activerecord.attributes.proposal.location')%> - <strong><%= @proposal.location%></strong></blockquote>
 <% if feature?(:map) && map_location_available?(@proposal.map_location) %>
   <div class="margin">
     <%= render_map(@proposal.map_location) %>
