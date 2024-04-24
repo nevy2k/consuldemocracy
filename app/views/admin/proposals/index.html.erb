@@ -16,6 +16,7 @@
         <th><%= Proposal.human_attribute_name(:title) %></th>
         <th><%= t("admin.proposals.index.author") %></th>
         <th><%= t("admin.proposals.index.milestones") %></th>
+        <th><%= t("admin.proposals.index.status") %></th>
         <th><%= t("admin.proposals.index.selected") %></th>
       </tr>
     </thead>
@@ -26,7 +27,14 @@
           <td class="text-center"><%= proposal.id %></td>
           <td><%= link_to proposal.title, admin_proposal_path(proposal) %></td>
           <td><%= proposal.author.username %></td>
-          <td><%= proposal.milestones.count %></td>
+          <td ><%= proposal.milestones.count %></td>
+          <% if proposal.reviewed_true? %>
+            <td style="color: green;"> <%= t('admin.proposals.index.verificat') %> </td>
+          <% elsif proposal.reviewed_false?%>
+            <td style="color: red;"> <%= t('admin.proposals.index.verificat_false') %> </td>
+          <% else %>
+            <td style="color: red;">Elutasítva</td>
+          <% end %>
           <td class="js-select"><%= render "select_proposal", proposal: proposal %></td>
         </tr>
       <% end %>

@@ -1317,6 +1317,7 @@ ActiveRecord::Schema.define(version: 2024_04_23_064702) do
     t.datetime "starts_at"
     t.datetime "ends_at"
     t.string "location"
+    t.integer "status", default: 0
     t.index ["author_id", "hidden_at"], name: "index_proposals_on_author_id_and_hidden_at"
     t.index ["author_id"], name: "index_proposals_on_author_id"
     t.index ["cached_votes_up"], name: "index_proposals_on_cached_votes_up"

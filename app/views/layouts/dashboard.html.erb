@@ -30,7 +30,6 @@
       <main id="main" class="admin-content <%= yield(:main_class) %>">
         <%= label_tag :show_menu, t("admin.menu.admin"),
                       "aria-hidden": true, class: "button hollow expanded" %>
-
         <%= render "layouts/flash" %>
         <%= render "layouts/dashboard/proposal_totals" %>
         <%= render "layouts/dashboard/proposal_header" %>

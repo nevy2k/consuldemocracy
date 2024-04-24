@@ -2,9 +2,7 @@
   <div id="<%= dom_id(@proposal) %>" class="row">
     <div class="small-12 column">
       <h2><%= t("proposals.created.title") %></h2>
-
-      <p><%= t("proposals.created.motivation") %></p>
-      <p><%= sanitize(t("proposals.created.motivation_2")) %></p>
+      <p><%= t('proposals.created.motivation') %></p>
 
       <% if can?(:dashboard, @proposal) %>
         <%= link_to t("proposals.created.dashboard"),

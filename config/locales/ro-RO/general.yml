@@ -291,12 +291,11 @@ ro:
       form:
         submit_button: Crează propunere
     created:
-      title: Felicitări! Ați făcut primul pas.
-      motivation: "Este important să pregătiți campania de lansare pentru ca propunerea dvs. să aibă succes. Primele zile sunt decisive."
-      motivation_2: "<strong> Dacă doriți recomandări pentru a pregăti publicarea, lăsați propunerea ca o schiță de proiect și vă vom îndruma. </strong>"
-      publish: Nu, vreau să public propunerea
-      dashboard: Da, vreau ajutor și o voi publica mai târziu
-      preview_title: Propunerea dumneavoastră va arăta astfel după ce o veți publica
+      title: Felicitări, ai făcut primul pas!
+      motivation: "Inițiativa ta va trece printr-o verificare tehnică și te vom notifica."
+      publish: Nu, voi publica propunerea
+      dashboard: "Acces la panoul de control"
+      preview_title: Așa va arăta inițiativa ta când administratorii o acceptă!
     share:
       improve_it: Îmbunătățiți-vă campania și veți primi mai mult suport.
       dashboard: Vezi mai multe informații

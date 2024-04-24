@@ -1291,6 +1291,9 @@ hu:
         selected: Kiválasztott
         milestones: Mérföldkövek
         no_proposals: Nincsenek javaslatok.
+        status: Státusz
+        verificat: Ellenőrizve 
+        verificat_false: Nincs Ellenőrizve
       show:
         create_question: Add ezt a javaslatot egy szavazáshoz
       form:

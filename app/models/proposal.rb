@@ -94,6 +94,12 @@ class Proposal < ApplicationRecord
   scope :not_supported_by_user, ->(user) { where.not(id: user.find_voted_items(votable_type: "Proposal")) }
   scope :created_by,            ->(author) { where(author: author) }
 
+  enum status: {
+    reviewed_false: 0,
+    reviewed_true: 1,
+    reviewed_decline: 2
+  }
+
   def publish
     update!(published_at: Time.current)
     send_new_actions_notification_on_published

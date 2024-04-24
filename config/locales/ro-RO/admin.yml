@@ -1225,6 +1225,9 @@ ro:
         selected: Selectat
         milestones: Repere
         no_proposals: Nu există propuneri.
+        status: Stare
+        verificat: Verificate
+        verificat_false: Neverificat
       show:
         create_question: Adaugă această propunere într-un sondaj pentru a fi votată
       form:

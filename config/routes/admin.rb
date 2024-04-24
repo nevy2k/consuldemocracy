@@ -32,7 +32,9 @@ namespace :admin do
   resources :debates, only: [:index, :show]
 
   resources :proposals, only: [:index, :show, :update] do
-    member { patch :toggle_selection }
+    get :accept_proposal
+    get :decline_proposal
+    member { patch :toggle_selection}
     resources :milestones, controller: "proposal_milestones"
     resources :progress_bars, except: :show, controller: "proposal_progress_bars"
   end

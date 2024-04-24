@@ -11,6 +11,22 @@ class Admin::ProposalsController < Admin::BaseController
   def show
   end
 
+  def accept_proposal
+    if @proposal.update(status: 1)
+      redirect_to admin_proposals_path, notice: "Elfogadtad #{@proposal.title} kezdeményezést"
+    else
+      redirect_to admin_proposals_path, notice: "Sikertelen volt a kezdeményezés elfogadása"
+    end
+  end
+
+  def decline_proposal
+    if @proposal.update(status: 2)
+      redirect_to admin_proposals_path, alert: "#{@proposal.title} kezdeményezés elutasítva"
+    else
+      redirect_to admin_proposals_path, notice: "Hiba történt #{@proposal.title} kezdeményezés elutasítása során"
+    end
+  end
+
   def update
     if @proposal.update(proposal_params)
       redirect_to admin_proposal_path(@proposal), notice: t("admin.proposals.update.notice")
@@ -31,7 +47,7 @@ class Admin::ProposalsController < Admin::BaseController
     end
 
     def load_proposal
-      @proposal = Proposal.find(params[:id])
+      @proposal = Proposal.find(params[:id] || params[:proposal_id])
     end
 
     def proposal_params

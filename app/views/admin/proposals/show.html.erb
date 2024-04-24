@@ -4,25 +4,20 @@
 
 <div class="proposal-show">
   <h2 class="inline-block"><%= @proposal.title %></h2>
-
-  <% if @proposal.successful? %>
-    <div class="callout success">
-      <%= t("proposals.proposal.successful") %>
-
+    <% if @proposal.reviewed_false? %>
       <div class="float-right">
-        <%= link_to t("admin.proposals.show.create_question"),
-                    new_admin_question_path(proposal_id: @proposal.id),
-                    class: "button medium" %>
+        <%= link_to 'Elutasitas', 
+                admin_proposal_decline_proposal_path(proposal_id: @proposal.id),
+                class: 'button hollow medium', style: "color: red;"
+                %>
       </div>
-    </div>
-  <% else %>
-    <div class="float-right">
-      <%= link_to t("admin.proposals.show.create_question"),
-                  new_admin_question_path(proposal_id: @proposal.id),
-                  class: "button hollow medium" %>
-    </div>
-  <% end %>
-
+      <div class="float-right" style="margin-right: 10px;">
+        <%= link_to 'Elfogadas', 
+                    admin_proposal_accept_proposal_path(proposal_id: @proposal.id),
+                    class: 'button hollow medium', style: "color: green;"
+                    %>
+      </div>
+    <% end %>
   <%= render "proposals/info", proposal: @proposal %>
 </div>
 

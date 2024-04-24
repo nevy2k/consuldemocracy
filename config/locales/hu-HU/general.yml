@@ -288,12 +288,11 @@ hu:
       form:
         submit_button: Javaslat létrehozása
     created:
-      title: Gratulálunk! Első lépést tetted.
-      motivation: "Fontos felkészülni a javaslatod sikeres kampányára. Az első néhány nap döntő jelentőségű."
-      motivation_2: "<strong>Ha szeretnél ajánlásokat kapni a közzététel előkészítéséhez, hagyd a javaslatod vázlatként, és mi irányítani fogunk.</strong>"
+      title: Gratulálunk, az első lépést megtetted!
+      motivation: "A kezdeményezésed át esik egy technikai ellenőrzésen és értesíteni fogunk."
       publish: Nem, közzéteszem a javaslatot
-      dashboard: Igen, segítséget kérek, majd később közzéteszem
-      preview_title: Így fog kinézni a javaslatod, amikor közzéteszed
+      dashboard: "Irány a vezérlőpult"
+      preview_title: Így fog kinézni a kezdeményezésed amikor az adminisztrátorok elfogadják!
     share:
       improve_it: Fejleszd a kampányodat és szerezz több támogatást.
       dashboard: További információk megtekintése
