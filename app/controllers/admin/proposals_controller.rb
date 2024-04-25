@@ -6,9 +6,18 @@ class Admin::ProposalsController < Admin::BaseController
 
   has_orders %w[created_at]
 
-  before_action :load_proposal, except: :index
+  before_action :load_proposal, except: [:index,:publish_accepted_proposals]
 
   def show
+  end
+
+  def publish_accepted_proposals
+    proposal_ids = params[:proposal_ids]
+    @proposals = Proposal.where(id: proposal_ids, status: 1)
+    @proposals.each do |accepted_proposal|
+      accepted_proposal.publish
+    end
+    redirect_to admin_proposals_path, notice: "Sikeresen publikáltad az elfogadott kezdeményezéseket"
   end
 
   def accept_proposal

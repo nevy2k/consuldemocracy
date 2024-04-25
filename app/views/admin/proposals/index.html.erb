@@ -8,7 +8,11 @@
   <%= render Admin::SearchComponent.new(label: t("admin.shared.search.label.proposals")) %>
 
   <h3><%= page_entries_info @proposals %></h3>
-
+  <h3>
+    <%= link_to 'Kezdeményezések szavazásra bocsájtása',
+                publish_accepted_proposals_admin_proposals_path(proposal_ids: @proposals.map(&:id)),
+                class: 'button hollow medium' %>
+  </h3>
   <table>
     <thead>
       <tr>

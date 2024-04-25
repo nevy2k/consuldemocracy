@@ -37,6 +37,9 @@ namespace :admin do
     member { patch :toggle_selection}
     resources :milestones, controller: "proposal_milestones"
     resources :progress_bars, except: :show, controller: "proposal_progress_bars"
+    collection do
+      get :publish_accepted_proposals
+    end
   end
 
   resources :hidden_proposals, only: :index do
