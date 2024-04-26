@@ -37,8 +37,9 @@
 
 <div class="row">
   <div id="proposals" class="proposals-list small-12 medium-9 column">
-    <p style="color: orange;"><%= current_user.find_voted_items(votable_type: 'Proposal').count%> / 10 <%= t('custom_form_fields_for_ui.r_votes') %></p>
-
+    <div id="total_votes">
+      <%= render partial: 'proposals/remaining_votes'%>
+    </div>
     <%= render Shared::BannerComponent.new("proposals") %>
 
     <% if show_featured_proposals? %>

@@ -22,6 +22,8 @@ hu:
     proposal_code_prefix_description: "Ez a prefix megjelenik a javaslatokban a létrehozás dátuma és azonosítója előtt"
     featured_proposals_number: "Kiemelt javaslatok száma"
     featured_proposals_number_description: "Ha a Kiemelt javaslatok funkció aktív, ez a szám határozza meg a megjelenített kiemelt javaslatok számát"
+    set_max_vote_for_user: 'Maximum szavazat/felhasználó'
+    set_max_vote_for_user_description: 'Itt megadhatja a maximális szavazti számot amelyet 1 felhasználó el tud használni kezdeményezések támogatására'
     votes_for_proposal_success: "Szavazatok száma a javaslat elfogadásához"
     votes_for_proposal_success_description: "Amikor egy javaslat eléri ezt a szavazatszámot, nem fog tudni több szavazatot kapni, és sikeresnek tekintik"
     months_to_archive_proposals: "Hónapok száma a javaslatok archiválásához"

@@ -68,9 +68,9 @@ class ProposalsController < ApplicationController
   end
 
   def vote
-    max = 2
-    if current_user.find_voted_items(votable_type: 'Proposal').count == max
-      redirect_to root_path, alert: I18n.t('proposals.alert.max_vote_text', max: max)
+    max = Setting.find_by(key: 'set_max_vote_for_user').value.to_i
+    if current_user.find_voted_items(votable_type: 'Proposal').compact.count == max
+      redirect_to proposals_path, alert: I18n.t('proposals.alert.max_vote_text', max: max)
     else
       @follow = Follow.find_or_create_by!(user: current_user, followable: @proposal)
       @proposal.register_vote(current_user, "yes")
@@ -79,9 +79,8 @@ class ProposalsController < ApplicationController
 
   def unvote
     # implement hotwire turbo later
-    if @proposal.unvote_by(current_user)
-      redirect_to proposals_path, notice: I18n.t('proposals.alert.unvote_text')
-    end
+    @proposal.unvote_by(current_user)
+    # redirect_to proposals_path, notice: I18n.t('proposals.alert.unvote_text')
   end
 
   def retire

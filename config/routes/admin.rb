@@ -39,6 +39,7 @@ namespace :admin do
     resources :progress_bars, except: :show, controller: "proposal_progress_bars"
     collection do
       get :publish_accepted_proposals
+      get :download_csv
     end
   end
 

@@ -1,4 +1,11 @@
 module ProposalsHelper
+  # def csv_params
+  #   csv_params = params.clone.merge(format: :csv)
+  #   csv_params = csv_params.to_unsafe_h.transform_keys(&:to_sym)
+  #   csv_params.delete(:page)
+  #   csv_params
+  # end
+
   def progress_bar_percentage(proposal)
     case proposal.cached_votes_up
     when 0 then 0

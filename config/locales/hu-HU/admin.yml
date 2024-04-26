@@ -632,6 +632,7 @@ hu:
           back: Vissza
           id: Azonosító
           supports: Összes támogatás
+
         form:
           custom_categories: Kategóriák
           custom_categories_description: Kategóriák, amelyeket a felhasználók kiválaszthatnak a javaslat létrehozásakor. Legfeljebb 160 karakter.
@@ -1294,6 +1295,10 @@ hu:
         status: Státusz
         verificat: Ellenőrizve 
         verificat_false: Nincs Ellenőrizve
+        filters:
+          all: Mind
+          open: Nyitott
+          finished: Befejezett
       show:
         create_question: Add ezt a javaslatot egy szavazáshoz
       form:

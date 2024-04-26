@@ -14,6 +14,12 @@
     </abbr>
   </span>
   <% if current_user && current_user.voted_for?(proposal) %>
-    <%= button_to I18n.t('proposals.custom_btn.remove_support'), unvote_proposal_path(proposal), class: 'button hollow alert', style: 'font-size: 15px;'%>
+    <%= button_to I18n.t('proposals.custom_btn.remove_support'),
+                  unvote_proposal_path(proposal),
+                  class: 'button hollow alert',
+                  style: 'font-size: 15px;',
+                  method: "post",
+                  remote: true
+                  %>
   <% end %>
 </span>

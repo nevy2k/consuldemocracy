@@ -6,9 +6,20 @@ class Admin::ProposalsController < Admin::BaseController
 
   has_orders %w[created_at]
 
-  before_action :load_proposal, except: [:index,:publish_accepted_proposals]
-
+  before_action :load_proposal, except: [:index,:publish_accepted_proposals,:download_csv]
   def show
+  end
+
+  def download_csv
+    @proposals = Proposal.all
+    respond_to do |format|
+      format.html
+      format.js
+      format.csv do
+        send_data Proposal::Exporter.new(@proposals).to_csv,
+                  filename: "kezdemenyezesek.csv"
+      end
+    end
   end
 
   def publish_accepted_proposals

@@ -1,0 +1,3 @@
+<% if user_signed_in? %>
+    <p style="color: orange;"><%= current_user.find_voted_items(votable_type: 'Proposal').compact.count%> / <%= Setting.find_by(key: 'set_max_vote_for_user').value.to_i %> <%= t('custom_form_fields_for_ui.r_votes') %></p>
+<% end %>

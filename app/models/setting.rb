@@ -126,6 +126,7 @@ class Setting < ApplicationRecord
         "uploads.documents.content_types": "application/pdf",
         # Names for the moderation console, as a hint for moderators
         # to know better how to assign users with official positions
+        "set_max_vote_for_user": 10,
         "official_level_1_name": I18n.t("seeds.settings.official_level_1_name"),
         "official_level_2_name": I18n.t("seeds.settings.official_level_2_name"),
         "official_level_3_name": I18n.t("seeds.settings.official_level_3_name"),

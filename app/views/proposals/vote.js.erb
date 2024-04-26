@@ -2,3 +2,4 @@ $("#<%= dom_id(@proposal) %>_votes").html("<%= j render("proposals/votes", propo
 App.Followable.update("<%= dom_id(@follow.followable) %>",
                       "<%= j render("follows/follow_button", follow: @follow) %>",
                       "<%= j render("layouts/flash") %>")
+$("#total_votes").html("<%= j render("proposals/remaining_votes") %>");

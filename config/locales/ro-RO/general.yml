@@ -761,6 +761,12 @@ ro:
         one: "1 limbă utilizată"
         few: "%{count} limbi utilizate"
         other: "%{count} limbi utilizate"
+    optional: "Câmpuri opționale"
+    required: "Câmpuri obligatorii"
+    comments:
+      one: "1 comentariu"
+      other: "%{count} comentarii"
+      zero: "Niciun comentariu"
   social:
     facebook: "%{org} Facebook"
     twitter: "%{org} Twitter"

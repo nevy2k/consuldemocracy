@@ -1,6 +1,7 @@
 class Admin::Settings::ConfigurationTabComponent < ApplicationComponent
   def settings
     %w[
+      set_max_vote_for_user
       official_level_1_name
       official_level_2_name
       official_level_3_name

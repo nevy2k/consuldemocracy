@@ -13,15 +13,18 @@
                 publish_accepted_proposals_admin_proposals_path(proposal_ids: @proposals.map(&:id)),
                 class: 'button hollow medium' %>
   </h3>
+  <%= link_to t("admin.budget_investments.index.download_current_selection"),
+              download_csv_admin_proposals_path(csv_params),
+              class: "float-right small clear" %>
   <table>
     <thead>
       <tr>
         <th class="text-center"><%= t("admin.proposals.index.id") %></th>
         <th><%= Proposal.human_attribute_name(:title) %></th>
         <th><%= t("admin.proposals.index.author") %></th>
-        <th><%= t("admin.proposals.index.milestones") %></th>
+        <th> <%= Proposal.votes_needed_for_success %> (Szükséges szavazat)</th>
         <th><%= t("admin.proposals.index.status") %></th>
-        <th><%= t("admin.proposals.index.selected") %></th>
+        <th> Állapot </th>
       </tr>
     </thead>
 
@@ -31,7 +34,7 @@
           <td class="text-center"><%= proposal.id %></td>
           <td><%= link_to proposal.title, admin_proposal_path(proposal) %></td>
           <td><%= proposal.author.username %></td>
-          <td ><%= proposal.milestones.count %></td>
+          <td ><%= proposal.total_votes %></td>
           <% if proposal.reviewed_true? %>
             <td style="color: green;"> <%= t('admin.proposals.index.verificat') %> </td>
           <% elsif proposal.reviewed_false?%>
@@ -39,8 +42,12 @@
           <% else %>
             <td style="color: red;">Elutasítva</td>
           <% end %>
-          <td class="js-select"><%= render "select_proposal", proposal: proposal %></td>
-        </tr>
+          <% if proposal.published? %>
+            <td style="color: green;"> Közzétéve</td>
+          <% else %>
+            <td style="color: red;"> Várólistán </td>
+          <% end %>
+        </tr> 
       <% end %>
     </tbody>
   </table>
