@@ -304,6 +304,7 @@ ro:
         selected: "Marchează ca selectat"
         terms_of_service: "Termenii serviciului"
         video_url: "URL video extern"
+        team_members: 'Membrii echipei'
       proposal/translation:
         title: "Titlul propunerii"
         description: "Textul propunerii"

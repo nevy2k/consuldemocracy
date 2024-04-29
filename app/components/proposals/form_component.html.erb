@@ -41,6 +41,18 @@
       </div>
     </div>
   </div>
+
+    <div class="row">
+      <div class="clear">
+        <br>
+        <div class="small-12 medium-12 column">
+          <legend><%= t('custom_form_fields_for_ui.team_members_hint') %></legend>
+        </div>
+        <div class="small-12 medium-12 column">
+          <%= f.number_field :team_members, placeholder: t('custom_form_fields_for_ui.team_members') %>
+        </div>
+      </div>
+    </div>
   </fieldset>
 
   <%= f.invisible_captcha :subtitle %>

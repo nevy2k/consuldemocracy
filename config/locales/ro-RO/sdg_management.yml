@@ -1,5 +1,7 @@
 ro:
   custom_form_fields_for_ui:
+    team_members_hint: 'Numărul de membri ai echipei implicați în inițiativă'
+    team_members: 'Numărul de membri ai echipei'
     r_votes: 'Voturi utilizate'
     one_time_hint: Dacă inițiativa durează o singură zi, vă rugăm să specificați doar intervalul orar și ziua începerii inițiativei.
     one_time_event: Data inițierii inițiativei (de 1 zi)"

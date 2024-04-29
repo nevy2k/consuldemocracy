@@ -93,7 +93,7 @@ hu:
         recommendations: ajánlások
       recommendations:
         without_results: Nincsenek olyan viták, amelyek kapcsolódnának az Ön érdeklődési köréhez
-        without_interests: Kövesse a javaslatokat, hogy ajánlásokat kaphasson
+        without_interests: Kövesse a kezdeményezéseket, hogy ajánlásokat kaphasson
         disable: "A vita ajánlások megállnak, ha elutasítja azokat. Újra engedélyezheti azokat a 'Fiókom' oldalon"
         actions:
           success: "A vita ajánlások most kikapcsolva vannak ebben a fiókban"
@@ -152,7 +152,7 @@ hu:
     not_saved: "megakadályozta ezt a(z) %{resource} mentését. <br> Kérjük, ellenőrizze a megjelölt mezőket, hogy hogyan javíthatók:"
     policy: Adatvédelmi irányelvek
     banner: banner
-    proposal: Javaslat
+    proposal: Kezdeményezés
     proposal_notification: "Értesítés"
     budget/investment: Befektetés
     budget/group: Költségvetési csoport
@@ -185,8 +185,8 @@ hu:
       proposal_totals:
         active_resources: Aktív erőforrások
         community: Résztvevők a közösségedben
-        show_proposal: Javaslat megtekintése
-        preview_proposal: Javaslat előnézete
+        show_proposal: Kezdeményezés megtekintése
+        preview_proposal: Kezdeményezés előnézete
         current_goal: Jelenlegi cél
         supports:
           zero: Nincs támogatás
@@ -218,7 +218,7 @@ hu:
       my_account_link: Saját fiókom
       my_activity_link: Saját tartalmam
       open_gov: Nyílt kormányzat
-      proposals: Javaslatok
+      proposals: Kezdeményezések
       poll_questions: Szavazások
       budgets: Részvételi költségvetés
       notification_item:
@@ -252,8 +252,8 @@ hu:
       notifiable_hidden: Ez az erőforrás már nem elérhető.
   map:
     title: "Kerületek"
-    proposal_for_district: "Indíts egy javaslatot a kerületedben"
-    start_proposal: Javaslat létrehozása
+    proposal_for_district: "Indíts egy kezdeményezést a kerületedben"
+    start_proposal: Kezdeményezés létrehozása
   omniauth:
     facebook:
       sign_in: Belépés Facebookkal
@@ -286,28 +286,28 @@ hu:
       max_vote_text: "Már szavaztál %{max} kezdeményezésre"
     create:
       form:
-        submit_button: Javaslat létrehozása
+        submit_button: Kezdeményezés létrehozása
     created:
       title: Gratulálunk, az első lépést megtetted!
       motivation: "A kezdeményezésed át esik egy technikai ellenőrzésen és értesíteni fogunk."
-      publish: Nem, közzéteszem a javaslatot
+      publish: Nem, közzéteszem a kezdeményezést
       dashboard: "Irány a vezérlőpult"
       preview_title: Így fog kinézni a kezdeményezésed amikor az adminisztrátorok elfogadják!
     share:
       improve_it: Fejleszd a kampányodat és szerezz több támogatást.
       dashboard: További információk megtekintése
-      message: "Támogattam a(z) %{title} javaslatot a(z) %{handle}-ban. Ha érdekel, támogasd te is!"
+      message: "Támogattam a(z) %{title} kezdeményezést a(z) %{handle}-ban. Ha érdekel, támogasd te is!"
     edit:
-      editing: Javaslat szerkesztése
+      editing: Kezdeményezés szerkesztése
       form:
         submit_button: Változtatások mentése
-      show_link: Javaslat megtekintése
+      show_link: Kezdeményezés megtekintése
     retire_form:
-      title: Javaslat visszavonása
-      warning: "Ha visszavonod a javaslatot, továbbra is elfogadja a támogatásokat, de eltávolítjuk a fő listáról, és az összes felhasználó számára látható üzenetet teszünk közzé, amelyben az áll, hogy az író úgy véli, hogy a javaslatot már nem kell támogatni."
+      title: Kezdeményezés visszavonása
+      warning: "Ha visszavonod a kezdeményezést, továbbra is elfogadja a támogatásokat, de eltávolítjuk a fő listáról, és az összes felhasználó számára látható üzenetet teszünk közzé, amelyben az áll, hogy az író úgy véli, hogy a javaslatot már nem kell támogatni."
       retired_reason_blank: Válassz egy lehetőséget
-      retired_explanation_placeholder: Magyarázd el röviden, miért gondolod, hogy ez a javaslat nem kellene több támogatást kapnia
-      submit_button: Javaslat visszavonása
+      retired_explanation_placeholder: Magyarázd el röviden, miért gondolod, hogy ez a kezdeményezés nem kellene több támogatást kapnia
+      submit_button: Kezdeményezés visszavonása
     retire_options:
       duplicated: Megismételt
       started: Már elkezdődött
@@ -319,7 +319,7 @@ hu:
       proposal_summary_note: "(legfeljebb 200 karakter)"
       proposal_video_url_note: Hozzáadhatsz egy linket a YouTube-ra vagy a Vimeo-ra
       tag_category_label: "Kategóriák"
-      tags_instructions: "Címkézd meg ezt a javaslatot. Választhatsz a javasolt kategóriák közül, vagy hozzáadhatsz sajátot"
+      tags_instructions: "Címkézd meg ezt a kezdeményezést. Választhatsz a javasolt kategóriák közül, vagy hozzáadhatsz sajátot"
       tags_label: Címkék
       tags_placeholder: "Add meg a címkéket vesszővel elválasztva (',')"
       map_location: "Térkép helye"
@@ -336,18 +336,18 @@ hu:
         archival_date: archivált
         recommendations: ajánlások
       recommendations:
-        without_results: Nincsenek az érdeklődési körödnek megfelelő javaslatok
-        without_interests: Kövesd a javaslatokat, hogy ajánlásokat kaphassunk tőlünk
-        disable: "A javaslatokhoz történő ajánlások nem jelennek meg többé, ha elutasítod őket. A 'Saját fiók' oldalon újra engedélyezheted őket."
+        without_results: Nincsenek az érdeklődési körödnek megfelelő kezdeményezések
+        without_interests: Kövesd a kezdeményezéseket, hogy ajánlásokat kaphassunk tőlünk
+        disable: "A kezdeményezésekhez történő ajánlások nem jelennek meg többé, ha elutasítod őket. A 'Saját fiók' oldalon újra engedélyezheted őket."
         actions:
-          success: "A javaslatokhoz történő ajánlások mostantól letiltva vannak ezen a fiókon"
-          error: "Hiba történt. Kérjük, menj a 'Saját fiók' oldalra, hogy kézi módon letiltsd a javaslatokhoz történő ajánlásokat"
-      retired_proposals: Visszavont javaslatok
-      retired_proposals_link: "Szerző által visszavont javaslatok"
-      selected_proposals: Kiválasztott javaslatok
-      selected_proposals_link: Kiválasztott javaslatok megtekintése
-      archived_proposals: Archivált javaslatok
-      proposals_lists: Javaslatok listái
+          success: "A kezdeményezésekhez történő ajánlások mostantól letiltva vannak ezen a fiókon"
+          error: "Hiba történt. Kérjük, menj a 'Saját fiók' oldalra, hogy kézi módon letiltsd a kezdeményezésekhez történő ajánlásokat"
+      retired_proposals: Visszavont kezdeményezések
+      retired_proposals_link: "Szerző által visszavont kezdeményezések"
+      selected_proposals: Kiválasztott kezdeményezések
+      selected_proposals_link: Kiválasztott kezdeményezések megtekintése
+      archived_proposals: Archivált kezdeményezések
+      proposals_lists: Kezdeményezések listái
       retired_links:
         all: Mind
         duplicated: Megismételt
@@ -357,30 +357,30 @@ hu:
         other: Egyéb
       search_form:
         button: Keresés
-        placeholder: Javaslatok keresése...
+        placeholder: Kezdeményezések keresése...
         title: Keresés
       search_results:
         one: " a(z) <strong>'%{search_term}'</strong> kifejezést tartalmazó"
         other: " a(z) <strong>'%{search_term}'</strong> kifejezést tartalmazó"
-      select_order_long: "A javaslatok megtekintése szerint:"
-      start_proposal: Javaslat létrehozása
-      title: Javaslatok
-      top_link_proposals: A legtöbb támogatást élvező javaslatok kategóriánként
+      select_order_long: "A kezdeményezések megtekintése szerint:"
+      start_proposal: Kezdeményezés létrehozása
+      title: Kezdeményezések
+      top_link_proposals: A legtöbb támogatást élvező kezdeményezések kategóriánként
       section_header:
-        icon_alt: Javaslatok ikon
-        title: Javaslatok
-        help: Segítség a javaslatokhoz
+        icon_alt: Kezdeményezések ikon
+        title: Kezdeményezések
+        help: Segítség a kezdeményezésekhez
       section_footer:
-        title: Segítség a javaslatokhoz
-        description: A polgári javaslatok lehetőséget kínálnak a szomszédoknak és kollektívumoknak arra, hogy közvetlenül döntsenek arról, hogy milyen városban szeretnének élniük, miután elegendő támogatást kaptak és benyújtották a polgári szavazásra.
+        title: Segítség a kezdeményezésekhez
+        description: A polgári kezdeményezések lehetőséget kínálnak a szomszédoknak és kollektívumoknak arra, hogy közvetlenül döntsenek arról, hogy milyen városban szeretnének élniük, miután elegendő támogatást kaptak és benyújtották a polgári szavazásra.
     new:
       form:
-        submit_button: Javaslat létrehozása
-      more_info: Hogyan működnek a polgári javaslatok?
-      recommendation_one: Ne használj nagybetűket a javaslat címéhez vagy a teljes mondatokhoz. Az interneten ez ordibálásnak számít. És senki sem szeret, ha ordítanak rá.
+        submit_button: Kezdeményezés létrehozása
+      more_info: Hogyan működnek a polgári kezdeményezések?
+      recommendation_one: Ne használj nagybetűket a kezdeményezés címéhez vagy a teljes mondatokhoz. Az interneten ez ordibálásnak számít. És senki sem szeret, ha ordítanak rá.
       recommendation_three: Élvezd ezt a teret és a hangokat, amelyek megtöltik. Ez is a tiéd.
-      recommendation_two: Bármely olyan javaslat vagy hozzászólás, amely törvénytelen cselekedetet sugall, törlésre kerül, valamint azok, amelyek a vitaterek sabotálására törekednek. Minden más megengedett.
-      recommendations_title: Javaslatok készítésére vonatkozó ajánlások
+      recommendation_two: Bármely olyan kezdeményezés vagy hozzászólás, amely törvénytelen cselekedetet sugall, törlésre kerül, valamint azok, amelyek a vitaterek sabotálására törekednek. Minden más megengedett.
+      recommendations_title: Kezdeményezések készítésére vonatkozó ajánlások
       start_new: Új javaslat készítése
     notice:
       retired: A javaslat visszavonásra került

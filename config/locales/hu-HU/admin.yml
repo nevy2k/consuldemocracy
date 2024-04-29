@@ -32,7 +32,7 @@ hu:
         sections:
           homepage: Főoldal
           debates: Viták
-          proposals: Javaslatok
+          proposals: Kezdeményezések
           budgets: Résztvevő költségvetés
           help_page: Súgó oldal
           sdg: SDG
@@ -62,7 +62,7 @@ hu:
           all: Mind
           on_comments: Kommentek
           on_debates: Viták
-          on_proposals: Javaslatok
+          on_proposals: Kezdeményezések
           on_users: Felhasználók
           on_system_emails: Rendszer üzenetek
         title: Moderátor tevékenysége
@@ -135,7 +135,7 @@ hu:
         name_description: "Ez a részvételi költségvetés neve, amelyet a fejlécben és a kártyákon használnak, amikor aktív."
         image_description: "Ha egy képet feltöltünk, azt fogjuk használni a részvételi költségvetés fejlécében, különben az alapértelmezett szín lesz használatban."
         main_call_to_action: "Fő hívás a cselekvésre (opcionális)"
-        main_call_to_action_description: "Ez a link megjelenik a részvételi költségvetés főbannerén, és ösztönzi a felhasználókat egy konkrét művelet végrehajtására, például javaslatok létrehozása, meglévők szavazása vagy többet megtudni a folyamatról."
+        main_call_to_action_description: "Ez a link megjelenik a részvételi költségvetés főbannerén, és ösztönzi a felhasználókat egy konkrét művelet végrehajtására, például kezdeményezések létrehozása, meglévők szavazása vagy többet megtudni a folyamatról."
         info:
           budget_settings: "Általános részvételi költségvetési beállítások"
           staff_settings: "Adminisztrátorok és értékelők hozzárendelve a költségvetéshez"
@@ -149,7 +149,7 @@ hu:
         title_multiple: Új több fejlécű költségvetés
         title_single: Új egy fejlécű költségvetés
       help:
-        budgets: "A részvételi költségvetések lehetővé teszik a polgárok számára, hogy közvetlenül javasoljanak és döntsenek arról, hogyan költsék el a költségvetés egy részét, az intézmény által biztosított javaslatok szigorú értékelésével és ellenőrzésével."
+        budgets: "A részvételi költségvetések lehetővé teszik a polgárok számára, hogy közvetlenül javasoljanak és döntsenek arról, hogyan költsék el a költségvetés egy részét, az intézmény által biztosított kezdeményezések szigorú értékelésével és ellenőrzésével."
         groups:
           multiple: "A csoportok az fejlécek szervezésére szolgálnak. Miután létrehoztak egy csoportot, és tartalmazza a fejléceket, meg lehet határozni, hogy a felhasználók hány fejlécben szavazhatnak egy csoportban."
           single: "A csoportok az fejlécek szervezésére szolgálnak, mivel ez a költségvetés csak egy fejlécet tartalmaz, ugyanaz a név használható, mert sehol sem fog megjelenni. Csak folytassa a következő lépéssel."
@@ -443,7 +443,7 @@ hu:
           with_confirmed_hide: "Megerősítve"
           without_confirmed_hide: "Feldolgozás alatt"
         hidden_debate: "Rejtett vita"
-        hidden_proposal: "Rejtett javaslat"
+        hidden_proposal: "Rejtett kezdeményezés"
         title: "Rejtett hozzászólások"
         no_hidden_comments: "Nincsenek rejtett hozzászólások."
     dashboard:
@@ -463,7 +463,7 @@ hu:
           <p>Üdvözlettel a CONSUL DEMOKRÁCIA Alapítvány csapata.</p>
       actions:
         index:
-          description: "Amikor a felhasználók javaslatokat hoznak létre, hozzáférhetnek a javaslatok műszerfalához, ahol javaslatokat és ajánlásokat tehetnek az ötletük támogatásához."
+          description: "Amikor a felhasználók kezdeményezéseket hoznak létre, hozzáférhetnek a kezdeményezések műszerfalához, ahol kezdeményezéseket és ajánlásokat tehetnek az ötletük támogatásához."
           create: "Eszköz vagy művelet létrehozása"
           active: 'Igen'
           inactive: 'Nem'
@@ -474,28 +474,28 @@ hu:
           day_offset: Szükséges napok
           action_active: Aktív
           order: Sorrend
-          published_proposal: Közzétett javaslat
+          published_proposal: Közzétett kezdeményezés
           default:
             email: E-mail
             polls: Szavazások
             poster: Plakát
         new:
-          creating: "Új művelet a javaslatok műszerfalához"
+          creating: "Új művelet a kezdeményezések műszerfalához"
           back: Vissza a listához
         create:
           notice: "Művelet sikeresen létrehozva"
         edit:
-          editing: "Művelet szerkesztése a javaslatok műszerfalához"
+          editing: "Művelet szerkesztése a kezdeményezések műszerfalához"
           back: Vissza a listához
         delete:
           success: "Művelet sikeresen törölve"
         form:
           submit_button: Mentés
           help_text: "Írjon be 0-t, hogy ez az érték ne legyen figyelembe véve"
-          published_proposal_help_text: Jelölje be ezt a jelölőnégyzetet, hogy csak a közzétett javaslatokhoz hozza létre a műveletet
+          published_proposal_help_text: Jelölje be ezt a jelölőnégyzetet, hogy csak a közzétett kezdeményezésekhez hozza létre a műveletet
       administrator_tasks:
         index:
-          description: "A javaslatok műszerfalán közzétett erőforrások tartalmazhatnak egy gombot, amelyet az adminisztrátorokhoz lehet kérni. A felhasználói kéréseket alább láthatja."
+          description: "A kezdeményezések műszerfalán közzétett erőforrások tartalmazhatnak egy gombot, amelyet az adminisztrátorokhoz lehet kérni. A felhasználói kéréseket alább láthatja."
           title: "Kért erőforrások"
           solve: Megoldás
           no_records: "Nincsenek kérések"
@@ -510,7 +510,7 @@ hu:
           solving: Függőben lévő feladat megoldása
         form:
           solve: Megjelölés megoldottként
-          proposal: Javaslat
+          proposal: kezdeményezés
           request: Kért erőforrás
         update:
           success: A feladatot megoldottként jelölték.
@@ -588,7 +588,7 @@ hu:
           draft_phase: Vázlat fázis
           draft_phase_description: Ha ez a fázis aktív, a folyamat nem lesz felsorolva a folyamatok indexén. Engedélyezi a folyamat előnézetét és tartalom létrehozását a kezdet előtt.
           allegations_phase: Megjegyzés fázis
-          proposals_phase: Javaslatok fázis
+          proposals_phase: Kezdeményezések fázis
           use_markdown: Használjon Markdown-t a szöveg formázásához
           homepage_description: Itt magyarázhatja a folyamat tartalmát
           banner_title: Fejléc színek
@@ -621,21 +621,21 @@ hu:
           homepage: Főoldal
           draft_versions: Vázlatok
           questions: Vita
-          proposals: Javaslatok
+          proposals: Kezdeményezések
           milestones: Követés
       homepage:
         edit:
           title: Konfigurálja a folyamat főoldalát
       proposals:
         index:
-          title: Javaslatok
+          title: Kezdeményezések
           back: Vissza
           id: Azonosító
           supports: Összes támogatás
 
         form:
           custom_categories: Kategóriák
-          custom_categories_description: Kategóriák, amelyeket a felhasználók kiválaszthatnak a javaslat létrehozásakor. Legfeljebb 160 karakter.
+          custom_categories_description: Kategóriák, amelyeket a felhasználók kiválaszthatnak a kezdeményezés létrehozásakor. Legfeljebb 160 karakter.
           custom_categories_placeholder: Adja meg a felhasználni kívánt címkéket vesszővel (,) és idézőjelek ("") között.
       draft_versions:
         create:
@@ -728,15 +728,15 @@ hu:
       activity: Moderátor tevékenység
       admin: Adminisztrációs menü
       banner: Bannerek kezelése
-      proposals: Javaslatok
-      proposals_topics: Javaslat témák
+      proposals: Kezdeményezések
+      proposals_topics: Kezdeményezés témák
       budgets: Résztvevő költségvetések
       geozones: Földrajzi övezetek kezelése
       hidden_comments: Rejtett megjegyzések
       hidden_debates: Rejtett viták
-      hidden_proposals: Rejtett javaslatok
+      hidden_proposals: Rejtett kezdeményezések
       hidden_budget_investments: Rejtett költségvetési beruházások
-      hidden_proposal_notifications: Rejtett javaslat értesítések
+      hidden_proposal_notifications: Rejtett kezdeményezés értesítések
       hidden_users: Rejtett felhasználók
       administrators: Adminisztrátorok
       managers: Menedzserek
@@ -769,7 +769,7 @@ hu:
           basic: "Alapértelmezett testreszabás"
           debates: "Viták"
           community: "Közösség"
-          proposals: "Javaslatok"
+          proposals: "Kezdeményezések"
           polls: "Szavazások"
           legislation: "Együttműködő jogalkotás"
           budgets: "Költségvetések"
@@ -789,7 +789,7 @@ hu:
       title_booths: Szavazófülkék
       legislation: Együttműködő jogalkotás
       users: Felhasználók
-      dashboard: Javaslatok vezérlőpultja
+      dashboard: Kezdeményezések vezérlőpultja
       administrator_tasks: Kért erőforrások
       dashboard_actions: Erőforrások és akciók
       debates: "Viták"
@@ -821,8 +821,8 @@ hu:
     segment_recipient:
       all_users: Minden felhasználó
       administrators: Adminisztrátorok
-      all_proposal_authors: Javaslatok szerzői (beleértve az archivált és visszavontakat is)
-      proposal_authors: Javaslatok szerzői
+      all_proposal_authors: Kezdeményezések szerzői (beleértve az archivált és visszavontakat is)
+      proposal_authors: Kezdeményezések szerzői
       investment_authors: Aktuális költségvetésben befektetéseket jegyzők
       feasible_and_undecided_investment_authors: "Az aktuális költségvetésben olyan befektetések szerzői, amelyek nem felelnek meg: [értékelés befejezve nem megvalósítható]"
       selected_investment_authors: Kiválasztott befektetések szerzői az aktuális költségvetésben
@@ -908,9 +908,9 @@ hu:
         send_pending: Függőben lévő küldése
         send_pending_notification: Függőben lévő értesítések sikeresen elküldve
       proposal_notification_digest:
-        title: "Javaslat értesítés összefoglaló"
-        description: "Összegyűjti az összes javaslat értesítést egy felhasználó számára egyetlen üzenetben, hogy elkerülje a túl sok e-mailt."
-        preview_detail: "A felhasználók csak az általuk követett javaslatokról kapnak értesítést."
+        title: "Kezdeményezés értesítés összefoglaló"
+        description: "Összegyűjti az összes kezdeményezés értesítést egy felhasználó számára egyetlen üzenetben, hogy elkerülje a túl sok e-mailt."
+        preview_detail: "A felhasználók csak az általuk követett kezdeményezésekről kapnak értesítést."
       budget_investment_created:
         title: "Költségvetési befektetés létrehozva"
         description: "Küldött, amikor egy felhasználó létrehoz egy költségvetési befektetést."
@@ -1114,7 +1114,7 @@ hu:
         questions_title: "Kérdések listája"
         table_title: "Cím"
         edit_answers: Válaszok szerkesztése
-        see_proposal: "(Javaslat megtekintése)"
+        see_proposal: "(Kezdeményezés megtekintése)"
       destroy:
         alert: "Ez a művelet eltávolítja a szavazást és az összes hozzárendelt kérdést."
         success_notice: "Szavazás sikeresen törölve"
@@ -1131,9 +1131,9 @@ hu:
         filter_poll: Szűrés szavazás alapján
         select_poll: Szavazás kiválasztása
         questions_tab: "Kérdések"
-        successful_proposals_tab: "Sikeres javaslatok"
+        successful_proposals_tab: "Sikeres kezdeményezések"
         create_question: "Kérdés létrehozása"
-        table_proposal: "Javaslat"
+        table_proposal: "Kezdeményezés"
         table_question: "Kérdés"
         table_poll: "Szavazás"
         poll_not_assigned: "Nincs hozzárendelve szavazás"
@@ -1151,7 +1151,7 @@ hu:
           add_image: "Kép hozzáadása"
           save_image: "Kép mentése"
       show:
-        proposal: Eredeti javaslat
+        proposal: Eredeti kezdeményezés
         author: Szerző
         question: Kérdés
         edit_question: Kérdés szerkesztése
@@ -1285,13 +1285,13 @@ hu:
         no_results: Nincs találat.
     proposals:
       index:
-        title: Javaslatok
+        title: Kezdeményezések
         id: Azonosító
         author: Szerző
         select: Kiválaszt
         selected: Kiválasztott
         milestones: Mérföldkövek
-        no_proposals: Nincsenek javaslatok.
+        no_proposals: Nincsenek Kezdeményezések.
         status: Státusz
         verificat: Ellenőrizve 
         verificat_false: Nincs Ellenőrizve
@@ -1300,11 +1300,11 @@ hu:
           open: Nyitott
           finished: Befejezett
       show:
-        create_question: Add ezt a javaslatot egy szavazáshoz
+        create_question: Add ezt a kezdeményezést egy szavazáshoz
       form:
-        update: Javaslat frissítése
+        update: Kezdeményezés frissítése
       update:
-        notice: Javaslat sikeresen frissítve
+        notice: Kezdeményezés sikeresen frissítve
     hidden_proposals:
       index:
         filter: Szűrő
@@ -1312,8 +1312,8 @@ hu:
           all: Mind
           with_confirmed_hide: Megerősített
           without_confirmed_hide: Függőben
-        title: Rejtett javaslatok
-        no_hidden_proposals: Nincsenek rejtett javaslatok.
+        title: Rejtett kezdeményezések
+        no_hidden_proposals: Nincsenek rejtett kezdeményezések.
     hidden_proposal_notifications:
       index:
         filter: Szűrő
@@ -1342,9 +1342,9 @@ hu:
             update: Térkép konfiguráció sikeresen frissítve.
           form:
             submit: Frissítés
-          how_to_enable: 'A térkép megjelenítéséhez engedélyezni kell a "Javaslatok és költségvetési befektetések geolokalizációját" a "Szolgáltatások" fülön.'
+          how_to_enable: 'A térkép megjelenítéséhez engedélyezni kell a "Kezdeményezések és költségvetési befektetések geolokalizációját" a "Szolgáltatások" fülön.'
         dashboard:
-          title: Javaslatok irányítópultja
+          title: Kezdeményezések irányítópultja
         remote_census:
           title: Távoli népszámlálás konfiguráció
           how_to_enable: 'A távoli népszámlálás (SOAP) konfigurálásához engedélyezni kell a "Távoli népszámlálás kapcsolatának konfigurálása (SOAP)" lehetőséget a "Szolgáltatások" fülön.'
@@ -1373,13 +1373,13 @@ hu:
           comments: "Keresés megjegyzések között"
           debates: "Keresés viták címe vagy leírása szerint"
           legislation_processes: "Keresés folyamatok címe vagy leírása szerint"
-          legislation_proposals: "Keresés javaslatok címe vagy leírása szerint"
+          legislation_proposals: "Keresés kezdeményezések címe vagy leírása szerint"
           local_census_records: "Keresés dokumentum szám alapján"
           organizations: "Név, e-mail vagy telefonszám"
           poll_officers: "Keresés szavazási tisztviselők között"
           poll_questions: "Keresés szavazási kérdések között"
           polls: "Keresés szavazások név vagy leírás szerint"
-          proposals: "Keresés javaslatok címe, kódja, leírása vagy kérdése szerint"
+          proposals: "Keresés kezdeményezések címe, kódja, leírása vagy kérdése szerint"
           proposal_notifications: "Keresés értesítések címe vagy leírása szerint"
           users: "Felhasználó keresése név vagy e-mail szerint"
         search: "Keresés"
@@ -1392,7 +1392,7 @@ hu:
       show_image: Kép megjelenítése
       moderated_content: "Ellenőrizze a moderátorok által moderált tartalmakat, és erősítse meg, hogy a moderáció helyesen történt."
       view: Megtekintés
-      proposal: Javaslat
+      proposal: Kezdeményezés
       author: Szerző
       content: Tartalom
       created_at: Létrehozva
@@ -1475,8 +1475,8 @@ hu:
           comments: Kommentek
           debate_votes: Vita szavazatok
           debates: Viták
-          proposal_votes: Javaslat szavazatok
-          proposals: Javaslatok
+          proposal_votes: Kezdeményezés szavazatok
+          proposals: Kezdeményezések
           budgets: Nyílt költségvetések
           budget_investments: Befektetési projektek
           unverified_users: Nem hitelesített felhasználók
@@ -1484,13 +1484,13 @@ hu:
           user_level_two: Kettes szintű felhasználók
           users: Összes felhasználók
           verified_users: Hitelesített felhasználók
-          verified_users_who_didnt_vote_proposals: Javaslatokra nem szavazó hitelesített felhasználók
+          verified_users_who_didnt_vote_proposals: Kezdeményezésekre nem szavazó hitelesített felhasználók
           visits: Látogatások
           votes: Összes szavazatok
         budgets_title: Résztvevő költségvetés
         participatory_budgets: Résztvevő költségvetések
         direct_messages: Közvetlen üzenetek
-        proposal_notifications: Javaslat értesítések
+        proposal_notifications: Kezdeményezés értesítések
         incomplete_verifications: Hiányos hitelesítések
         polls: Szavazások
         sdg: Fenntartható Fejlődési Célok
@@ -1498,7 +1498,7 @@ hu:
         debate_created: Viták
         visit: Látogatások
         level_2_user: Kettes szintű felhasználók
-        proposal_created: Állampolgári javaslatok
+        proposal_created: Állampolgári kezdeményezések
       budgets:
         no_data_before_balloting_phase: "Nincs adat megjelenítésre a szavazási fázis előtt."
         title: "Résztvevő költségvetések - Részvételi statisztikák"
@@ -1521,10 +1521,10 @@ hu:
         total: Összesen
         users_who_have_sent_message: Felhasználók, akik küldtek privát üzenetet
       proposal_notifications:
-        title: Javaslat értesítések
+        title: Kezdeményezés értesítések
         total: Összesen
-        proposals_with_notifications: Javaslatok értesítésekkel
-        not_available: "Javaslat nem elérhető"
+        proposals_with_notifications: Kezdeményezések értesítésekkel
+        not_available: "Kezdeményezés nem elérhető"
       polls:
         title: Szavazási statisztikák
         all: Szavazások
@@ -1543,15 +1543,15 @@ hu:
           sent: "Küldött befektetési projektek"
         debates: "Viták"
         polls: "Szavazások"
-        proposals: "Javaslatok"
+        proposals: "Kezdeményezések"
         title: "Fenntartható Fejlődési Célok - Statisztikák"
     tags:
       create: Téma létrehozása
       index:
-        add_tag: Új javaslat témakör hozzáadása
-        title: Javaslat témakörök
+        add_tag: Új Kezdeményezés témakör hozzáadása
+        title: Kezdeményezés témakörök
         topic: Téma
-        help: "Amikor egy felhasználó javaslatot hoz létre, az alábbi témakörök javasolt alapértelmezés szerinti címkékként jelennek meg."
+        help: "Amikor egy felhasználó kezdeményezést hoz létre, az alábbi témakörök javasolt alapértelmezés szerinti címkékként jelennek meg."
     users:
       columns:
         id: ID
@@ -1691,7 +1691,7 @@ hu:
       create_card: Kártya létrehozása
       no_cards: Nincsenek kártyák.
       feeds:
-        proposals: Javaslatok
+        proposals: Kezdeményezések
         debates: Viták
         processes: Folyamatok
       new:
@@ -1788,7 +1788,7 @@ hu:
         delete_generated_content: "A generált tartalom sikeresen törölve lett."
       output_files: "Kimeneti fájlok:"
       related_content: "Kapcsolódó tartalom"
-      related_content_description: "Automatikusan generált kapcsolódó tartalom hozzáadása javaslatokhoz és részvételi költségvetési projektekhez."
+      related_content_description: "Automatikusan generált kapcsolódó tartalom hozzáadása kezdeményezésekhez és részvételi költségvetési projektekhez."
       script_info: "E-mailt fog kapni a(z) %{email} címen, amikor a szkript befejeződik."
       script_name: "Szkript neve:"
       select_script: "Válasszon ki egy Python szkriptet a végrehajtáshoz"

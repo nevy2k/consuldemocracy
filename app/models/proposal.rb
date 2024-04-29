@@ -60,6 +60,7 @@ class Proposal < ApplicationRecord
   validates :terms_of_service, acceptance: { allow_nil: false }, on: :create
   validates :starts_at, presence: true
   validates :location, presence: true
+  validates :team_members, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 3, less_than_or_equal_to: 15 }
   validate :valid_video_url?
 
   before_validation :set_responsible_name

@@ -74,8 +74,8 @@ hu:
         one: "Szavazólap"
         other: "Szavazólapok"
       proposal:
-        one: "Állampolgári javaslat"
-        other: "Állampolgári javaslatok"
+        one: "Állampolgári kezdeményezés"
+        other: "Állampolgári kezdeményezések"
       sdg/goal:
         one: "cél"
         other: "célok"
@@ -104,8 +104,8 @@ hu:
         one: "Folyamat"
         other: "Folyamatok"
       legislation/proposal:
-        one: "Javaslat"
-        other: "Javaslatok"
+        one: "kezdeményezés"
+        other: "kezdeményezések"
       legislation/draft_versions:
         one: "Vázlat verzió"
         other: "Vázlat verziók"
@@ -134,11 +134,11 @@ hu:
         one: "Szavazás"
         other: "Szavazások"
       proposal_notification:
-        one: "Javaslat értesítés"
-        other: "Javaslat értesítések"
+        one: "Kezdeményezés értesítés"
+        other: "Kezdeményezés értesítések"
       dashboard/action:
-        one: "Javaslat irányítópult művelet"
-        other: "Javaslat irányítópult műveletek"
+        one: "Kezdeményezés irányítópult művelet"
+        other: "Kezdeményezések irányítópult műveletek"
       dashboard/administrator_task:
         one: "Feladat"
         other: "Feladatok"
@@ -179,7 +179,7 @@ hu:
         administrator_id: "Adminisztrátor"
         location: "Hely információk"
         organization_name: "Ha egy kollektíva/szervezet nevében vagy több ember nevében javasolsz, írd be a nevét"
-        image: "Javaslat leíró képe"
+        image: "Kezdeményezés leíró képe"
         image_title: "Kép címe"
         duration: "Időtartam"
         feasibility_feasible: "Lehetséges"
@@ -263,18 +263,19 @@ hu:
         title: "Cím"
         question: "Kérdés"
         description: "Leírás"
-        responsible_name: "Az a személy teljes neve, aki a javaslatot benyújtja"
-        retired_reason: "Indok a javaslat visszavonásához"
+        responsible_name: "Az a személy teljes neve, aki a kezdeményezést benyújtja"
+        retired_reason: "Magyarázat a kezdeményezés visszavonásához"
         selected: "Jelölés kiválasztottként"
         terms_of_service: "Szolgáltatási feltételek"
         video_url: "Külső videó URL"
         starts_at: Kezdeményezés indulási időpont
         ends_at: Kezdeményezés befejezési időpont
         location: Helyszín
+        team_members: 'Csapattagok'
       proposal/translation:
-        title: "Javaslat címe"
-        description: "Javaslat szövege"
-        summary: "Javaslat összefoglalója"
+        title: "Kezdeményezés címe"
+        description: "Kezdeményezés szövege"
+        summary: "Kezdeményezés összefoglalója"
         retired_explanation: "Magyarázat"
       user:
         login: "E-mail vagy felhasználónév"
@@ -283,7 +284,7 @@ hu:
         password_confirmation: "Jelszó megerősítése"
         password: "Jelszó"
         current_password: "Jelenlegi jelszó"
-        email_digest: "Kapjak összefoglalót a javaslatértesítésekről"
+        email_digest: "Kapjak összefoglalót a kezdeményezés értesítésekről"
         email_on_comment: "Értesítsen e-mailben, ha valaki kommentel a tartalmaimra"
         email_on_comment_reply: "Értesítsen e-mailben, ha valaki válaszol a kommentjeimre"
         email_on_direct_message: "Kapjak e-maileket közvetlen üzenetekről"
@@ -295,7 +296,7 @@ hu:
         public_activity: "Tartsa nyilvánosan a tevékenységlistámat"
         public_interests: "Tartsa nyilvánosan az általam követett elemeket"
         recommended_debates: "Ajánljon vitákat nekem"
-        recommended_proposals: "Ajánljon javaslatokat nekem"
+        recommended_proposals: "Ajánljon kezdeményezéseket nekem"
         redeemable_code: "E-mailben kapott ellenőrző kód"
       direct_message:
         title: "Cím"
@@ -431,9 +432,9 @@ hu:
         homepage: "Leírás"
         milestones_summary: "Összefoglaló"
       legislation/proposal:
-        description: "Javaslat szövege"
-        summary: "Javaslat összefoglaló"
-        title: "Javaslat címe"
+        description: "Kezdeményezés szövege"
+        summary: "Kezdeményezés összefoglaló"
+        title: "Kezdeményezés címe"
         video_url: "Külső videó linkje"
       legislation/draft_version:
         title: "Verzió címe"
@@ -505,14 +506,14 @@ hu:
         description: "Leírás"
         link: "Külső link"
         request_to_administrators: "A forrást kérjük felvételét kérje a rendszergazdáktól"
-        day_offset: "Hány nappal a javaslat létrehozása után szeretné aktiválni?"
-        required_supports: "Mennyi támogatást kell kapnia a javaslatnak a aktiváláshoz?"
+        day_offset: "Hány nappal a kezdeményezés létrehozása után szeretné aktiválni?"
+        required_supports: "Mennyi támogatást kell kapnia a kezdeményezésnek a aktiváláshoz?"
         order: "Adja meg, hogy ezt a műveletet hanyadik helyen szeretné megjeleníteni a felhasználók számára a műveletek listájában"
         active: "Aktív"
         action_type: "Típus"
         action_type_proposed_action: "Javasolt művelet"
         action_type_resource: "Forrás"
-        published_proposal: "Közzétett javaslatokhoz?"
+        published_proposal: "Közzétett kezdeményezésekhez?"
       dashboard/administrator_task:
         source: "Forrás"
         user: "Végrehajtotta"
@@ -604,7 +605,7 @@ hu:
             attributes:
               document_number:
                 not_in_census: "Nincs ellenőrizve a népszámlálás által"
-                already_voted: "Már szavazott erre a javaslatra"
+                already_voted: "Már szavazott erre a kezdeményezésre"
           site_customization/page:
             attributes:
               slug:

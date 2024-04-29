@@ -39,7 +39,7 @@ hu:
       registrations:
         new:
           password_confirmation_label: Jelszó megerősítése
-          responsible_name_note: Ez az a személy lenne, aki az egyesület/közösség nevében a javaslatokat benyújtja
+          responsible_name_note: Ez az a személy lenne, aki az egyesület/közösség nevében a kezdeményezéseket benyújtja
           submit: Regisztráció
           title: Regisztráció szervezetként vagy közösségként
         success:

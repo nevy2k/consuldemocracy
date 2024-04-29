@@ -7,7 +7,6 @@
 <% if @proposals.any? %>
   <%= render Admin::SearchComponent.new(label: t("admin.shared.search.label.proposals")) %>
 
-  <h3><%= page_entries_info @proposals %></h3>
   <h3>
     <%= link_to 'Kezdeményezések szavazásra bocsájtása',
                 publish_accepted_proposals_admin_proposals_path(proposal_ids: @proposals.map(&:id)),
@@ -16,6 +15,9 @@
   <%= link_to t("admin.budget_investments.index.download_current_selection"),
               download_csv_admin_proposals_path(csv_params),
               class: "float-right small clear" %>
+  <%= link_to 'Rendezés növekvő sorrendbe(Támogatás alapján)', admin_proposals_path(sort_by: 'asc', page: params[:page]), class: "float-left small clear"%> <br>
+  <%= link_to 'Rendezés csökkenő sorrendbe(Támogatás alapján)', admin_proposals_path(sort_by: 'desc', page: params[:page]), class: "float-left small clear"%>
+
   <table>
     <thead>
       <tr>
@@ -52,7 +54,6 @@
     </tbody>
   </table>
 
-  <%= paginate @proposals %>
 <% else %>
   <div class="callout primary">
     <%= t("admin.proposals.index.no_proposals") %>
