@@ -2,6 +2,7 @@
 //= require c3
 //= require c3ext
 //= require stats
+import "chartkick/chart.js"
 
 var initialize_stats_modules = function() {
   "use strict";

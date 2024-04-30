@@ -1,4 +1,6 @@
 hu:
+  indicator:
+    create_disabled_proposal: Még nem lehet kezdeményezést létrehozni
   custom_form_fields_for_ui:
     team_members_hint: 'A kezdeményezésben résztvevő tagok száma'
     team_members: 'Csapattagok száma'
@@ -22,9 +24,9 @@ hu:
       budget_investments: "Részvételi költségvetések"
       debates: "Viták"
       legislation_processes: "Törvényalkotási folyamatok"
-      legislation_proposals: "Törvényhozási javaslatok"
+      legislation_proposals: "Törvényhozási kezdeményezések"
       polls: "Szavazások"
-      proposals: "Javaslatok"
+      proposals: "Kezdeményezések"
       sdg_content: "Célok és Célpontok"
       sdg_homepage: "SDG kezdőlap"
     local_targets:

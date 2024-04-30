@@ -2,6 +2,8 @@
   "name": "consuldemocracy",
   "dependencies": {
     "@hotwired/turbo-rails": "^8.0.4",
+    "chart.js": "^4.4.2",
+    "chartkick": "^5.0.1",
     "jquery": "^3.7.1",
     "jquery-ui": "^1.13.2",
     "jquery-ujs": "^1.2.3",

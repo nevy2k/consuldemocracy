@@ -24,7 +24,7 @@ module ProposalsDashboardHelper
   end
 
   def resources_menu_visible?(proposal, resources)
-    can?(:manage_polls, proposal) || resources.any?
+    can?(:manage_mailing, proposal) || resources.any?
   end
 
   def resources_menu_active?

@@ -28,12 +28,12 @@ hu:
       subject: Valaki válaszolt a megjegyzésére
       title: Új válasz a megjegyzésére
     proposal_notification_digest:
-      info: "Itt vannak az új értesítések, amelyeket a(z) %{org_name} által támogatott javaslatok szerzői adtak ki."
-      title: "Javaslat értesítések a(z) %{org_name} szervezetben"
-      share: Javaslat megosztása
-      comment: Javaslat megjegyzése
-      unsubscribe_text: "Ha nem szeretne javaslat értesítéseket kapni, látogasson el a következő linkre: %{notifications} és szedje ki a pipát a 'Javaslat értesítések összefoglalójának fogadása' lehetőségnél."
-      unfollow: "Látogasson el erre a javaslatra, és szüntesse meg a követést, hogy ne kapjon több értesítést."
+      info: "Itt vannak az új értesítések, amelyeket a(z) %{org_name} által támogatott kezdeményezések szerzői adtak ki."
+      title: "Kezdeményezés értesítések a(z) %{org_name} szervezetben"
+      share: Kezdeményezés megosztása
+      comment: Kezdeményezés megjegyzése
+      unsubscribe_text: "Ha nem szeretne kezdeményezés értesítéseket kapni, látogasson el a következő linkre: %{notifications} és szedje ki a pipát a 'Kezdeményezés értesítések összefoglalójának fogadása' lehetőségnél."
+      unfollow: "Látogasson el erre a kezdeményezésre, és szüntesse meg a követést, hogy ne kapjon több értesítést."
     direct_message_for_receiver:
       subject: "Új privát üzenetet kapott"
       reply: Válasz erre %{sender}
@@ -97,29 +97,29 @@ hu:
       text: "A tartalom sikeresen generálva lett."
       title: "Gépi tanulás szkript"
     new_actions_notification_on_create:
-      subject: "A tervezett polgári javaslata elkészült"
+      subject: "A tervezett kezdeményezése elkészült"
       hi: "Szia %{name}!"
-      introduction: "A(z) %{title} javaslata sikeresen elkészült."
-      text_1: "Kihasználhatja, hogy a javaslata még nem nyilvános, és készüljön fel arra, hogy sok embert megkeressen."
-      text_2: "Amikor készen áll, a polgári javaslatát közzéteheti ezen a <a href='%{link}'>linken</a>."
-      text_3: "Tudjuk, hogy egy hatékony javaslat létrehozása és a szükséges támogatás megszerzése bonyolultnak tűnhet. De ne aggódjon, mert segíteni fogunk!"
-      text_4: "Van egy eszköze, ami a legjobb szövetségese lesz: A Polgári Javaslatok panel."
-      list_1: "Látogasson el minden nap a javaslat paneljére, hogy használja a tanácsokat és azokat a forrásokat, amelyeket megosztunk Önnel."
+      introduction: "A(z) %{title} kezdeményezése sikeresen elkészült."
+      text_1: "Kihasználhatja, hogy a kezdeményezése még nem nyilvános, és készüljön fel arra, hogy sok embert megkeressen."
+      text_2: "Amikor készen áll, a kezdeményezését közzéteheti ezen a <a href='%{link}'>linken</a>."
+      text_3: "Tudjuk, hogy egy hatékony kezdeményezés létrehozása és a szükséges támogatás megszerzése bonyolultnak tűnhet. De ne aggódjon, mert segíteni fogunk!"
+      text_4: "Van egy eszköze, ami a legjobb szövetségese lesz: A Kezdeményezésel panel."
+      list_1: "Látogasson el minden nap a kezdeményezés paneljére, hogy használja a tanácsokat és azokat a forrásokat, amelyeket megosztunk Önnel."
       list_2: "Ezek a tanácsok, cselekvések és források ötleteket és gyakorlati megoldásokat nyújtanak a támogatás megszerzéséhez és egy szélesebb közösség eléréséhez. Ne felejtse el őket!"
       list_3: "Ahogy több támogatást szerez, új és jobb forrásokat fog feloldani. Jelenleg egy e-mail sablont használhat, amelyet tömegesen küldhet el az összes kapcsolatának, plakátot nyomtathat, és más funkciókat és jutalmakat, amelyeket felfedezhet. Ne hagyja abba a támogatás hozzáadását, és mi sem fogjuk abbahagyni a jutalmazást és segítést!"
-      list_4: "Az a kihívás elé állítjuk, hogy a közzétételtől számított %{max_month} hónapon belül érjen el %{max_votes} támogatást, és a javaslata valóra válhat. De az első napok a legfontosabbak. Ez egy kihívás. Készüljön fel!"
+      list_4: "Az a kihívás elé állítjuk, hogy a közzétételtől számított %{max_month} hónapon belül érjen el %{max_votes} támogatást, és a kezdeményezése valóra válhat. De az első napok a legfontosabbak. Ez egy kihívás. Készüljön fel!"
       text_5: "És hogy motiváltan kezdjen el..."
       text_6: "Itt van több erőforrás és egy egész lista tippek, amelyek minden nap elérhetik Önt a közvetítéshez!"
       dashboard_button: "Eredjen, fedezze fel őket!"
     new_actions_notification_on_published:
-      subject: "A polgári javaslata már közzétéve. Ne hagyja abba a terjesztést!"
-      hi: "Gratulálunk %{name}! A(z) %{title} javaslata sikeresen elkészült."
+      subject: "A kezdeményezése már közzétéve. Ne hagyja abba a terjesztést!"
+      hi: "Gratulálunk %{name}! A(z) %{title} kezdeményezése sikeresen elkészült."
       text_1: "És most, irány az első 100 támogató!"
       text_2: "Miért 100?"
-      text_3: "Tapasztalataink szerint az első nap alapvető fontosságú. Mert az újonnan közzétett javaslatnak nem csak az új dolog elindításának energiája van, hanem az is fontos láthatóság is, hogy az új javaslatok között kiemelt helyen szerepel."
+      text_3: "Tapasztalataink szerint az első nap alapvető fontosságú. Mert az újonnan közzétett kezdeményezésnek nem csak az új dolog elindításának energiája van, hanem az is fontos láthatóság is, hogy az új kezdeményezések között kiemelt helyen szerepel."
       text_4: "Szerezzen 100 támogatót az első napon, és már lesz egy első közössége, aki mögé állhat."
       text_5: "Ezért kihívjuk Önt, hogy érje el, de ne anélkül, hogy sok segítséget kapna!"
-      text_6: "Emlékeztesse arra, hogy a Javaslat Panelben most új erőforrások állnak rendelkezésére, és ajánlásokat kap a terjesztési intézkedésekre."
+      text_6: "Emlékeztesse arra, hogy a Kezdeményezés Panelben most új erőforrások állnak rendelkezésére, és ajánlásokat kap a terjesztési intézkedésekre."
       list_1: "Minden nap látogasson el, hogy lássa a haladását, és használja a tanácsokat és azokat a forrásokat, amelyeket megosztunk Önnel. Ezek ötletek és gyakorlati megoldások a szükséges támogatás megszerzéséhez."
       list_2: "Ahogy több támogatást szerez, új és jobb forrásokat fog feloldani. Ne hagyja abba a támogatás hozzáadását, és mi sem fogjuk abbahagyni a jutalmazást és segítést!"
       text_7: "És hogy motiváltan kezdjen el..."

@@ -111,14 +111,8 @@
                   new_proposal_path,
                   class: "button expanded" %>
       <% else %>
-        <p style='color: orange;'> <strong>Még nem lehet kezdeményezést létrehozni </strong></p>
+        <p style='color: orange;'> <strong><%= t('indicator.create_disabled_proposal') %></strong></p>
       <% end %>
-      <div class="sidebar-divider"></div>
-      <h2 class="sidebar-title"><%= t("proposals.index.selected_proposals") %></h2>
-      <br>
-      <p class="small">
-        <%= link_to t("proposals.index.selected_proposals_link"), proposals_path(selected: "all") %>
-      </p>
 
       <% if params[:retired].blank? %>
         <%= render "categories" %>

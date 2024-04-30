@@ -1,4 +1,6 @@
 ro:
+  indicator:
+    create_disabled_proposal: "Nu se poate crea încă o inițiativă"
   custom_form_fields_for_ui:
     team_members_hint: 'Numărul de membri ai echipei implicați în inițiativă'
     team_members: 'Numărul de membri ai echipei'

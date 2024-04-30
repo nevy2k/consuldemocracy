@@ -12,7 +12,7 @@ hu:
       guide: "Ez a kisokos magyarázza el, hogy mire szolgálnak az egyes %{org} szekciók, és hogyan működnek."
       menu:
         debates: "Viták"
-        proposals: "Javaslatok"
+        proposals: "Kezdeményezések"
         budgets: "Részvételi költségvetések"
         polls: "Szavazások"
         other: "Egyéb érdekes információk"
@@ -26,11 +26,11 @@ hu:
         image_alt: "Gombok a viták értékeléséhez"
         figcaption: '"Egyetértek" és "Nem értek egyet" gombok a viták értékeléséhez.'
       proposals:
-        title: "Javaslatok"
-        description: "A(z) %{link} szakaszban javaslatokat tehet a Városi Tanácsnak, hogy azokat végrehajtsák. A javaslatok támogatást igényelnek, és ha elegendő támogatást kapnak, nyilvános szavazásra kerülnek. Ezeket a polgári szavazásokon jóváhagyott javaslatokat elfogadja és végrehajtja a Városi Tanács."
-        link: "polgári javaslatok"
-        image_alt: "Gomb a javaslat támogatásához"
-        figcaption: 'Gomb a javaslat "Támogatásához".'
+        title: "Kezdeményezések"
+        description: "A(z) %{link} szakaszban Kezdeményezéseket tehet. A kezdeményezések támogatást igényelnek, és ha elegendő szavazatot kapnak, akkor pénzbeli támogatásban részesülnek!"
+        link: "Kezdeményezések"
+        image_alt: "Gomb a kezdeményezés támogatásához"
+        figcaption: 'Gomb a kezdeményezés "Támogatásához".'
       budgets:
         title: "Részvételi költségvetés"
         description: "A(z) %{link} szakasz segíti az embereket abban, hogy közvetlen döntéseket hozzanak a városi költségvetés melyik részének költik el."
@@ -39,7 +39,7 @@ hu:
         figcaption: 'A részvételi költségvetések "Támogatás" és "Szavazás" fázisai.'
       polls:
         title: "Szavazások"
-        description: "A(z) %{link} szakasz akkor aktiválódik, amikor egy javaslat eléri az 1% -os támogatást, és szavazásra kerül, vagy amikor a Városi Tanács egy kérdést javasol az embereknek a döntésre."
+        description: "A(z) %{link} szakasz akkor aktiválódik, amikor egy kezdeményezés eléri az 1% -os támogatást, és szavazásra kerül, vagy amikor a Városi Tanács egy kérdést javasol az embereknek a döntésre."
         link: "szavazások"
         feature_1: "A szavazáshoz való részvételhez regisztrálnia kell és ellenőriznie kell a fiókját."
         feature_1_link: "regisztráljon a %{org_name}-on"
@@ -96,7 +96,7 @@ hu:
             - key_column: 1
               page_column: Viták
             - key_column: 2
-              page_column: Javaslatok
+              page_column: Kezdeményezések
             - key_column: 3
               page_column: Szavazatok
             - key_column: 4

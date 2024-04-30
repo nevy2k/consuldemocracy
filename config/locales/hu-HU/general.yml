@@ -304,7 +304,7 @@ hu:
       show_link: Kezdeményezés megtekintése
     retire_form:
       title: Kezdeményezés visszavonása
-      warning: "Ha visszavonod a kezdeményezést, továbbra is elfogadja a támogatásokat, de eltávolítjuk a fő listáról, és az összes felhasználó számára látható üzenetet teszünk közzé, amelyben az áll, hogy az író úgy véli, hogy a javaslatot már nem kell támogatni."
+      warning: "Ha visszavonod a kezdeményezést, továbbra is elfogadja a támogatásokat, de eltávolítjuk a fő listáról, és az összes felhasználó számára látható üzenetet teszünk közzé, amelyben az áll, hogy az író úgy véli, hogy a kezdeményezést már nem kell támogatni."
       retired_reason_blank: Válassz egy lehetőséget
       retired_explanation_placeholder: Magyarázd el röviden, miért gondolod, hogy ez a kezdeményezés nem kellene több támogatást kapnia
       submit_button: Kezdeményezés visszavonása
@@ -381,20 +381,20 @@ hu:
       recommendation_three: Élvezd ezt a teret és a hangokat, amelyek megtöltik. Ez is a tiéd.
       recommendation_two: Bármely olyan kezdeményezés vagy hozzászólás, amely törvénytelen cselekedetet sugall, törlésre kerül, valamint azok, amelyek a vitaterek sabotálására törekednek. Minden más megengedett.
       recommendations_title: Kezdeményezések készítésére vonatkozó ajánlások
-      start_new: Új javaslat készítése
+      start_new: Új kezdeményezés készítése
     notice:
-      retired: A javaslat visszavonásra került
-      published: A javaslat közzétéve
+      retired: A kezdeményezés visszavonásra került
+      published: A kezdeményezés közzétéve
     proposal:
-      created: "Létrehoztál egy javaslatot!"
+      created: "Létrehoztál egy kezdeményezést!"
       share:
         guide: "Most megoszthatod, hogy az emberek támogathassák."
         edit: "Mielőtt megosztanád, még módosíthatod a szöveget, ahogyan szeretnéd."
-        view_proposal: Most nem, menj a javaslatomhoz
-      already_supported: Már támogattad ezt a javaslatot. Oszd meg!
+        view_proposal: Most nem, menj a kezdeményezésemhez
+      already_supported: Már támogattad ezt a kezdeményezést. Oszd meg!
       support: Támogatás
       support_label: "%{proposal} támogatása"
-      support_title: Támogasd ezt a javaslatot
+      support_title: Támogasd ezt a kezdeményezést
       supports:
         one: 1 támogatás
         other: "%{count} támogatás"
@@ -406,32 +406,32 @@ hu:
       supports_necessary: "%{number} támogatás szükséges"
       reason_for_supports_necessary: ""
       total_percent: 100%
-      archived: "Ez a javaslat archiválásra került, és nem gyűjthet támogatást."
-      successful: "Ez a javaslat elért egy sikeres támogatást."
-      selected: "Kiválasztott javaslat"
+      archived: "Ez a kezdeményezés archiválásra került, és nem gyűjthet támogatást."
+      successful: "Ez a kezdeményezés elért egy sikeres támogatást."
+      selected: "Kiválasztott kezdeményezés"
     show:
       author_deleted: Felhasználó törölve
-      code: "Javaslat kódja:"
+      code: "Kezdeményezés kódja:"
       comments_tab: Megjegyzések
       dashboard_proposal_link: Vezérlőpult
-      flag: Ezt a javaslatot több felhasználó is bejelentette sértőnek.
+      flag: Ezt a kezdeményezést több felhasználó is bejelentette sértőnek.
       notifications_tab: Értesítések
       milestones_tab: Mérföldkövek
-      retired_warning: "Az író úgy gondolja, hogy ez a javaslat ne kapjon további támogatást."
+      retired_warning: "Az író úgy gondolja, hogy ez a kezdeményezés ne kapjon további támogatást."
       retired_warning_link_to_explanation: Olvasd el a magyarázatot, mielőtt szavaznál rá.
-      retired: Javaslat visszavonva az író által
+      retired: Kezdeményezés visszavonva az író által
       share: Megosztás
-      no_notifications: "Ehhez a javaslathoz nincsenek értesítések."
+      no_notifications: "Ehhez a kezdeményezéshez nincsenek értesítések."
       embed_video_title: "%{proposal} videója"
       title_video_url: "Külső videó"
       author: Szerző
-      draft: Javaslat piszkozatban. Még nem kaphat támogatást, és nem jelenik meg a javaslatok listájában.
+      draft: Kezdeményezés piszkozatban. Még nem kaphat támogatást, és nem jelenik meg a kezdeményezések listájában.
     update:
       form:
         submit_button: Változtatások mentése
   dashboard:
     menu:
-      my_proposal: Javaslatom szerkesztése
+      my_proposal: Kezdeményezésem szerkesztése
       progress: Haladás
       resources: Erőforrások
       community: Közösség
@@ -445,7 +445,7 @@ hu:
       request: Kérelem
     create_request:
       success: A kérelem sikeresen elküldve. Amint lehetséges, felvesszük veled a kapcsolatot a tájékoztatás céljából.
-      archived: Ez a javaslat archivált, és nem kérhet erőforrásokat.
+      archived: Ez a kezdeményezés archivált, és nem kérhet erőforrásokat.
     progress:
       title: Grafikon
       group_by_month: Havi
@@ -457,9 +457,9 @@ hu:
       new_action: Új
     index:
       title: Szerkesztés
-      edit_proposal_link: Javaslat szerkesztése
-      publish: Javaslat közzététele
-      retire: Javaslat visszavonása
+      edit_proposal_link: Kezdeményezés szerkesztése
+      publish: Kezdeményezés közzététele
+      retire: Kezdeményezés visszavonása
     new_request:
       links: Linkek
     resources:
@@ -488,8 +488,8 @@ hu:
       hide_course: Kurzus elrejtése
     goal:
       target_supports:
-        one: Szerezz %{count} támogatást a javaslatodhoz
-        other: Szerezz %{count} támogatást a javaslatodhoz
+        one: Szerezz %{count} támogatást a kezdeményezésedhez
+        other: Szerezz %{count} támogatást a kezdeményezésedhez
       days:
         one: "%{count} nap"
         other: "%{count} nap"
@@ -503,7 +503,7 @@ hu:
       comments: Megjegyzések
       latest_comments: Legújabb üzenetek
     messages:
-      send_notification: Értesítés küldése a javaslat követőinek
+      send_notification: Értesítés küldése a kezdeményezés követőinek
       previous_notifications: Korábbi értesítések megtekintése
     polls:
       index:
@@ -543,12 +543,12 @@ hu:
         title: Plakát előnézete
         poster_title: "Ne csak nézz, hanem"
         poster_subtitle: "támogass is! ;)"
-        intro_text: "<strong>Részt veszek a(z) %{org} programjában</strong> saját állampolgári javaslatommal, és csak a támogatásoddal tudjuk elérni a várost, amelyet mindannyian szeretnénk"
-        proposal_code: "Javaslat kódja: %{code}"
-        support: Támogasd a javaslatomat
-        footer: "<strong>Látogasd meg a(z) %{link} webhelyet, és támogasd ezt a javaslatot.</strong> Minél többen, annál jobb. Adjuk hozzá a magunkét. Köszönöm!"
+        intro_text: "<strong>Részt veszek a(z) %{org} programjában</strong> saját állampolgári kezdeményezésemmel, és csak a támogatásoddal tudjuk elérni a várost, amelyet mindannyian szeretnénk"
+        proposal_code: "Kezdeményezés kódja: %{code}"
+        support: Támogasd a kezdeményezésemet
+        footer: "<strong>Látogasd meg a(z) %{link} webhelyet, és támogasd ezt a kezdeményezést.</strong> Minél többen, annál jobb. Adjuk hozzá a magunkét. Köszönöm!"
       new:
-        title: A javaslatod plakátja
+        title: A kezdeményezésed plakátja
       options:
         preview: Előnézet
         download: Letöltés
@@ -565,12 +565,12 @@ hu:
     mailer:
       forward:
         subtitle: "Ha támogatsz, <br>ezt elérjük."
-        support_button: Támogasd ezt a javaslatot
+        support_button: Támogasd ezt a kezdeményezést
         share_in: Megosztás itt
         hi: "Szia!"
-        introduction: Arról írok, hogy tudassam veled, hogy részt veszek a(z) %{org} programjában, amelynek segítségével közösen dönthetjük el, milyen várost szeretnénk. Ehhez létrehoztam saját állampolgári javaslatomat, és most a támogatásodra van szükségem! De ne aggódj, mert nagyon egyszerű.
-        support: "Csak annyit kell tenned, hogy rákattintasz az alábbi 'Támogasd ezt a javaslatot' gombra, és tájékozódhatsz a támogatás előtt. Csak az a javaslat valósul meg, amely a maximális támogatást éri el a városi tanács által, és azt gondoltam, hogy neked, biztos vagyok benne, hogy segítesz nekem elérni ezt!"
-        share: "És ha te is megtennéd nekem a nagy szívességet, hogy megosztanád a javaslatomat barátaiddal, családoddal és kapcsolataiddal, az tökéletes lenne!"
+        introduction: Arról írok, hogy tudassam veled, hogy részt veszek a(z) %{org} programjában, amelynek segítségével közösen dönthetjük el, milyen várost szeretnénk. Ehhez létrehoztam saját kezdeményezésemet, és most a támogatásodra van szükségem! De ne aggódj, mert nagyon egyszerű.
+        support: "Csak annyit kell tenned, hogy rákattintasz az alábbi 'Támogasd ezt a kezdeményezést' gombra, és tájékozódhatsz a támogatás előtt. Csak az a kezdeményezés valósul meg, amely a maximális támogatást éri el a városi tanács által, és azt gondoltam, hogy neked, biztos vagyok benne, hogy segítesz nekem elérni ezt!"
+        share: "És ha te is megtennéd nekem a nagy szívességet, hogy megosztanád a kezdeményezésemet barátaiddal, családoddal és kapcsolataiddal, az tökéletes lenne!"
   polls:
     all: "Összes"
     no_dates: "nincs kijelölt dátum"
@@ -631,7 +631,7 @@ hu:
         title: "Kérdések"
         most_voted_answer: "A legtöbb szavazatot kapott válasz: "
     poll_header:
-      back_to_proposal: "Vissza a javaslatra"
+      back_to_proposal: "Vissza a kezdeményezésre"
   poll_questions:
     show:
       vote_answer: "%{answer} szavazat"
@@ -644,8 +644,8 @@ hu:
     new:
       title: "Értesítés küldése"
       submit_button: "Értesítés küldése"
-      info_about_receivers: "Ez az értesítés <strong>%{count} személynek</strong> lesz elküldve, és látható lesz a(z) %{proposal_page}-n.<br> Az értesítéseket nem azonnal küldik el, a felhasználók rendszeresen e-mailt kapnak az összes javaslat értesítésről."
-      proposal_page: "a javaslat oldalán"
+      info_about_receivers: "Ez az értesítés <strong>%{count} személynek</strong> lesz elküldve, és látható lesz a(z) %{proposal_page}-n.<br> Az értesítéseket nem azonnal küldik el, a felhasználók rendszeresen e-mailt kapnak az összes kezdeményezés értesítésről."
+      proposal_page: "a kezdeményezés oldalán"
     show:
       back: "Vissza a tartalmaimhoz"
   shared:
@@ -694,9 +694,9 @@ hu:
           notice: "Abbahagytad ennek a beruházási projektnek a követését! <br> További értesítéseket nem fogsz kapni a projekttel kapcsolatosan."
       proposal:
           create:
-            notice: "Mostantól követed ezt a polgári javaslatot! <br> Értesítünk az esetleges változásokról, hogy mindig naprakész legyél."
+            notice: "Mostantól követed ezt a kezdeményezést! <br> Értesítünk az esetleges változásokról, hogy mindig naprakész legyél."
           destroy:
-            notice: "Abbahagytad ennek a polgári javaslatnak a követését! <br> További értesítéseket nem fogsz kapni a javaslattal kapcsolatosan."
+            notice: "Abbahagytad ennek a kezdeményezésnek a követését! <br> További értesítéseket nem fogsz kapni a kezdeményezéssel kapcsolatosan."
     print:
       print_button: Információk nyomtatása
     search: Keresés
@@ -716,9 +716,9 @@ hu:
         see_all: "Az összes megtekintése"
       proposal:
         found:
-          one: "Van egy javaslat a(z) '%{query}' kifejezéssel, amelyhez hozzájárulhatsz, helyette."
-          other: "Vannak javaslatok a(z) '%{query}' kifejezéssel, amelyekhez hozzájárulhatsz, helyettük."
-        message: "A(z) '%{query}' kifejezést tartalmazó javaslatok közül %{count} van megjelenítve."
+          one: "Van egy kezdeményezés a(z) '%{query}' kifejezéssel, amelyhez hozzájárulhatsz, helyette."
+          other: "Vannak kezdeményezések a(z) '%{query}' kifejezéssel, amelyekhez hozzájárulhatsz, helyettük."
+        message: "A(z) '%{query}' kifejezést tartalmazó kezdeményezések közül %{count} van megjelenítve."
         see_all: "Az összes megtekintése"
     tags_cloud:
       tags: Trendek
@@ -769,9 +769,9 @@ hu:
     index:
       visits: Látogatások
       debates: Viták
-      proposals: Javaslatok
+      proposals: Kezdeményezések
       comments: Hozzászólások
-      proposal_votes: Szavazatok a javaslatokra
+      proposal_votes: Szavazatok a kezdeményezésekre
       debate_votes: Szavazatok a vitákra
       comment_votes: Szavazatok a hozzászólásokra
       votes: Összes szavazat
@@ -798,9 +798,9 @@ hu:
     show:
       deleted: Törölve
       deleted_debate: Ez a vita törölve lett
-      deleted_proposal: Ez a javaslat törölve lett
+      deleted_proposal: Ez a kezdeményezés törölve lett
       deleted_budget_investment: Ez a befektetési projekt törölve lett
-      proposals: Javaslatok
+      proposals: Kezdeményezések
       proposals_status: Állapot
       debates: Viták
       budget_investments: Befektetések
@@ -814,8 +814,8 @@ hu:
           one: 1 Vita
           other: "%{count} Vita"
         proposals:
-          one: 1 Javaslat
-          other: "%{count} Javaslat"
+          one: 1 Kezdeményezés
+          other: "%{count} Kezdeményezés"
         budget_investments:
           one: 1 Befektetés
           other: "%{count} Befektetés"
@@ -828,12 +828,12 @@ hu:
       send_private_message: "Privát üzenet küldése"
       delete_alert: "Biztosan törölni szeretnéd a befektetési projektet? Ez a művelet nem visszavonható."
     proposals:
-      retired: "Visszavont javaslat"
+      retired: "Visszavont kezdeményezés"
       draft: Piszkozat
       published: Közzétett
-      see: "Javaslat megtekintése"
+      see: "Kezdeményezés megtekintése"
       actions: Műveletek
-      retired_help_text: "A visszavont javaslatokhoz nem érhető el vezérlőpult."
+      retired_help_text: "A visszavont kezdeményezésekhez nem érhető el vezérlőpult."
   votes:
     agree: "Egyetértek"
     agree_label: "Egyetértek a(z) %{title} címmel"
@@ -842,7 +842,7 @@ hu:
     disagree_label: "Nem értek egyet a(z) %{title} címmel"
     organizations: "A szervezetek nem jogosultak szavazásra"
     supports: "Támogatások"
-    verified_only: "Csak hitelesített felhasználók szavazhatnak javaslatokra; %{verify_account}"
+    verified_only: "Csak hitelesített felhasználók szavazhatnak kezdeményezésekre; %{verify_account}"
     budget_investments:
       not_verified: "Csak hitelesített felhasználók szavazhatnak befektetési projektekre; %{verify_account}"
       unfeasible: "Megvalósíthatatlan befektetési projekteket nem lehet támogatni"
@@ -854,29 +854,29 @@ hu:
     feed:
       most_active:
         debates: "Legaktívabb viták"
-        proposals: "Legaktívabb javaslatok"
+        proposals: "Legaktívabb kezdeményezések"
         processes: "Nyitott folyamatok"
       see_all:
         debates: Összes vita megtekintése
-        proposals: Összes javaslat megtekintése
+        proposals: Összes kezdeményezés megtekintése
         processes: Összes folyamat megtekintése
       no_items:
         debates: Jelenleg nincsenek viták
-        proposals: Jelenleg nincsenek javaslatok
+        proposals: Jelenleg nincsenek kezdeményezések
         processes: Jelenleg nincsenek nyitott folyamatok
       process_label: Folyamat
       see_process: Folyamat megtekintése
     cards:
       title: Kiemelt
     recommended:
-      title: Lehet, hogy érdekelnek ezek a javaslatok
-      help: "Ezeket a javaslatokat a követett viták és javaslatok címkéi alapján generáljuk."
+      title: Lehet, hogy érdekelnek ezek a kezdeményezések
+      help: "Ezeket a kezdeményezéseket a követett kezdeményezések címkéi alapján generáljuk."
       debates:
         title: Ajánlott viták
         btn_text_link: Az összes ajánlott vita megtekintése
       proposals:
-        title: Ajánlott javaslatok
-        btn_text_link: Az összes ajánlott javaslat megtekintése
+        title: Ajánlott kezdeményezések
+        btn_text_link: Az összes ajánlott kezdeményezés megtekintése
       budget_investments:
         title: Ajánlott befektetések
       slide: "%{title} megtekintése"
@@ -905,7 +905,7 @@ hu:
     score_positive: "Igen"
     score_negative: "Nem"
     content_title:
-      proposal: "Javaslat"
+      proposal: "Kezdeményezés"
       debate: "Vita"
       budget_investment: "Költségvetési befektetés"
     admin/widget:

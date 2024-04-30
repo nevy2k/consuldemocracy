@@ -128,6 +128,8 @@
 //= require_tree ./sdg_management
 //= require custom
 //= require_tree ./custom
+//= require chartkick
+//= require Chart.bundle
 
 var initialize_modules = function() {
   "use strict";

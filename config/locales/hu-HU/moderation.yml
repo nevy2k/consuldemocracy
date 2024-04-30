@@ -45,8 +45,8 @@ hu:
       flagged_comments: Megjegyzések
       flagged_debates: Viták
       flagged_investments: Költségvetési beruházások
-      proposals: Javaslatok
-      proposal_notifications: Javaslat értesítések
+      proposals: Kezdeményezések
+      proposal_notifications: Kezdeményezés értesítések
       users: Felhasználók blokkolása
     proposals:
       index:
@@ -58,13 +58,13 @@ hu:
           with_ignored_flag: Megjelölve megtekintettként
         headers:
           moderate: Moderálás
-          proposal: Javaslat
-        hide: Javaslatok elrejtése
+          proposal: Kezdeményezés
+        hide: Kezdeményezések elrejtése
         ignore_flags: Megjelölés megtekintettként
         orders:
           created_at: Legújabb
           flags: Legtöbb jelzés
-        title: Javaslatok
+        title: Kezdeményezések
     budget_investments:
       index:
         block_authors: Szerzők blokkolása
@@ -92,13 +92,13 @@ hu:
           ignored: Megjelölve megtekintettként
         headers:
           moderate: Moderálás
-          proposal_notification: Javaslat értesítés
-        hide: Javaslatok elrejtése
+          proposal_notification: Kezdeményezés értesítés
+        hide: Kezdeményezések elrejtése
         ignore_flags: Megjelölés megtekintettként
         orders:
           created_at: Legújabb
           moderated: Moderált
-        title: Javaslat értesítések
+        title: Kezdeményezés értesítések
     users:
       index:
         block: Blokkolás

@@ -55,9 +55,9 @@ hu:
       introduce_email: "Kérjük, adja meg az a fiókhoz használt e-mail címet:"
       send_email: Ellenőrző e-mail küldése
     menu:
-      create_proposal: Javaslat létrehozása
-      print_proposals: Javaslatok nyomtatása
-      support_proposals: Javaslatok támogatása
+      create_proposal: Kezdeményezés létrehozása
+      print_proposals: Kezdeményezések nyomtatása
+      support_proposals: Kezdeményezések támogatása
       create_budget_investment: Közpénzügyi beruházás létrehozása
       print_budget_investments: Közpénzügyi beruházások nyomtatása
       support_budget_investments: Közpénzügyi beruházások támogatása
@@ -65,18 +65,18 @@ hu:
       user_invites: Meghívók küldése
       select_user: Felhasználó kiválasztása
     print:
-      proposals_info: Javaslat létrehozása http://url.consul
-      proposals_title: "Javaslatok:"
+      proposals_info: Kezdeményezés létrehozása http://url.consul
+      proposals_title: "Kezdeményezések:"
       budget_investments_info: Résztvétel http://url.consul
     print_info: Nyomtatási információ
     proposals:
       alert:
         unverified_user: A felhasználó nincs ellenőrizve
-      create_proposal: Javaslat létrehozása
+      create_proposal: Kezdeményezés létrehozása
       print:
         print_button: Nyomtatás
       index:
-        title: Javaslatok támogatása
+        title: Kezdeményezések támogatása
     budgets:
       create_new_investment: Közpénzügyi beruházás létrehozása
       print_investments: Közpénzügyi beruházások nyomtatása

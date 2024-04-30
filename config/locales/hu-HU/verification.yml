@@ -29,7 +29,7 @@ hu:
         incorrect_code: Helytelen megerősítő kód
       new:
         explanation: "Ahhoz, hogy szavazz a költségvetési projektekre, választhatsz a következők közül:"
-        go_to_index: Javaslatok megtekintése
+        go_to_index: Kezdeményezések megtekintése
         office: Hitelesítés bármelyik Állampolgári Támogató Irodában
         send_letter: Küldj nekem egy levelet a kóddal
         title: Gratulálunk!
@@ -90,8 +90,8 @@ hu:
     step_3: Végső hitelesítés
     user_permission_debates: Részt vehet a vitákban
     user_permission_info: Az adataid megerősítésével képes leszel...
-    user_permission_proposal: Új javaslatok létrehozására
-    user_permission_support_proposal: Javaslatok támogatására
+    user_permission_proposal: Új kezdeményezés létrehozására
+    user_permission_support_proposal: Kezdeményezések támogatására
     user_permission_votes: Szavazhat a költségvetési projektekre
     verification_needed: További hitelesítés szükséges
     verified_user:

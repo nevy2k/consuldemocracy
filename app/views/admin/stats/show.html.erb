@@ -4,18 +4,10 @@
       <h1 class="inline-block"><%= t "admin.stats.show.stats_title" %></h1>
 
       <div class="float-right clear">
-        <%= link_to t("admin.stats.show.polls"),
-                    polls_admin_stats_path, class: "button hollow" %>
-        <%= link_to t("admin.stats.show.participatory_budgets"),
-                    budgets_admin_stats_path, class: "button hollow" %>
         <%= link_to t("admin.stats.show.direct_messages"),
                     direct_messages_admin_stats_path, class: "button hollow" %>
         <%= link_to t("admin.stats.show.proposal_notifications"),
                     proposal_notifications_admin_stats_path, class: "button hollow" %>
-        <%= link_to t("admin.stats.show.incomplete_verifications"),
-                    admin_verifications_path, class: "button hollow" %>
-        <%= link_to t("admin.stats.show.sdg"),
-                    sdg_admin_stats_path, class: "button hollow" if feature?(:sdg) %>
       </div>
 
       <div class="clear"></div>
@@ -26,10 +18,6 @@
             <%= link_to t("admin.stats.show.summary.visits"),
                         graph_admin_stats_path(id: "visits", count: @visits) %> <br>
             <span class="number"><%= number_with_delimiter(@visits) %></span>
-          </p>
-          <p>
-            <%= t "admin.stats.show.summary.debates" %> <br>
-            <span class="number"><%= number_with_delimiter(@debates) %></span>
           </p>
           <p>
             <%= t "admin.stats.show.summary.proposals" %> <br>
@@ -57,15 +45,9 @@
             <span class="number"><%= number_with_delimiter(@proposal_votes) %> <br></span>
           </p>
           <p>
-            <%= t "admin.stats.show.summary.debate_votes" %> <br>
-            <span class="number"><%= number_with_delimiter(@debate_votes) %></span>
-          </p>
-
-          <p>
             <%= t "admin.stats.show.summary.comment_votes" %> <br>
             <span class="number"><%= number_with_delimiter(@comment_votes) %></span>
           </p>
-
           <p>
             <%= t "admin.stats.show.summary.votes" %> <br>
             <span class="number"><%= number_with_delimiter(@votes) %></span>
@@ -110,14 +92,18 @@
 
       </div>
 
-      <div class="small-12 column">
-        <% @event_types.each do |event| %>
-          <h3>
-            <%= link_to graph_link_text(event),
-                        graph_admin_stats_path(event: event) %>
-          </h3>
-        <% end %>
-      </div>
+
+    <%= column_chart Proposal.order(cached_votes_up: :desc).limit(10).map { |proposal| [proposal.title, proposal.total_votes ] }, download: true,
+        title: "Top 10 Kezdeményezések és szavazatok",
+        colors: ['brown'],
+        library: {
+          tooltip: {
+            pointFormat: 'Nr of votes: <b>{point.y}</b>'
+          }
+        }
+      %>
+
+    <%= pie_chart Proposal.group(:title).sum(:cached_votes_up), title: 'Kezdeményezések/Szavazatszám', download: true %>
 
       <% if feature?(:budgets) %>
         <div class="small-12 column">

@@ -612,7 +612,7 @@ hu:
             short_title: "Továbbfejleszteni a Fenntartható Fejlődési Előrehaladási Mutatókat"
       help:
         title: "A Fenntartható Fejlődési Célok segítsége"
-        description: "A közösséghez való hozzájárulásait (viták, állampolgári javaslatok és beruházási projektek) összehangolhatja a Fenntartható Fejlődési Célok 2030-as Tervével, ami lehetővé teszi számunkra, hogy áttekintést kapjunk a Fenntartható Fejlődési Célok mindegyikéhez való hozzájárulásunkról. Az alábbiakban megtalálhatja az összes célt, azok céljait és a lokalizált célokat."
+        description: "A közösséghez való hozzájárulásait (viták, kezdeményezések és beruházási projektek) összehangolhatja a Fenntartható Fejlődési Célok 2030-as Tervével, ami lehetővé teszi számunkra, hogy áttekintést kapjunk a Fenntartható Fejlődési Célok mindegyikéhez való hozzájárulásunkról. Az alábbiakban megtalálhatja az összes célt, azok céljait és a lokalizált célokat."
         show:
           read_more: "Olvassa el bővebben a(z) %{goal} célról"
           read_less: "Kevesebb megjelenítése a(z) %{goal} célról"
