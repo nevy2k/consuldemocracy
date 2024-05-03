@@ -40,6 +40,7 @@ namespace :admin do
     collection do
       get :publish_accepted_proposals
       get :download_csv
+      get :calendar
     end
   end
 

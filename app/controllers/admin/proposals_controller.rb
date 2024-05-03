@@ -6,9 +6,20 @@ class Admin::ProposalsController < Admin::BaseController
 
   has_orders %w[created_at]
 
-  before_action :load_proposal, except: [:index,:publish_accepted_proposals,:download_csv]
+  before_action :load_proposal, except: [:index,:calendar,:publish_accepted_proposals,:download_csv]
 
   def show
+  end
+
+  def calendar
+    @proposals_data = {}
+
+    Proposal.all.each do |proposal|
+        @proposals_data[proposal.id] = {
+          starts_at: proposal.starts_at,
+          ends_at: proposal.ends_at
+        }
+    end
   end
 
   def index

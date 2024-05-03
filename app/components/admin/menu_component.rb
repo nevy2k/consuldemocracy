@@ -5,6 +5,7 @@ class Admin::MenuComponent < ApplicationComponent
   def links
     [
       (proposals_link if feature?(:proposals)),
+      calendar_link,
       (debates_link if feature?(:debates)),
       comments_link,
       (polls_link if feature?(:polls)),
@@ -111,6 +112,15 @@ class Admin::MenuComponent < ApplicationComponent
         admin_debates_path,
         controller_name == "debates",
         class: "debates-link"
+      ]
+    end
+
+    def calendar_link
+      [
+        'Kalendar',
+        calendar_admin_proposals_path,
+        polls?,
+        class: "proposals-link"
       ]
     end
 

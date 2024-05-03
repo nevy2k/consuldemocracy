@@ -1,0 +1,36 @@
+<div id="calendar" data-proposal="<%= @proposals_data.to_json %>"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var hash_data = JSON.parse(calendarEl.getAttribute('data-proposal'));
+    
+    // Format events from hash data
+    var formattedEvents = [];
+    for (var key in hash_data) {
+      if (hash_data.hasOwnProperty(key)) {
+        var eventData = hash_data[key];
+        formattedEvents.push({
+          title: "Proposal " + key,
+          start: eventData.starts_at,
+          end: eventData.ends_at,
+          color: '#' + Math.floor(Math.random() * 16777215).toString(16) // Random color
+        });
+      }
+    }
+    
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      events: formattedEvents,
+      initialView: 'dayGridMonth',
+      eventClick: function(info) {
+        // Handle event click here
+        console.log('Event clicked:', info.event.title);
+      },
+      headerToolbar: {
+        left: 'prev,next',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+      }
+    });
+    calendar.render();
+  });
+</script>
