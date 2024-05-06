@@ -216,10 +216,8 @@ class Admin::MenuComponent < ApplicationComponent
     def messages_links
       link_to(t("admin.menu.messaging_users"), "#", class: "messages-link") +
         link_list(
-          newsletters_link,
           admin_notifications_link,
           system_emails_link,
-          emails_download_link,
           id: "messaging_users_menu", class: ("is-active" if messages_menu_active?)
         )
     end

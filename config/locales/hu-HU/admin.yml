@@ -823,6 +823,7 @@ hu:
       administrators: Adminisztrátorok
       all_proposal_authors: Kezdeményezések szerzői (beleértve az archivált és visszavontakat is)
       proposal_authors: Kezdeményezések szerzői
+      user_with_votes_left: 'Felhasználók, akiknek még rendelkezésre állnak szavazataik'
       investment_authors: Aktuális költségvetésben befektetéseket jegyzők
       feasible_and_undecided_investment_authors: "Az aktuális költségvetésben olyan befektetések szerzői, amelyek nem felelnek meg: [értékelés befejezve nem megvalósítható]"
       selected_investment_authors: Kiválasztott befektetések szerzői az aktuális költségvetésben

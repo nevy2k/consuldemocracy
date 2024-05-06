@@ -1,6 +1,6 @@
 module CommunitiesHelper
   def community_title(community)
-    community.from_proposal? ? community.proposal.title : community.investment.title
+    community.from_proposal? ? community.proposal.title : community.investment&.title
   end
 
   def community_text(community)

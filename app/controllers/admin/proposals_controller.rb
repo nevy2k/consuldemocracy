@@ -15,10 +15,13 @@ class Admin::ProposalsController < Admin::BaseController
     @proposals_data = {}
 
     Proposal.all.each do |proposal|
+      if proposal.published?
         @proposals_data[proposal.id] = {
+          title: proposal.title,
           starts_at: proposal.starts_at,
           ends_at: proposal.ends_at
         }
+      end
     end
   end
 

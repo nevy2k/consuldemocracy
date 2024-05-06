@@ -4,11 +4,8 @@ class UserSegments
        administrators
        all_proposal_authors
        proposal_authors
-       investment_authors
-       feasible_and_undecided_investment_authors
-       selected_investment_authors
-       winner_investment_authors
-       not_supported_on_current_budget] + geozones.keys
+       user_with_votes_left
+       ] + geozones.keys
   end
 
   def self.segment_name(segment)
@@ -21,6 +18,15 @@ class UserSegments
 
   def self.administrators
     all_users.administrators
+  end
+
+  def self.user_with_votes_left
+    max_votes_per_user_setting = Setting.find_by(key: 'set_max_vote_for_user')
+    max_votes_per_user = max_votes_per_user_setting.value.to_i
+
+    users_with_remaining_votes = User.includes(:votes)
+                                    .where.not(id: nil)
+                                    .select { |user| user.find_voted_items(votable_type: 'Proposal').compact.count < max_votes_per_user }
   end
 
   def self.all_proposal_authors

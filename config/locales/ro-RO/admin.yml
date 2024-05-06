@@ -769,6 +769,7 @@ ro:
       all_proposal_authors: Autori propuneri (inclusiv pentru propuneri activate sau retrase)
       proposal_authors: Autorii propunerii
       investment_authors: Operatorii de investiții în bugetul curent
+      user_with_votes_left: 'Utilizatori cu voturi disponibile rămase'
       feasible_and_undecided_investment_authors: "Autorii unor investiții în bugetul curent care nu respectă: [evaluarea terminată este imposibilă]"
       selected_investment_authors: Autori ai investițiilor selectate în bugetul curent
       winner_investment_authors: Autori ai investițiilor câștigătoare în bugetul curent

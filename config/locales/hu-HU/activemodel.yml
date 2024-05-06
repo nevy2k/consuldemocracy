@@ -2,7 +2,7 @@ hu:
   activemodel:
     models:
       verification:
-        residence: "Lakóhely"
+        residence: "Lakhely"
         sms: "SMS"
       local_census_records/import:
         one: "Helyi népszámlálási rekord importálása"
