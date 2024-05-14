@@ -319,9 +319,9 @@ hu:
       proposal_summary_note: "(legfeljebb 200 karakter)"
       proposal_video_url_note: Hozzáadhatsz egy linket a YouTube-ra vagy a Vimeo-ra
       tag_category_label: "Kategóriák"
-      tags_instructions: "Címkézd meg ezt a kezdeményezést. Választhatsz a javasolt kategóriák közül, vagy hozzáadhatsz sajátot"
+      tags_instructions: "Címkézd meg ezt a kezdeményezést. Választhatsz a javasolt kategóriák közül"
       tags_label: Címkék
-      tags_placeholder: "Add meg a címkéket vesszővel elválasztva (',')"
+      tags_placeholder: "Válaszd ki a kategóriát"
       map_location: "Térkép helye"
       map_location_instructions: "Navigálj a térképen az adott helyre, és helyezd el a jelzőt."
       map_remove_marker: "Jelző eltávolítása"

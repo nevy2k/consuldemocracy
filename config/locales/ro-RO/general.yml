@@ -85,7 +85,7 @@ ro:
       show_link: Vezi dezbatere
     form:
       tags_instructions: Etichetează această dezbatere.
-      tags_placeholder: "Introduceți etichetele pe care doriți să le utilizați, separate prin virgule (',')"
+      tags_placeholder: "Selectați categoria"
     index:
       featured_debates: Recomandări
       orders:
@@ -324,7 +324,7 @@ ro:
       tag_category_label: "Categorii"
       tags_instructions: "Etichetați această propunere. Puteți alege dintre categoriile propuse sau adăugați una proprie"
       tags_label: Etichete
-      tags_placeholder: "Introduceți etichetele pe care doriți să le utilizați, separate prin virgule (',')"
+      tags_placeholder: "Selectați categoria"
       map_location: "Localizare pe hartă"
       map_location_instructions: "Navigați pe hartă până la locație și plasați marcatorul."
       map_remove_marker: "Eliminați marcatorul de hartă"

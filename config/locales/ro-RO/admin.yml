@@ -291,7 +291,7 @@ ro:
         select_heading: Selectează rubrică
         submit_button: Actualizează
         user_tags: Etichete atribuite utilizatorului
-        tags_placeholder: "Scrieți etichetele pe care le doriți separate prin virgule (,)"
+        tags_placeholder: "Selectați categoria"
         undefined: Nedefinit
       search_unfeasible: Căutarea este imposibilă
     budgets_wizard:
