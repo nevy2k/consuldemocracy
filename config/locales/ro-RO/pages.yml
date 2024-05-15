@@ -49,7 +49,7 @@ ro:
       faq:
         title: "Probleme tehnice?"
         description: "Citiți întrebările frecvente și rezolvați-vă întrebările."
-        button: "Vezi întrebări frecvente"
+        button: "Întrebări frecvente"
         page:
           title: "Întrebări Frecvente"
           description: "Utilizați această pagină pentru a rezolva întrebările frecvente pentru utilizatorii site-ului."

@@ -58,6 +58,13 @@
                                 accesskey: "7" %>
       </li>
     <% end %>
+      <li>
+        <%= layout_menu_link_to t("pages.help.faq.button"),
+                                faq_path,
+                                current_page?(faq_path),
+                                accesskey: "8" %>
+      </li>
+
 
     <%= raw content_block("subnavigation_right") %>
   </ul>

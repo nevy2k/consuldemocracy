@@ -52,7 +52,7 @@ hu:
       faq:
         title: "Technikai problémák?"
         description: "Olvasd el a gyakran ismételt kérdéseket, és oldd meg a kérdéseidet."
-        button: "Gyakran ismételt kérdések megtekintése"
+        button: "Gyakori kérdések"
         page:
           title: "Gyakran ismételt kérdések"
           description: "Használja ezt az oldalt a felhasználók gyakran ismételt kérdéseinek megoldásához."
